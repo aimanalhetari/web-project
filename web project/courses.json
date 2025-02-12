@@ -1,0 +1,47 @@
+[
+    {
+        "courseId": "CMPS350",
+        "courseName": "Web Development",
+        "category": "Programming",
+        "status": "opend",
+        "preRequests": [
+            "CMPS151",
+            "CMPS251",
+            "CMPS303"
+        ]
+    },
+    {
+        "courseId": "CMPS351",
+        "courseName": "Fundamentals of Database Systems",
+        "category": "Database",
+        "status": "opend",
+        "preRequests": [
+            "CMPS151",
+            "CMPS251",
+            "CMPS303"
+        ]
+    },
+    {
+        "courseId": "CMPS380",
+        "courseName": "Fundamentals of cyber security",
+        "category": "Cyber Security",
+        "status": "opend",
+        "preRequests": [
+            "CMPS151",
+            "CMPS200",
+            "CMPS205"
+        ]
+    },
+    {
+        "courseId": "CMPS312",
+        "courseName": "Mobile Development",
+        "category": "Programming",
+        "status": "closed",
+        "preRequests": [
+            "CMPS151",
+            "CMPS251",
+            "CMPS303"
+        ]
+    }
+  ]
+  
