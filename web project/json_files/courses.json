@@ -23,7 +23,7 @@
     },
     {
         "courseId": "CMPS380",
-        "courseName": "Fundamentals of cyber security",
+        "courseName": "Fundamentals of cybersecurity",
         "category": "Cyber Security",
         "status": "opend",
         "preRequests": [
