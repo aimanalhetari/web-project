@@ -44,7 +44,7 @@ html, body {
 
 .side_bar{
     grid-area: side_bar;
-    background-color: brown;
+    background-color: maroon;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -183,7 +183,7 @@ form input:focus {
     background-color: white;
     height: 280px;
     width: 280px;
-    cursor: pointer; /* Show pointer cursor */
+    cursor: pointer; 
     border-radius: 20px;
     margin: 10px;
     display: flex;
