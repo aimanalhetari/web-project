@@ -1,0 +1,100 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+/* General Layout */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    height: 100vh;  
+    padding-left: 150px; 
+    padding-top: 40px;  
+}
+
+/* Header (Top Navigation) */
+header {
+    background-color: #812437;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;        
+    height: 40px;
+    color: white;
+    z-index: 1000;  
+}
+
+/* Navigation Links */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 150px;
+    background-color: #333333;
+    color: white;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 40px; 
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Sidebar Navigation */
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+}
+
+.sidebar ul li a:hover {
+    background: #1b1b1b;
+}
+
+/* Main Content */
+main {
+    flex: 1;  
+    padding: 20px;
+    margin: 0 auto;
+    margin-left: 20px;
+
+}
+
+/* Footer (Stays at the bottom) */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

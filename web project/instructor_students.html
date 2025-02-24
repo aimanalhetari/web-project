@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students in Course</title>
+    <link rel="stylesheet" href="assets/css/instructor_students.css">
+</head>
+
+<body>
+    <!-- Fixed Header (Top Navigation) -->
+    <header>
+        <img src="assets/images/CustomNavigationLogo.png" width="100px" alt="logo">
+        <nav class="nav-links">
+            <a href="instructor_dashboard.html">Home</a>
+            <a href="instructor_courses.html">Courses</a>
+            <a href="instructor_grades.html">Submit Grades</a>
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="instructor_dashboard.html">Dashboard</a></li>
+                <li><a href="instructor_courses.html">Courses</a></li>
+                <li><a href="instructor_grades.html">Submit Grades</a></li>
+                <li><a href="instructor_dashboard.html">Profile</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <section>
+            <h2>List of Students</h2>
+            <hr>
+            <br>
+            <table border="1">
+                <tr>
+                    <th>Student Name</th>
+                    <th>ID</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td>Student A</td>
+                    <td>12345</td>
+                    <td><a href="instructor_grades.html?courseId=101&studentId=12345">Submit Grade</a></td>
+                </tr>
+                <tr>
+                    <td>Student B</td>
+                    <td>67890</td>
+                    <td><a href="instructor_grades.html?courseId=101&studentId=67890">Submit Grade</a></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 University System</p>
+    </footer>
+</body>
+
+</html>
