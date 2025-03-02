@@ -357,7 +357,7 @@ body {
     padding-bottom: 1rem;
     display: block;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* Show only 3 lines */
+    -webkit-line-clamp: 3; 
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -416,6 +416,38 @@ body {
 
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 750px) {
+  main{
+    grid-area: main;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 
+  section{
+    border-radius: 1rem;
+    background-color: white;
+    height: 16rem;
+    width: 20rem;
+    cursor: pointer; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .description {
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
