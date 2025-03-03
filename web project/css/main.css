@@ -300,6 +300,16 @@ body {
       "footer";
 }
 
+footer figure{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer img{
+  border-radius: 0.5rem;
+}
+
 
 @media screen and (min-width: 500px) {
 
@@ -395,14 +405,7 @@ body {
   footer ul{
     align-items: start;
   }
-  footer figure{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
+  
   body {
       display: grid;
       grid-template-rows: auto 1fr auto;

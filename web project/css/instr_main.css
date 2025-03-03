@@ -7,53 +7,55 @@
 }
 
 header{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  grid-area: header;
+    background-color: #812437;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 25px;
+    width: 100%;
+    grid-area: header;
+}
+
+header img{
+    width: 8rem;
+    margin-top: 0.5rem;
+    object-fit: cover;
+    object-position: center;
+}
+  header div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
   
-}
-header div{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
+  header nav{
+    padding-top: 1rem;
+    grid-area: nav;
+  }
 
-.logo{
-  border: 1px solid #0002;
-  width: 3.5rem;  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin: 0.5rem;
-  grid-area: logo;
+  nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
 
-}
-header nav{
-  grid-area: nav;
-}
-nav ul{
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
-nav a{
-  text-decoration: none;  
-  font-weight: 500;
-  font-size: small;
-  /* transition: ease-in 0.3s; */
-}
-
-nav a:hover{
-  color: #8f86e4;
+  nav a{
+    text-decoration: none;  
+    font-weight: 500;
+    font-size: small;
+    color: white;
+  }
+  
+  nav a:hover{
+    color: #86e49d;
     text-decoration: underline;
     font-size: 14px;
     font-weight: bold;
-}
+  }
 
 
 .grey{
@@ -70,23 +72,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    background-color:  hwb(231 93% 4% / 0.436);
-    background: url("/images/Homepage-showarea.jpg") center / cover no-repeat;
 }
 
 main.table {
     width: 90vw;
-    height: 81vh;
+    height: 78.2vh;
     background-color: #fff5;
 
     backdrop-filter: blur(7px);
     box-shadow: 0 .4rem .8rem #0005;
     border-radius: .8rem;
-
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     overflow: hidden;
     grid-area: main;
+    background: url("/images/camp.jpg") center / cover no-repeat;
 }
-
 
 .table__header {
     width: 100%;
@@ -141,7 +142,7 @@ thead th {
     position: sticky;
     top: 0;
     left: 0;
-    background-color: #d5d1defe;
+    background-color: #ded1d1;
     cursor: pointer;
     text-transform: capitalize;
 }
@@ -156,32 +157,37 @@ tbody tr:hover {
 }
 
 
-.register {
+.view-grades {
     padding: .4rem 0;
     border-radius: 2rem;
     text-align: center;
-    background-color: #86e49d;
-    color: #006b21;
+    background-color: #86ace4;
+    color: #001b6b;
     cursor: pointer;
 }
 
-.register:hover{
-  background-color: #a886e4;
-  color: #59006b;
+.view-grades:hover{
+    background-color: #86e494;
+    color: #006b10;
 }
 
+
 footer{
+    background-color: #812437;
+    border-top:  2px rgb(233, 233, 233) solid;
     width: 100%;
-    grid-area: footer;
-}
-#copyright{
     display: flex;
     justify-content: center;
-    font-size: x-small;
-    padding: 0.5rem;
-    margin-top: 1rem;
-    border-top: 1px solid #0002;
 }
+
+#copyright{
+    padding-top: 1rem;
+    font-size: x-small;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+
 
 
 
@@ -192,10 +198,15 @@ footer{
 }
 
 thead th:hover {
-    color: #6c00bd;
+    color: #bd0000;
 }
 
 @media screen and (min-width: 500px) {
+
+    header img{
+        width: 8rem;
+        margin-top: 0rem;
+    }
 
     .logo-nav{
       width: 100%;
@@ -205,55 +216,24 @@ thead th:hover {
       padding-right: 1rem;
     }
   
-  
-    #photo-div{
-      display: flex;
-      width: 100%;
-    }
-  
-    #main-photo{
-      width: 100%;
-    }
 
-    body {
-        display: grid;
-        grid-template-rows: auto 1fr auto;
-        grid-template-columns: 3fr 1fr;
-  
-        grid-template-areas:
-            "header header"
-            "main main"
-            "footer footer";
+    main.table {
+        width: 90vw;
+        height: 82.5vh;
+        margin-left: 3rem;
+        margin-right: 2rem;
+        align-self: center;
     }
 
     #copyright{
-      padding-top: 0.5rem;
-      font-size: x-small;
-      margin-bottom: 0rem;
-  }
-
-    main.table {
-      width: 95vw;
-      height: 83.5vh;
-      margin-left: 1rem;
-      margin-right: 1rem;
-      margin-top: 1rem;
-      align-self: center;
+        padding-top: 1rem;
+        font-size: x-small;
+        margin-bottom: 0.7rem;
     }
 }
 
-@media screen and (min-width: 800px) {
 
-  main.table {
-    width: 97vw;
-    height: 83.5vh;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    align-self: center;
-  }
 
-}
 
 
 

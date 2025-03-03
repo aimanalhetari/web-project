@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/new_register.css">
+    <link rel="stylesheet" href="css/instr_main.css">
 </head>
 <body>
 
     <header>
         <div class="logo-nav">
-            <img class="logo" src = "images/QU_logo.jpg" alt = "AI Club Logo">
+            <img src="images/CustomNavigationLogo.png" width="100px" alt="logo">
             <nav>
                 <ul>
-                    <li><a class="grey" href="main_page.html">Home</a></li>
-                    <li><a class="grey" href="#">Profile</a></li>
-                    <li><a class="grey" href="learning_path.html">Learning Path</a></li>
-                    <li><a class="grey" href="#">Sign out</a></li>
+                    <li><a href="main_page.html">Home</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Sign out</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    
 
-    <main class="table">
+    <main class="table" id="customers_table">
         <section class="table__header">
-            <h1>Course Scetions</h1>
+            <h1>Current Classes</h1>
         </section>
         <section class="table__body">
             <table>
@@ -36,7 +36,6 @@
                         <th> Section No <span class="icon-arrow">&UpArrow;</span></th>
                         <th> Instructor <span class="icon-arrow">&UpArrow;</span></th>
                         <th> Meeting Time <span class="icon-arrow">&UpArrow;</span></th>
-                        <th> Status <span class="icon-arrow">&UpArrow;</span></th>
                         <th> Action <span class="icon-arrow">&UpArrow;</span></th>
                     </tr>
                 </thead>
@@ -48,9 +47,8 @@
                         <td> L01 </td>
                         <td> Dr. Ali </td>
                         <td> MON & WED  9-10:45 AM</td>
-                        <td> <strong> 3 seats left </strong></td>
                         <td>
-                            <p class="register">Register</p>
+                            <p class="view-grades">View Grades</p>
                         </td>
                     </tr>
                     <tr>
@@ -60,8 +58,7 @@
                         <td> L01 </td>
                         <td> Dr. Ali </td>
                         <td> MON & WED 9-10:45 AM</td>
-                        <td> <strong> 3 seats left </strong></td>
-                        <td> <p class="register">Register</p></td>
+                        <td> <p class="view-grades">View Grades</p></td>
                     </tr>
                     <tr>
                         <td> CMPS252 </td>
@@ -70,8 +67,7 @@
                         <td> L02 </td>
                         <td> Dr. Omar </td>
                         <td> TUE & THU 11-12:45 PM</td>
-                        <td> <strong> 5 seats left </strong></td>
-                        <td> <p class="register">Register</p></td>
+                        <td> <p class="view-grades">View Grades</p></td>
                     </tr>
                     <tr>
                         <td> CMPS253 </td>
@@ -80,8 +76,7 @@
                         <td> L03 </td>
                         <td> Dr. Sarah </td>
                         <td> MON & WED 2-3:45 PM</td>
-                        <td> <strong> 2 seats left </strong></td>
-                        <td> <p class="register">Register</p></td>
+                        <td> <p class="view-grades">View Grades</p></td>
                     </tr>
                     <tr>
                         <td> CMPS254 </td>
@@ -90,8 +85,7 @@
                         <td> L04 </td>
                         <td> Dr. Ahmed </td>
                         <td> TUE & THU 9-10:45 AM</td>
-                        <td> <strong> 4 seats left </strong></td>
-                        <td> <p class="register">Register</p></td>
+                        <td> <p class="view-grades">View Grades</p></td>
                     </tr>
                     <tr>
                         <td> CMPS255 </td>
@@ -100,8 +94,7 @@
                         <td> L05 </td>
                         <td> Dr. Fatima </td>
                         <td> MON & WED 11-12:45 PM</td>
-                        <td> <strong> 1 seat left </strong></td>
-                        <td> <p class="register">Register</p></td>
+                        <td> <p class="view-grades">View Grades</p></td>
                     </tr>
                     <tr>
                         <td> CMPS256 </td>
@@ -110,8 +103,7 @@
                         <td> L06 </td>
                         <td> Dr. Hassan </td>
                         <td> TUE & THU 2-3:45 PM</td>
-                        <td> <strong> 6 seats left </strong></td>
-                        <td> <p class="register">Register</p></td>
+                        <td> <p class="view-grades">View Grades</p></td>
                     </tr>
                     <tr>
                         <td> CMPS257 </td>
@@ -120,8 +112,7 @@
                         <td> L07 </td>
                         <td> Dr. Noor </td>
                         <td> MON & WED 4-5:45 PM</td>
-                        <td> <strong> 2 seats left </strong></td>
-                        <td> <p class="register">Register</p></td>
+                        <td> <p class="view-grades">View Grades</p></td>
                     </tr>                    
                 </tbody>
             </table>
