@@ -7,7 +7,7 @@
 }
 
 header{
-    background-color: #812437;
+    background-color: #58111A;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +51,7 @@ header img{
   }
   
   nav a:hover{
-    color: #86e49d;
+    color: #FFC72C;
     text-decoration: underline;
     font-size: 14px;
     font-weight: bold;
@@ -142,7 +142,8 @@ thead th {
     position: sticky;
     top: 0;
     left: 0;
-    background-color: #ded1d1;
+    background-color: #043927;
+    color: white;
     cursor: pointer;
     text-transform: capitalize;
 }
@@ -153,7 +154,7 @@ tbody tr:nth-child(even) {
 
 
 tbody tr:hover {
-    background-color: #fff6 ;
+    background-color: #c9e7cd ;
 }
 
 
@@ -173,7 +174,7 @@ tbody tr:hover {
 
 
 footer{
-    background-color: #812437;
+    background-color: #58111A;
     border-top:  2px rgb(233, 233, 233) solid;
     width: 100%;
     display: flex;
@@ -198,7 +199,7 @@ footer{
 }
 
 thead th:hover {
-    color: #bd0000;
+    color: #FFC72C;;
 }
 
 @media screen and (min-width: 500px) {

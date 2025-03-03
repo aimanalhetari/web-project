@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/grades.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-nav">
+            <img src="images/CustomNavigationLogo.png" width="100px" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="main_page.html">Home</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Sign out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- <main class="table" id="customers_table">
+        <section class="table__header">
+            <h1>Submit Students Grades</h1>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Student ID <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Student Name <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Final Grade <span class="icon-arrow">&UpArrow;</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 202104619 </td>
+                        <td> Aiman Alhetari</td>
+                        <td> A </td>
+                    </tr>
+                    <tr>
+                        <td>202104620</td>
+                        <td>Mohammed Al-Saad</td>
+                        <td>B+</td>
+                    </tr>
+                    <tr>
+                        <td>202104621</td>
+                        <td>Sara Al-Mutairi</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>202104622</td>
+                        <td>Khalid Al-Qahtani</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>202104623</td>
+                        <td>Fatima Al-Mansoori</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>202104624</td>
+                        <td>Omar Al-Dosari</td>
+                        <td>C+</td>
+                    </tr>
+                    <tr>
+                        <td>202104625</td>
+                        <td>Noura Al-Harbi</td>
+                        <td>D+</td>
+                    </tr>
+                    <tr>
+                        <td>202104626</td>
+                        <td>Hassan Al-Najjar</td>
+                        <td>C</td>
+                    </tr>
+                    <tr>
+                        <td>202104627</td>
+                        <td>Mariam Al-Farsi</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>202104628</td>
+                        <td>Youssef Al-Salem</td>
+                        <td>B+</td>
+                    </tr>
+                    <tr>
+                        <td>202104629</td>
+                        <td>Layla Al-Omari</td>
+                        <td>C</td>
+                    </tr>
+                    <tr>
+                        <td>202104630</td>
+                        <td>Saif Al-Balushi</td>
+                        <td>D</td>
+                    </tr>
+                    <tr>
+                        <td>202104631</td>
+                        <td>Reem Al-Zahrani</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>202104632</td>
+                        <td>Abdullah Al-Tamimi</td>
+                        <td>F</td>
+                    </tr>
+                    <tr>
+                        <td>202104633</td>
+                        <td>Hana Al-Shamrani</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>202104634</td>
+                        <td>Faisal Al-Jaber</td>
+                        <td>B+</td>
+                    </tr>                                       
+                </tbody>
+            </table>
+        </section>
+    </main> -->
+
+    <main>
+
+        <div class="header_fixed">
+            <form>
+                <table>
+                    <thead>
+                        <tr>
+                            <tr>
+                                <th> Student ID <span class="icon-arrow">&UpArrow;</span></th>
+                                <th> Student Name <span class="icon-arrow">&UpArrow;</span></th>
+                                <th> Final Grade <span class="icon-arrow">&UpArrow;</span></th>
+                            </tr>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> 202104619 </td>
+                            <td> Aiman Alhetari</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104620</td>
+                            <td>Mohammed Al-Saad</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104621</td>
+                            <td>Sara Al-Mutairi</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104622</td>
+                            <td>Khalid Al-Qahtani</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104623</td>
+                            <td>Fatima Al-Mansoori</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104624</td>
+                            <td>Omar Al-Dosari</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104625</td>
+                            <td>Noura Al-Harbi</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104626</td>
+                            <td>Hassan Al-Najjar</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104627</td>
+                            <td>Mariam Al-Farsi</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104628</td>
+                            <td>Youssef Al-Salem</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104629</td>
+                            <td>Layla Al-Omari</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104630</td>
+                            <td>Saif Al-Balushi</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104631</td>
+                            <td>Reem Al-Zahrani</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104632</td>
+                            <td>Abdullah Al-Tamimi</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104633</td>
+                            <td>Hana Al-Shamrani</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>202104634</td>
+                            <td>Faisal Al-Jaber</td>
+                            <td><select id="grades" class="grade-select">
+                                <option value="A">A</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">B</option>
+                                <option value="C+">C+</option>
+                                <option value="C">C</option>
+                                <option value="D+">D+</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                                </select>
+                            </td>
+                        </tr> 
+                    </tbody>
+                </table>
+                <div id="submit-div">
+                    <input id="submit-button" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+    <footer>
+        <div id="footer-copyright">
+            <p id="copyright">&copy; Copyright 2025 Qatar University</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
