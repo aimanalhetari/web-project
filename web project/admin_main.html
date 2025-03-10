@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Main Page - Qatar University</title>
+    <link rel="stylesheet" href="css/admin_main.css">
+</head>
+<body>
+    <div class="page_container">
+        
+        <!-- Header -->
+        <header class="header">
+            <img src="images/CustomNavigationLogo.png" alt="Qatar University Logo" class="logo">
+            <nav class="nav_links">
+                <a href="#">Home</a>
+                <a href="#">Profile</a>
+                <a href="#">Sign out</a>
+            </nav>
+        </header>
+
+        <!-- Controls Area -->
+        <section class="controls_area">
+            <div class="page_header">
+                <h1 class="page_title">Admin Main Page</h1>
+                <button class="create_button">
+                    <span class="icon_plus"></span>
+                    Create New Course
+                </button>
+            </div>
+
+            <div class="search_filter_area">
+                <div class="search_box">
+                    <input type="text" class="search_input" placeholder="Search courses by title or code (e.g CMPS151 or Programming Concepts)">
+                </div>
+                <form action="">
+                    <div class="filter_container">
+                        <div class="filter_box">
+                            <select class="filter_select">
+                                <option value="all" selected>All Categories</option>
+                                <option value="computer_science">Computer Science</option>
+                                <option value="mathematics">Mathematics</option>
+                                <option value="Science">Science</option>
+                                <option value="english">English</option>
+                            </select>
+                        </div>
+                        <div class="filter_box">
+                            <select class="filter_select">
+                                <option value="all" selected>All Courses</option>
+                                <option value="validated">Validated</option>
+                                <option value="unvalidated">Unvalidated</option>
+                            </select>
+                        </div>
+                    </div>
+            </form>
+            </div>
+        </section>
+
+        <!-- Content Area -->
+        <main class="content_area">
+            <!-- Course 1 -->
+            <div class="course_card">
+                <div class="card_header">
+                        <div class="course_title_subtitle">
+                            <h2 class="course_title">COMP101: Introduction to Computer Science</h2>
+                            <p class="course_subtitle">Category: Computer Science</p>
+                        </div>
+                        <button class="btn validated">Validated</button>
+                </div>
+                <div class="card_content">
+                    <h3 class="number_of_classes">Classes (2)</h3>
+                    
+                    <!--Laptop-->
+                    <table class="classes_table">
+                        <thead>
+                            <tr>
+                                <th>Section</th>
+                                <th>Instructor</th>
+                                <th>Schedule</th>
+                                <th>Enrollment</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>L01</td>
+                                <td>Dr. Ahmed</td>
+                                <td>Mon/Wed 10:00-11:30</td>
+                                <td>25/30</td>
+                                <td>
+                                    <div class="action_buttons_for_classes">
+                                        <button class="btn validate">Validate</button>
+                                        <button class="btn unvalidate">Unvalidate</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>L02</td>
+                                <td>Dr. Sarah</td>
+                                <td>Tue/Thu 13:00-14:30</td>
+                                <td>18/30</td>
+                                <td>
+                                    <div class="action_buttons_for_classes">
+                                        <button class="btn validate">Validate</button>
+                                        <button class="btn unvalidate">Unvalidate</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Mobile -->
+                    <div class="class_list">
+                        <div class="class_item">
+                            <div class="class_header">
+                                <div class="class_instructor">Dr. Ahmed</div>
+                                <p>25/30</p>
+                            </div>
+                            <div class="class_details">
+                                Section: L01<br>
+                                Schedule: Mon/Wed 10:00-11:30
+                            </div>
+                            <div class="action_buttons_for_classes">
+                                <button class="btn validate">Validate</button>
+                                <button class="btn unvalidate">Unvalidate</button>
+                            </div>
+                        </div>
+
+                        <div class="class_item">
+                            <div class="class_header">
+                                <div class="class_instructor">Dr. Sarah</div>
+                                <p>18/30</p>
+                            </div>
+                            <div class="class_details">
+                                Section: L02<br>
+                                Schedule: Tue/Thu 13:00-14:30
+                            </div>
+                            <div class="action_buttons_for_classes">
+                                <button class="btn validate">Validate</button>
+                                <button class="btn unvalidate">Unvalidate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_footer">
+                    <button class="btn">
+                        <span class="icon icon_plus"></span>
+                        Add Class
+                    </button>
+                    <button class="btn validate">Validate Course</button>
+                    <button class="btn unvalidate">Unvalidate Course</button>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="course_card">
+                <div class="card_header">
+                        <div class="course_title_subtitle">
+                            <h2 class="course_title">MATH201: Calculus II</h2>
+                            <p class="course_subtitle">Category: Mathematics</p>
+                        </div>
+                        <button class="btn unvalidated">Unvalidated</button>
+                    
+                </div>
+                <div class="card_content">
+                    <h3 class="number_of_classes">Classes (1)</h3>
+                    
+                    <!--Laptop-->
+                    <table class="classes_table">
+                        <thead>
+                            <tr>
+                                <th>Section</th>
+                                <th>Instructor</th>
+                                <th>Schedule</th>
+                                <th>Enrollment</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>L01</td>
+                                <td>Dr. Mohammed</td>
+                                <td>Sun/Tue 08:30-10:00</td>
+                                <td>15/35</td>
+                                <td>
+                                    <div class="action_buttons_for_classes">
+                                        <button class="btn validate">Validate</button>
+                                        <button class="btn unvalidate">Unvalidate</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Mobile -->
+                    <div class="class_list">
+                        <div class="class_item">
+                            <div class="class_header">
+                                <div class="class_instructor">Dr. Mohammed</div>
+                                <p>15/30</p>
+                            </div>
+                            <div class="class_details">
+                                Section: L01<br>
+                                Schedule: Sun/Tue 08:30-10:00
+                            </div>
+                            <div class="action_buttons_for_classes">
+                                <button class="btn validate">Validate</button>
+                                <button class="btn unvalidate">Unvalidate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_footer">
+                    <button class="btn">
+                        <span class="icon icon_plus"></span>
+                        Add Class
+                    </button>
+                    <button class="btn validate">Validate Course</button>
+                    <button class="btn unvalidate">Unvalidate Course</button>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="course_card">
+                <div class="card_header">
+                    
+                        <div class="course_title_subtitle">
+                            <h2 class="course_title">PHYS105: Physics for Engineers</h2>
+                            <p class="course_subtitle">Category: Science</p>
+                        </div>
+                        <button class="btn unvalidated">Unvalidated</button>
+                
+                </div>
+                <div class="card_content">
+                    <h3 class="number_of_classes">Classes (1)</h3>
+                    
+                    <!--Laptop-->
+                    <table class="classes_table">
+                        <thead>
+                            <tr>
+                                <th>Section</th>
+                                <th>Instructor</th>
+                                <th>Schedule</th>
+                                <th>Enrollment</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>L01</td>
+                                <td>Dr. Fatima</td>
+                                <td>Mon/Wed 14:00-15:30</td>
+                                <td>8/25</td>
+                                <td>
+                                    <div class="action_buttons_for_classes">
+                                        <button class="btn validate">Validate</button>
+                                        <button class="btn unvalidate">Unvalidate</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Mobile -->
+                    <div class="class_list">
+                        <div class="class_item">
+                            <div class="class_header">
+                                <div class="class_instructor">Dr. Fatima</div>
+                                <p>8/25</p>
+                            </div>
+                            <div class="class_details">
+                                Section: L01<br>
+                                Schedule: Mon/Wed 14:00-15:30
+                            </div>
+                            <div class="action_buttons_for_classes">
+                                <button class="btn validate">Validate</button>
+                                <button class="btn unvalidate">Unvalidate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_footer">
+                    <button class="btn">
+                        <span class="icon icon_plus"></span>
+                        Add Class
+                    </button>
+                    <button class="btn validate">Validate Course</button>
+                    <button class="btn unvalidate">Unvalidate Course</button>
+                </div>
+            </div>
+
+            <!-- Course 4 -->
+            <div class="course_card">
+                <div class="card_header">
+                        <div class="course_title_subtitle">
+                            <h2 class="course_title">CHEM100: General Chemistry</h2>
+                            <p class="course_subtitle">Category: Science</p>
+                        </div>
+                        <button class="btn validated">Validated</button>
+                    
+                </div>
+                <div class="card_content">
+                    <h3 class="number_of_classes">Classes (1)</h3>
+                    
+                    <!--Laptop-->
+                    <table class="classes_table">
+                        <thead>
+                            <tr>
+                                <th>Section</th>
+                                <th>Instructor</th>
+                                <th>Schedule</th>
+                                <th>Enrollment</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>L01</td>
+                                <td>Dr. Ali</td>
+                                <td>Sun/Tue 11:00-12:30</td>
+                                <td>22/30</td>
+                                <td>
+                                    <div class="action_buttons_for_classes">
+                                        <button class="btn validate">Validate</button>
+                                        <button class="btn unvalidate">Unvalidate</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Mobile -->
+                    <div class="class_list">
+                        <div class="class_item">
+                            <div class="class_header">
+                                <div class="class_instructor">Dr. Ali</div>
+                                <p>22/30</p>
+                            </div>
+                            <div class="class_details">
+                                Section: L01<br>
+                                Schedule: Sun/Tue 11:00-12:30
+                            </div>
+                            <div class="action_buttons_for_classes">
+                                <button class="btn validate">Validate</button>
+                                <button class="btn unvalidate">Unvalidate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_footer">
+                    <button class="btn">
+                        <span class="icon icon_plus"></span>
+                        Add Class
+                    </button>
+                    <button class="btn validate">Validate Course</button>
+                    <button class="btn unvalidate">Unvalidate Course</button>
+                </div>
+            </div>
+
+            <!-- Course 5 -->
+            <div class="course_card">
+                <div class="card_header">
+                   
+                        <div class="course_title_subtitle">
+                            <h2 class="course_title">ENGL202: Academic Writing</h2>
+                            <p class="course_subtitle">Category: English</p>
+                        </div>
+                        <button class="btn unvalidated">Unvalidated</button>
+                    
+                </div>
+                <div class="card_content">
+                    <h3 class="number_of_classes">Classes (1)</h3>
+                    
+                    <!--Laptop-->
+                    <table class="classes_table">
+                        <thead>
+                            <tr>
+                                <th>Section</th>
+                                <th>Instructor</th>
+                                <th>Schedule</th>
+                                <th>Enrollment</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>L01</td>
+                                <td>Dr. John</td>
+                                <td>Wed 15:00-18:00</td>
+                                <td>5/20</td>
+                                <td>
+                                    <div class="action_buttons_for_classes">
+                                        <button class="btn validate">Validate</button>
+                                        <button class="btn unvalidate">Unvalidate</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Mobile -->
+                    <div class="class_list">
+                        <div class="class_item">
+                            <div class="class_header">
+                                <div class="class_title">Dr. John</div>
+                                <p>18/30</p>
+                            </div>
+                            <div class="class_details">
+                                Section: L01<br>
+                                Schedule: Wed 15:00-18:00
+                            </div>
+                            <div class="action_buttons_for_classes">
+                                <button class="btn validate">Validate</button>
+                                <button class="btn unvalidate">Unvalidate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_footer">
+                    <button class="btn">
+                        <span class="icon icon_plus"></span>
+                        Add Class
+                    </button>
+                    <button class="btn validate">Validate Course</button>
+                    <button class="btn unvalidate">Unvalidate Course</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
