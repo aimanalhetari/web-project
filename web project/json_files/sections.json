@@ -1,0 +1,75 @@
+[
+    {
+      "id": "CMPS251",
+      "category": "Programming",
+      "course_name": "OOP",
+      "section_no": "L01",
+      "instructor": "Dr. Ali",
+      "meeting_time": "MON & WED 9-10:45 AM",
+      "status": "3 seats left"
+    },
+    {
+      "id": "CMPS251",
+      "category": "Programming",
+      "course_name": "OOP",
+      "section_no": "L01",
+      "instructor": "Dr. Ali",
+      "meeting_time": "MON & WED 9-10:45 AM",
+      "status": "3 seats left"
+    },
+    {
+      "id": "CMPS252",
+      "category": "Data Structures",
+      "course_name": "DSA",
+      "section_no": "L02",
+      "instructor": "Dr. Omar",
+      "meeting_time": "TUE & THU 11-12:45 PM",
+      "status": "5 seats left"
+    },
+    {
+      "id": "CMPS253",
+      "category": "Computer Networks",
+      "course_name": "Networking",
+      "section_no": "L03",
+      "instructor": "Dr. Sarah",
+      "meeting_time": "MON & WED 2-3:45 PM",
+      "status": "2 seats left"
+    },
+    {
+      "id": "CMPS254",
+      "category": "Database Systems",
+      "course_name": "DBMS",
+      "section_no": "L04",
+      "instructor": "Dr. Ahmed",
+      "meeting_time": "TUE & THU 9-10:45 AM",
+      "status": "4 seats left"
+    },
+    {
+      "id": "CMPS255",
+      "category": "Software Engineering",
+      "course_name": "SE",
+      "section_no": "L05",
+      "instructor": "Dr. Fatima",
+      "meeting_time": "MON & WED 11-12:45 PM",
+      "status": "1 seat left"
+    },
+    {
+      "id": "CMPS256",
+      "category": "Artificial Intelligence",
+      "course_name": "AI",
+      "section_no": "L06",
+      "instructor": "Dr. Hassan",
+      "meeting_time": "TUE & THU 2-3:45 PM",
+      "status": "6 seats left"
+    },
+    {
+      "id": "CMPS257",
+      "category": "Cybersecurity",
+      "course_name": "Security",
+      "section_no": "L07",
+      "instructor": "Dr. Noor",
+      "meeting_time": "MON & WED 4-5:45 PM",
+      "status": "2 seats left"
+    }
+  ]
+  

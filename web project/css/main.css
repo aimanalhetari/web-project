@@ -420,7 +420,7 @@ footer img{
 }
 
 @media screen and (min-width: 750px) {
-  main{
+  #courses-container{
     grid-area: main;
     display: flex;
     justify-content: space-evenly;
