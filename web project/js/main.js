@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    let allCourses = []; // Store courses globally
+    let allCourses = [];
     const container = document.querySelector("#courses-container");
     const searchField = document.querySelector("#search-textfield");
     const searchButton = document.querySelector("#search-button");
@@ -8,14 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("json_files/courses.json")
         .then(response => response.json())
         .then(courses => {
-            allCourses = courses; // Store all courses for searching
-            displayCourses(allCourses); // Initially display all courses
+            allCourses = courses;
+            displayCourses(allCourses);
         })
         .catch(error => console.error("Error fetching course data:", error));
 
-    // Function to display courses
     function displayCourses(filteredCourses) {
-        container.innerHTML = ""; // Clear previous courses
+        container.innerHTML = "";
         filteredCourses.forEach(course => {
             const section = document.createElement("section");
 
@@ -39,15 +38,23 @@ document.addEventListener("DOMContentLoaded", () => {
                             <p>${course.duration}</p>
                         </div>
                     </div>
-                    <button id="register-now" class="button">Register Now</button>
+                    <button id="register-now" class="button" data-course-code="${course.course_code}">Register Now</button>
                 </div>
             `;
 
             container.appendChild(section);
         });
+
+        // Add event listeners to "Register Now" buttons
+        document.querySelectorAll("#register-now").forEach(button => {
+            button.addEventListener("click", function () {
+                const courseCode = this.getAttribute("data-course-code");
+                localStorage.setItem("selectedCourse", courseCode);
+                window.location.href = "new_register.html"; // Navigate to register page
+            });
+        });
     }
 
-    // Function to filter courses based on search input
     function searchCourses() {
         const query = searchField.value.trim().toLowerCase();
         const filteredCourses = allCourses.filter(course =>
@@ -55,13 +62,9 @@ document.addEventListener("DOMContentLoaded", () => {
             course.title.toLowerCase().includes(query) ||
             course.category.toLowerCase().includes(query)
         );
-
         displayCourses(filteredCourses);
     }
 
-    // Trigger search when user types
     searchField.addEventListener("input", searchCourses);
-
-    // Trigger search when clicking the button
     searchButton.addEventListener("click", searchCourses);
 });

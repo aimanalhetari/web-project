@@ -41,7 +41,7 @@ header{
 }
 
 main{
-    flex: 1;
+    flex: 1;    
     /* border: 1px red solid; */
     display: flex;
     flex-direction: column;
@@ -92,7 +92,7 @@ main{
     margin-left: 0.2rem;
 }
 
-#sign-in-input{
+.sign-in-input{
     background-color: #452c63;
     color: white;
     padding: 0.3rem;

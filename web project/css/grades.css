@@ -1,246 +1,3 @@
-/* * {
-    margin: 0;
-    padding: 0;
-
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-header{
-    background-color: #812437;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px 25px;
-    width: 100%;
-    grid-area: header;
-}
-
-header img{
-    width: 8rem;
-    margin-top: 0.5rem;
-    object-fit: cover;
-    object-position: center;
-}
-  header div{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  }
-  
-  header nav{
-    padding-top: 1rem;
-    grid-area: nav;
-  }
-
-  nav ul{
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  nav a{
-    text-decoration: none;  
-    font-weight: 500;
-    font-size: small;
-    color: white;
-  }
-  
-  nav a:hover{
-    color: #86e49d;
-    text-decoration: underline;
-    font-size: 14px;
-    font-weight: bold;
-  }
-
-
-.grey{
-  color: dimgray;
-}
-
-#photo-div{
-  display: none;
-}
-
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-}
-
-main.table {
-    width: 90vw;
-    height: 78.2vh;
-    background-color: #fff5;
-
-    backdrop-filter: blur(7px);
-    box-shadow: 0 .4rem .8rem #0005;
-    border-radius: .8rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    overflow: hidden;
-    grid-area: main;
-    background: #808173;
-}
-
-.table__header {
-    width: 100%;
-    height: 10%;
-    background-color: #fff4;
-    padding: .8rem 1rem;
-
-    display: flex;
-    align-items: center;
-}
-
-.table__body {
-    width: 95%;
-    max-height: calc(89% - 1.6rem);
-    background-color: #fffb;
-
-    margin: .8rem auto;
-    border-radius: .6rem;
-
-    overflow: auto;
-    overflow: overlay;
-}
-
-
-.table__body::-webkit-scrollbar{
-    width: 0.5rem;
-    height: 0.5rem;
-}
-
-.table__body::-webkit-scrollbar-thumb{
-    border-radius: .5rem;
-    background-color: #0004;
-    visibility: hidden;
-}
-
-.table__body:hover::-webkit-scrollbar-thumb{ 
-    visibility: visible;
-}
-
-
-table {
-    width: 100%;
-}
-
-table, th, td {
-    border-collapse: collapse;
-    padding: 1rem;
-    text-align: left;
-}
-
-thead th {
-    position: sticky;
-    top: 0;
-    left: 0;
-    background-color: #ded1d1;
-    cursor: pointer;
-    text-transform: capitalize;
-}
-
-tbody tr:nth-child(even) {
-    background-color: #0000000b;
-}
-
-
-tbody tr:hover {
-    background-color: #fff6 ;
-}
-
-
-.view-grades {
-    padding: .4rem 0;
-    border-radius: 2rem;
-    text-align: center;
-    background-color: #86ace4;
-    color: #001b6b;
-    cursor: pointer;
-}
-
-.view-grades:hover{
-    background-color: #86e494;
-    color: #006b10;
-}
-
-
-footer{
-    background-color: #812437;
-    border-top:  2px rgb(233, 233, 233) solid;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#copyright{
-    padding-top: 1rem;
-    font-size: x-small;
-    margin-bottom: 0.5rem;
-    color: white;
-}
-
-
-
-
-
-@media (max-width: 1000px) {
-    td:not(:first-of-type) {
-        min-width: 12.1rem;
-    }
-}
-
-thead th:hover {
-    color: #bd0000;
-}
-
-@media screen and (min-width: 500px) {
-
-    header img{
-        width: 8rem;
-        margin-top: 0rem;
-    }
-
-    .logo-nav{
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      padding-right: 1rem;
-    }
-  
-
-    main.table {
-        width: 90vw;
-        height: 82.5vh;
-        margin-left: 3rem;
-        margin-right: 2rem;
-        align-self: center;
-    }
-
-    #copyright{
-        padding-top: 1rem;
-        font-size: x-small;
-        margin-bottom: 0.7rem;
-    }
-}
-
-
-
-
-
- */
-
-
- /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap'); */
-
 * {
     margin: 0;
     padding: 0;
@@ -312,14 +69,13 @@ header img{
   display: none;
 }
 
-body {
-    width: 100%;
+main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    background-color: #EEEEEE;
+    grid-area: main;
+    min-height: 80.2vh;
 }
+
 
 table {
     width: 100%;
@@ -429,6 +185,7 @@ footer{
     width: 100%;
     display: flex;
     justify-content: center;
+    grid-area: footer;
 }
 
 #copyright{
@@ -468,4 +225,9 @@ footer{
         font-size: x-small;
         margin-bottom: 0.7rem;
     }
+
+    main{
+        min-height: 84.6vh;
+    }
+
 }

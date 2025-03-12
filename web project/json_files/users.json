@@ -1,0 +1,329 @@
+{
+  "students": [
+    {
+      "id": "S001",
+      "name": "Ali Hassan",
+      "userName": "student1@example.com",
+      "password": "student123",
+      "gpa": 3.7,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303", "CMPS350"],
+      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S002",
+      "name": "Sara Ahmed",
+      "userName": "student2@example.com",
+      "password": "student456",
+      "gpa": 3.9,
+      "completedCourses": ["CMPS251", "CMPS303", "Math201"],
+      "in_progress_courses": ["CMPS380", "CMPS310"],
+      "remaining_courses": ["CMPS351", "CMPS350", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S003",
+      "name": "Ahmed Ali",
+      "userName": "student3@example.com",
+      "password": "student789",
+      "gpa": 3.5,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S004",
+      "name": "Mona Khaled",
+      "userName": "student4@example.com",
+      "password": "student101",
+      "gpa": 3.8,
+      "completedCourses": ["CMPS251", "CMPS303", "Math201"],
+      "in_progress_courses": ["CMPS350"],
+      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S005",
+      "name": "Mohammed Salah",
+      "userName": "student5@example.com",
+      "password": "student112",
+      "gpa": 3.6,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S006",
+      "name": "Lina Zaid",
+      "userName": "student6@example.com",
+      "password": "student223",
+      "gpa": 3.8,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS350"],
+      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S007",
+      "name": "Rana Yusuf",
+      "userName": "student7@example.com",
+      "password": "student334",
+      "gpa": 3.4,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S008",
+      "name": "Tariq Fathi",
+      "userName": "student8@example.com",
+      "password": "student445",
+      "gpa": 3.2,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S009",
+      "name": "Khaled Hassan",
+      "userName": "student9@example.com",
+      "password": "student556",
+      "gpa": 3.7,
+      "completedCourses": ["CMPS251", "CMPS303", "Math201"],
+      "in_progress_courses": ["CMPS350"],
+      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S010",
+      "name": "Zainab Omar",
+      "userName": "student10@example.com",
+      "password": "student667",
+      "gpa": 3.9,
+      "completedCourses": ["CMPS251", "CMPS303", "Math201"],
+      "in_progress_courses": ["CMPS350"],
+      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S011",
+      "name": "Yasir Faris",
+      "userName": "student11@example.com",
+      "password": "student778",
+      "gpa": 3.3,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S012",
+      "name": "Fatima Al Farsi",
+      "userName": "student12@example.com",
+      "password": "student889",
+      "gpa": 3.5,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS350"],
+      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S013",
+      "name": "Mariam Ali",
+      "userName": "student13@example.com",
+      "password": "student900",
+      "gpa": 3.6,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S014",
+      "name": "Omar Nasser",
+      "userName": "student14@example.com",
+      "password": "student1011",
+      "gpa": 3.8,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS350"],
+      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S015",
+      "name": "Huda Fathi",
+      "userName": "student15@example.com",
+      "password": "student1122",
+      "gpa": 3.4,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S016",
+      "name": "Samir Nabil",
+      "userName": "student16@example.com",
+      "password": "student1233",
+      "gpa": 3.7,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S017",
+      "name": "Ahmed Nabil",
+      "userName": "student17@example.com",
+      "password": "student1344",
+      "gpa": 3.3,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S018",
+      "name": "Layla Omar",
+      "userName": "student18@example.com",
+      "password": "student1455",
+      "gpa": 3.9,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S019",
+      "name": "Yara Khaled",
+      "userName": "student19@example.com",
+      "password": "student1566",
+      "gpa": 3.6,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S020",
+      "name": "Amina Hussein",
+      "userName": "student20@example.com",
+      "password": "student1677",
+      "gpa": 3.5,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S021",
+      "name": "Ahmed Zaki",
+      "userName": "student21@example.com",
+      "password": "student1788",
+      "gpa": 3.8,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS350"],
+      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S022",
+      "name": "Nadia Ibrahim",
+      "userName": "student22@example.com",
+      "password": "student1899",
+      "gpa": 3.9,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S023",
+      "name": "Hassan Waleed",
+      "userName": "student23@example.com",
+      "password": "student2000",
+      "gpa": 3.7,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S024",
+      "name": "Fayrouz Issam",
+      "userName": "student24@example.com",
+      "password": "student2111",
+      "gpa": 3.4,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS350"],
+      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S025",
+      "name": "Rania Mansour",
+      "userName": "student25@example.com",
+      "password": "student2222",
+      "gpa": 3.5,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS350"],
+      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S026",
+      "name": "Maha Fadi",
+      "userName": "student26@example.com",
+      "password": "student2333",
+      "gpa": 3.7,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S027",
+      "name": "Rami Fathi",
+      "userName": "student27@example.com",
+      "password": "student2444",
+      "gpa": 3.8,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S028",
+      "name": "Jamal Abdul",
+      "userName": "student28@example.com",
+      "password": "student2555",
+      "gpa": 3.6,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS350"],
+      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S029",
+      "name": "Lamis Zaid",
+      "userName": "student29@example.com",
+      "password": "student2666",
+      "gpa": 3.7,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS303"],
+      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    },
+    {
+      "id": "S030",
+      "name": "Tamer Fadi",
+      "userName": "student30@example.com",
+      "password": "student2777",
+      "gpa": 3.5,
+      "completedCourses": ["CMPS251", "Math201"],
+      "in_progress_courses": ["CMPS350"],
+      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+    }
+  ],
+  "instructors": [
+    {"name": "Dr. Ali", "userName": "ali@example.com", "password": "password123", "sections": ["CMPS251_L01"]},
+    {"name": "Dr. Sara", "userName": "sara@example.com", "password": "password123", "sections": ["CMPS251_L02"]},
+    {"name": "Dr. Omar", "userName": "omar@example.com", "password": "password123", "sections": ["CMPS303_L01", "CMPS323_L02"]},
+    {"name": "Dr. Mona", "userName": "mona@example.com", "password": "password123", "sections": ["CMPS303_L02"]},
+    {"name": "Dr. Sarah", "userName": "sarah@example.com", "password": "password123", "sections": ["CMPE355_L01", "CMPS405_L02"]},
+    {"name": "Dr. Khalid", "userName": "khalid@example.com", "password": "password123", "sections": ["CMPE355_L02"]},
+    {"name": "Dr. Ahmed", "userName": "ahmed@example.com", "password": "password123", "sections": ["CMPS351_L01"]},
+    {"name": "Dr. Yasir", "userName": "yasir@example.com", "password": "password123", "sections": ["CMPS351_L02"]},
+    {"name": "Dr. Noor", "userName": "noor@example.com", "password": "password123", "sections": ["CMPS380_L01"]},
+    {"name": "Dr. Kareem", "userName": "kareem@example.com", "password": "password123", "sections": ["CMPS380_L02"]},
+    {"name": "Dr. Fatima", "userName": "fatima@example.com", "password": "password123", "sections": ["CMPS310_L01"]},
+    {"name": "Dr. Sami", "userName": "sami@example.com", "password": "password123", "sections": ["CMPS310_L02"]},
+    {"name": "Dr. Hadi", "userName": "hadi@example.com", "password": "password123", "sections": ["CMPS405_L01"]},
+    {"name": "Dr. Nabil", "userName": "nabil@example.com", "password": "password123", "sections": ["CMPS312_L01"]},
+    {"name": "Dr. Layla", "userName": "layla@example.com", "password": "password123", "sections": ["CMPS323_L01"]},
+    {"name": "Dr. Ayman", "userName": "ayman@example.com", "password": "password123", "sections": ["Math201_L01"]},
+    {"name": "Dr. Reem", "userName": "reem@example.com", "password": "password123", "sections": ["Math201_L02"]}
+  ],
+  "admins": [
+    {
+      "userName": "admin1@example.com",
+      "password": "admin123"
+    }
+  ]
+}

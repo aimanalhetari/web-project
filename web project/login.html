@@ -28,7 +28,7 @@
                         <input type="checkbox">
                         <label>Keep me signed in</label>
                     </div>
-                    <input type="submit" id="sign-in-input" value="Sign in">
+                    <input type="submit" id="student-sign-in-input" class ="sign-in-input" value="Sign in">
                 </div>
             </form>
             
@@ -43,7 +43,7 @@
                         <input type="checkbox">
                         <label>Keep me signed in</label>
                     </div>
-                    <input type="submit" id="sign-in-input" value="Sign in">
+                    <input type="submit" id="instr-sign-in-input" class ="sign-in-input" value="Sign in">
                 </div>
             </form>
         
@@ -58,7 +58,7 @@
                         <input type="checkbox">
                         <label>Keep me signed in</label>
                     </div>
-                    <input type="submit" id="sign-in-input" value="Sign in">
+                    <input type="submit" id="admin-sign-in-input" class ="sign-in-input" value="Sign in">
                 </div>
             </form>
         </section>
@@ -92,43 +92,7 @@
         <p>&copy; 1997-2025 Blackboard Inc. All Rights Reserved.</p>
     </footer>
     
-    <script>
-        // Get all login buttons
-        const studentLoginBtn = document.getElementById('student-login');
-        const instructorLoginBtn = document.getElementById('instructor-login');
-        const adminLoginBtn = document.getElementById('admin-login');
-
-        // Get all input sections
-        const studentInputs = document.getElementById('student-inputs');
-        const instructorInputs = document.getElementById('instructor-inputs');
-        const adminInputs = document.getElementById('admin-inputs');
-
-        // Function to reset visibility
-        function resetInputs() {
-            studentInputs.style.display = 'none';
-            instructorInputs.style.display = 'none';
-            adminInputs.style.display = 'none';
-        }
-
-        // Event listener for student login
-        studentLoginBtn.addEventListener('click', () => {
-            resetInputs();
-            studentInputs.style.display = 'flex';
-        });
-
-        // Event listener for instructor login
-        instructorLoginBtn.addEventListener('click', () => {
-            resetInputs();
-            instructorInputs.style.display = 'flex';
-        });
-
-        // Event listener for admin login
-        adminLoginBtn.addEventListener('click', () => {
-            resetInputs();
-            adminInputs.style.display = 'flex';
-        });
-
-    </script>
+    <script src="js/login.js"></script>
 
 </body>
 </html>
