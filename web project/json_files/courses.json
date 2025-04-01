@@ -8,7 +8,8 @@
     "institution": "QU-CENG",
     "start_date": "Jan 17, 2022",
     "duration": "14 weeks",
-    "image": "images/DataBase.jpg"
+    "image": "images/DataBase.jpg",
+    "validated": false
   },
   {
     "course_code": "CMPS350",
@@ -19,7 +20,8 @@
     "institution": "QU-CENG",
     "start_date": "Jan 17, 2022",
     "duration": "14 weeks",
-    "image": "images/web.jpg"
+    "image": "images/web.jpg",
+    "validated": false
   },
   {
     "course_code": "CMPS380",
@@ -30,7 +32,8 @@
     "institution": "QU-CENG",
     "start_date": "Jan 17, 2022",
     "duration": "14 weeks",
-    "image": "images/DataStructure.jpg"
+    "image": "images/DataStructure.jpg",
+    "validated": false
   },
   {
     "course_code": "CMPS303",
@@ -41,7 +44,8 @@
     "institution": "QU-CENG",
     "start_date": "Jan 17, 2022",
     "duration": "14 weeks",
-    "image": "images/network.jpg"
+    "image": "images/network.jpg",
+    "validated": false
   },
   {
     "course_code": "Math201",
@@ -52,7 +56,8 @@
     "institution": "QU-CENG",
     "start_date": "Feb 10, 2022",
     "duration": "12 weeks",
-    "image": "images/statistics.jpg"
+    "image": "images/statistics.jpg",
+    "validated": false
   },
   {
     "course_code": "CMPS310",
@@ -63,7 +68,8 @@
     "institution": "QU-CENG",
     "start_date": "Mar 5, 2022",
     "duration": "14 weeks",
-    "image": "images/software.jpg"
+    "image": "images/software.jpg",
+    "validated": false
   },
   {
     "course_code": "CMPS405",
@@ -74,7 +80,8 @@
     "institution": "QU-CENG",
     "start_date": "Apr 1, 2022",
     "duration": "14 weeks",
-    "image": "images/os.jpg"
+    "image": "images/os.jpg",
+    "validated": false
   },
   {
     "course_code": "CMPS251",
@@ -85,7 +92,8 @@
     "institution": "QU-CENG",
     "start_date": "May 10, 2022",
     "duration": "14 weeks",
-    "image": "images/oop.jpg"
+    "image": "images/oop.jpg",
+    "validated": false
   },
   {
     "course_code": "CMPE355",
@@ -96,7 +104,8 @@
     "institution": "QU-CENG",
     "start_date": "Jun 15, 2022",
     "duration": "14 weeks",
-    "image": "images/network.jpg"
+    "image": "images/network.jpg",
+    "validated": false
   },
   {
     "course_code": "CMPS312",
@@ -107,7 +116,8 @@
     "institution": "QU-CENG",
     "start_date": "Jul 20, 2022",
     "duration": "14 weeks",
-    "image": "images/mobile.jpg"
+    "image": "images/mobile.jpg",
+    "validated": false
   },
   {
     "course_code": "ENGR460",
@@ -118,7 +128,8 @@
     "institution": "QU-CENG",
     "start_date": "Aug 5, 2022",
     "duration": "10 weeks",
-    "image": "images/ethics.jpg"
+    "image": "images/ethics.jpg",
+    "validated": false
   },
   {
     "course_code": "CMPS323",
@@ -129,6 +140,7 @@
     "institution": "QU-CENG",
     "start_date": "Sep 10, 2022",
     "duration": "14 weeks",
-    "image": "images/algorithms.jpg"
+    "image": "images/algorithms.jpg",
+    "validated": false
   }
 ]

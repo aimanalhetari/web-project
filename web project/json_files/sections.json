@@ -2,189 +2,206 @@
   {
     "id": "CMPS251_L01",
     "course_id": "CMPS251",
-    "category": "Programming",
+    "category": "Computer Science",
     "course_name": "OOP",
     "section_no": "L01",
     "instructor": "Dr. Ali",
-    "meeting_time": "MON & WED 9-10:45 AM",
-    "status": "3 seats left",
-    "students": ["S001", "S002", "S005", "S009", "S013", "S017", "S021", "S025", "S028"]
+    "meeting_time": "MON/WED 9-10:45 AM",
+    "total_no_of_seats": 30,
+    "students": ["S001", "S002", "S005", "S009", "S013", "S017", "S021", "S025", "S028"],
+    "validated": false
   },
   {
     "id": "CMPS251_L02",
     "course_id": "CMPS251",
-    "category": "Programming",
+    "category": "Computer Science",
     "course_name": "OOP",
     "section_no": "L02",
     "instructor": "Dr. Sara",
-    "meeting_time": "TUE & THU 1-2:45 PM",
-    "status": "5 seats left",
-    "students": ["S002", "S006", "S010", "S014", "S018", "S022", "S026", "S030"]
+    "meeting_time": "TUE/THU 1-2:45 PM",
+    "total_no_of_seats": 30,
+    "students": ["S002", "S006", "S010", "S014", "S018", "S022", "S026", "S030"],
+    "validated": false
   },
   {
     "id": "CMPS303_L01",
     "course_id": "CMPS303",
-    "category": "Programming",
+    "category": "Computer Science",
     "course_name": "Data Structure",
     "section_no": "L01",
     "instructor": "Dr. Omar",
-    "meeting_time": "TUE & THU 11-12:45 PM",
-    "status": "5 seats left",
-    "students": ["S003", "S007", "S011", "S015", "S019", "S023", "S027"]
+    "meeting_time": "TUE/THU 11-12:45 PM",
+    "total_no_of_seats": 30,
+    "students": ["S003", "S007", "S011", "S015", "S019", "S023", "S027"],
+    "validated": false
   },
   {
     "id": "CMPS303_L02",
     "course_id": "CMPS303",
-    "category": "Programming",
+    "category": "Computer Science",
     "course_name": "Data Structure",
     "section_no": "L02",
     "instructor": "Dr. Mona",
-    "meeting_time": "MON & WED 3-4:45 PM",
-    "status": "5 seats left",
-    "students": ["S004", "S008", "S012", "S016", "S020", "S024", "S028", "S029"]
+    "meeting_time": "MON/WED 3-4:45 PM",
+    "total_no_of_seats": 30,
+    "students": ["S004", "S008", "S012", "S016", "S020", "S024", "S028", "S029"],
+    "validated": false
   },
   {
     "id": "CMPE355_L01",
     "course_id": "CMPE355",
-    "category": "Networking",
+    "category": "Computer Science",
     "course_name": "Computer Networks",
     "section_no": "L01",
     "instructor": "Dr. Sarah",
-    "meeting_time": "MON & WED 2-3:45 PM",
-    "status": "5 seats left",
-    "students": ["S001", "S005", "S009", "S013", "S017", "S021", "S025", "S029"]
+    "meeting_time": "MON/WED 2-3:45 PM",
+    "total_no_of_seats": 30,
+    "students": ["S001", "S005", "S009", "S013", "S017", "S021", "S025", "S029"],
+    "validated": false
   },
   {
     "id": "CMPE355_L02",
     "course_id": "CMPE355",
-    "category": "Networking",
+    "category": "Computer Science",
     "course_name": "Computer Networks",
     "section_no": "L02",
     "instructor": "Dr. Khalid",
-    "meeting_time": "TUE & THU 10-11:45 AM",
-    "status": "5 seats left",
-    "students": ["S002", "S006", "S010", "S014", "S018", "S022", "S026", "S030"]
+    "meeting_time": "TUE/THU 10-11:45 AM",
+    "total_no_of_seats": 30,
+    "students": ["S002", "S006", "S010", "S014", "S018", "S022", "S026", "S030"],
+    "validated": false
   },
   {
     "id": "CMPS351_L01",
     "course_id": "CMPS351",
-    "category": "Database",
+    "category": "Computer Science",
     "course_name": "Fundamentals of Database Systems",
     "section_no": "L01",
     "instructor": "Dr. Ahmed",
-    "meeting_time": "TUE & THU 9-10:45 AM",
-    "status": "5 seats left",
-    "students": ["S003", "S007", "S011", "S015", "S019", "S023", "S027"]
+    "meeting_time": "TUE/THU 9-10:45 AM",
+    "total_no_of_seats": 30,
+    "students": ["S003", "S007", "S011", "S015", "S019", "S023", "S027"],
+    "validated": false
   },
   {
     "id": "CMPS351_L02",
     "course_id": "CMPS351",
-    "category": "Database",
+    "category": "Computer Science",
     "course_name": "Fundamentals of Database Systems",
     "section_no": "L02",
     "instructor": "Dr. Yasir",
-    "meeting_time": "MON & WED 12-1:45 PM",
-    "status": "5 seats left",
-    "students": ["S004", "S008", "S012", "S016", "S020", "S024", "S028"]
+    "meeting_time": "MON/WED 12-1:45 PM",
+    "total_no_of_seats": 30,
+    "students": ["S004", "S008", "S012", "S016", "S020", "S024", "S028"],
+    "validated": false
   },
   {
     "id": "CMPS380_L01",
     "course_id": "CMPS380",
-    "category": "Cybersecurity",
+    "category": "Computer Science",
     "course_name": "Fundamentals of Cybersecurity",
     "section_no": "L01",
     "instructor": "Dr. Noor",
-    "meeting_time": "MON & WED 4-5:45 PM",
-    "status": "5 seats left",
-    "students": ["S001", "S006", "S011", "S016", "S021", "S026"]
+    "meeting_time": "MON/WED 4-5:45 PM",
+    "total_no_of_seats": 30,
+    "students": ["S001", "S006", "S011", "S016", "S021", "S026"],
+    "validated": false
   },
   {
     "id": "CMPS380_L02",
     "course_id": "CMPS380",
-    "category": "Cybersecurity",
+    "category": "Computer Science",
     "course_name": "Fundamentals of Cybersecurity",
     "section_no": "L02",
     "instructor": "Dr. Kareem",
-    "meeting_time": "TUE & THU 8-9:45 AM",
-    "status": "5 seats left",
-    "students": ["S002", "S007", "S012", "S017", "S022", "S027"]
+    "meeting_time": "TUE/THU 8-9:45 AM",
+    "total_no_of_seats": 30,
+    "students": ["S002", "S007", "S012", "S017", "S022", "S027"],
+    "validated": false
   },
   {
     "id": "CMPS310_L01",
     "course_id": "CMPS310",
-    "category": "Software Engineering",
+    "category": "Computer Science",
     "course_name": "Software Engineering",
     "section_no": "L01",
     "instructor": "Dr. Fatima",
-    "meeting_time": "MON & WED 11-12:45 PM",
-    "status": "5 seats left",
-    "students": ["S001", "S002"]  
+    "meeting_time": "MON/WED 11-12:45 PM",
+    "total_no_of_seats": 30,
+    "students": ["S001", "S002"],
+    "validated": false
   },
   {
     "id": "CMPS310_L02",
     "course_id": "CMPS310",
-    "category": "Software Engineering",
+    "category": "Computer Science",
     "course_name": "Software Engineering",
     "section_no": "L02",
     "instructor": "Dr. Sami",
-    "meeting_time": "TUE & THU 3-4:45 PM",
-    "status": "5 seats left",
-    "students": ["S001", "S002"]  
+    "meeting_time": "TUE/THU 3-4:45 PM",
+    "total_no_of_seats": 30,
+    "students": ["S001", "S002"],
+    "validated": false
   },
   {
     "id": "CMPS405_L01",
     "course_id": "CMPS405",
-    "category": "Systems",
+    "category": "Computer Science",
     "course_name": "Operating Systems",
     "section_no": "L01",
     "instructor": "Dr. Hadi",
-    "meeting_time": "MON & WED 10-11:45 AM",
-    "status": "5 seats left",
-    "students": ["S001", "S002"]  
+    "meeting_time": "MON/WED 10-11:45 AM",
+    "total_no_of_seats": 30,
+    "students": ["S001", "S002"],
+    "validated": false
   },
   {
     "id": "CMPS405_L02",
     "course_id": "CMPS405",
-    "category": "Systems",
+    "category": "Computer Science",
     "course_name": "Operating Systems",
     "section_no": "L02",
     "instructor": "Dr. Sarah",
-    "meeting_time": "TUE & THU 12-1:45 PM",
-    "status": "5 seats left",
-    "students": ["S001", "S002"]  
+    "meeting_time": "TUE/THU 12-1:45 PM",
+    "total_no_of_seats": 30,
+    "students": ["S001", "S002"],
+    "validated": false
   },
   {
     "id": "CMPS312_L01",
     "course_id": "CMPS312",
-    "category": "Software",
+    "category": "Computer Science",
     "course_name": "Mobile Application Development",
     "section_no": "L01",
     "instructor": "Dr. Nabil",
-    "meeting_time": "TUE & THU 5-6:45 PM",
-    "status": "5 seats left",
-    "students": ["S001", "S002"]  
+    "meeting_time": "TUE/THU 5-6:45 PM",
+    "total_no_of_seats": 30,
+    "students": ["S001", "S002"],
+    "validated": false
   },
   {
     "id": "CMPS323_L01",
     "course_id": "CMPS323",
-    "category": "Programming",
+    "category": "Computer Science",
     "course_name": "Algorithms",
     "section_no": "L01",
     "instructor": "Dr. Layla",
-    "meeting_time": "MON & WED 2-3:45 PM",
-    "status": "5 seats left",
-    "students": ["S001", "S002"]  
+    "meeting_time": "MON/WED 2-3:45 PM",
+    "total_no_of_seats": 30,
+    "students": ["S001", "S002"],
+    "validated": false
   },
   {
     "id": "CMPS323_L02",
     "course_id": "CMPS323",
-    "category": "Programming",
+    "category": "Computer Science",
     "course_name": "Algorithms",
     "section_no": "L02",
     "instructor": "Dr. Omar",
-    "meeting_time": "TUE & THU 10-11:45 AM",
-    "status": "5 seats left",
-    "students": ["S001", "S002"]  
+    "meeting_time": "TUE/THU 10-11:45 AM",
+    "total_no_of_seats": 30,
+    "students": ["S001", "S002"],
+    "validated": false
   },
   {
     "id": "Math201_L01",
@@ -193,9 +210,10 @@
     "course_name": "Statistics",
     "section_no": "L01",
     "instructor": "Dr. Ayman",
-    "meeting_time": "MON & WED 1-2:45 PM",
-    "status": "5 seats left",
-    "students": ["S001", "S002"]  
+    "meeting_time": "MON/WED 1-2:45 PM",
+    "total_no_of_seats": 30,
+    "students": ["S001", "S002"],
+    "validated": false
   },
   {
     "id": "Math201_L02",
@@ -204,12 +222,13 @@
     "course_name": "Statistics",
     "section_no": "L02",
     "instructor": "Dr. Reem",
-    "meeting_time": "TUE & THU 9-10:45 AM",
-    "status": "5 seats left",
+    "meeting_time": "TUE/THU 9-10:45 AM",
+    "total_no_of_seats": 30,
     "students": [
       "S001", "S002", "S003", "S004", "S005", "S006", "S007", "S008", "S009", "S010", 
       "S011", "S012", "S013", "S014", "S015", "S016", "S017", "S018", "S019", "S020", 
       "S021", "S022", "S023", "S024", "S025", "S026", "S027", "S028", "S029", "S030"
-    ]     
+    ],
+    "validated": false
   }
 ]

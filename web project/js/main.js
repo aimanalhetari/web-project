@@ -1,19 +1,32 @@
 document.addEventListener("DOMContentLoaded", () => {
-    let allCourses = [];
+    
     const container = document.querySelector("#courses-container");
     const searchField = document.querySelector("#search-textfield");
     const searchButton = document.querySelector("#search-button");
 
     // Fetch and load courses
-    fetch("json_files/courses.json")
-        .then(response => response.json())
-        .then(courses => {
-            allCourses = courses;
-            displayCourses(allCourses);
-        })
-        .catch(error => console.error("Error fetching course data:", error));
 
+    function fetchCourses(){
+    let allCourses = localStorage.getItem('courses')? JSON.parse(localStorage.getItem('courses')):[];
+    
+        if (allCourses.length==0){
+            console.log("there is no courses in local storage");
+            
+            fetch("json_files/courses.json")
+                .then(response => response.json())
+                .then(courses => {
+                    allCourses = courses;
+                    displayCourses(allCourses);
+                    localStorage.setItem('courses',JSON.stringify(allCourses));
+                })
+                .catch(error => console.error("Error fetching course data:", error));
+            }
+            displayCourses(allCourses);
+    }
+    fetchCourses()
     function displayCourses(filteredCourses) {
+        console.log("rendering courses");
+        
         container.innerHTML = "";
         filteredCourses.forEach(course => {
             const section = document.createElement("section");
