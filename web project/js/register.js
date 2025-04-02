@@ -138,7 +138,7 @@ function processCourseRegistration(courses, classes, loggedInUser, courseId, sec
 
     // Check if student has completed prerequisites
     const missingPrerequisites = course.prerequisite.filter(prereq => 
-        !loggedInUser.completedCourses.includes(prereq)
+        !loggedInUser.completedCourses.some(completed => completed.courseId === prereq)
     );
 
     if (missingPrerequisites.length > 0) {
@@ -153,6 +153,15 @@ function processCourseRegistration(courses, classes, loggedInUser, courseId, sec
 // Function to register the student
 function registerStudent(student, courseId, section, classes) {
     student.in_progress_courses = student.in_progress_courses || []; // Ensure array exists
+
+    // Check if the student has already completed the course
+    const isCourseCompleted = student.completedCourses.some(completed => completed.courseId === courseId);
+    
+    if (isCourseCompleted) {
+        alert("You already completed this course.");
+        return;
+    }
+
 
     if (student.in_progress_courses.includes(courseId)) {
         alert("You are already registered for this course.");

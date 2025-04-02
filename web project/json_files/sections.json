@@ -8,7 +8,7 @@
     "instructor": "Dr. Ali",
     "meeting_time": "MON/WED 9-10:45 AM",
     "total_no_of_seats": 30,
-    "students": ["S001", "S002", "S005", "S009", "S013", "S017", "S021", "S025", "S028"],
+    "students": ["S005"],
     "validated": false
   },
   {
@@ -20,7 +20,7 @@
     "instructor": "Dr. Sara",
     "meeting_time": "TUE/THU 1-2:45 PM",
     "total_no_of_seats": 30,
-    "students": ["S002", "S006", "S010", "S014", "S018", "S022", "S026", "S030"],
+    "students": [],
     "validated": false
   },
   {
@@ -32,7 +32,7 @@
     "instructor": "Dr. Omar",
     "meeting_time": "TUE/THU 11-12:45 PM",
     "total_no_of_seats": 30,
-    "students": ["S003", "S007", "S011", "S015", "S019", "S023", "S027"],
+    "students": [],
     "validated": false
   },
   {
@@ -44,7 +44,7 @@
     "instructor": "Dr. Mona",
     "meeting_time": "MON/WED 3-4:45 PM",
     "total_no_of_seats": 30,
-    "students": ["S004", "S008", "S012", "S016", "S020", "S024", "S028", "S029"],
+    "students": [],
     "validated": false
   },
   {
@@ -56,7 +56,7 @@
     "instructor": "Dr. Sarah",
     "meeting_time": "MON/WED 2-3:45 PM",
     "total_no_of_seats": 30,
-    "students": ["S001", "S005", "S009", "S013", "S017", "S021", "S025", "S029"],
+    "students": ["S005"],
     "validated": false
   },
   {
@@ -68,7 +68,7 @@
     "instructor": "Dr. Khalid",
     "meeting_time": "TUE/THU 10-11:45 AM",
     "total_no_of_seats": 30,
-    "students": ["S002", "S006", "S010", "S014", "S018", "S022", "S026", "S030"],
+    "students": ["S006"],
     "validated": false
   },
   {
@@ -80,7 +80,7 @@
     "instructor": "Dr. Ahmed",
     "meeting_time": "TUE/THU 9-10:45 AM",
     "total_no_of_seats": 30,
-    "students": ["S003", "S007", "S011", "S015", "S019", "S023", "S027"],
+    "students": [],
     "validated": false
   },
   {
@@ -92,7 +92,7 @@
     "instructor": "Dr. Yasir",
     "meeting_time": "MON/WED 12-1:45 PM",
     "total_no_of_seats": 30,
-    "students": ["S004", "S008", "S012", "S016", "S020", "S024", "S028"],
+    "students": ["S004"],
     "validated": false
   },
   {
@@ -104,7 +104,7 @@
     "instructor": "Dr. Noor",
     "meeting_time": "MON/WED 4-5:45 PM",
     "total_no_of_seats": 30,
-    "students": ["S001", "S006", "S011", "S016", "S021", "S026"],
+    "students": [],
     "validated": false
   },
   {
@@ -116,7 +116,7 @@
     "instructor": "Dr. Kareem",
     "meeting_time": "TUE/THU 8-9:45 AM",
     "total_no_of_seats": 30,
-    "students": ["S002", "S007", "S012", "S017", "S022", "S027"],
+    "students": [],
     "validated": false
   },
   {
@@ -128,7 +128,7 @@
     "instructor": "Dr. Fatima",
     "meeting_time": "MON/WED 11-12:45 PM",
     "total_no_of_seats": 30,
-    "students": ["S001", "S002"],
+    "students": ["S002"],
     "validated": false
   },
   {
@@ -140,7 +140,7 @@
     "instructor": "Dr. Sami",
     "meeting_time": "TUE/THU 3-4:45 PM",
     "total_no_of_seats": 30,
-    "students": ["S001", "S002"],
+    "students": [],
     "validated": false
   },
   {
@@ -152,7 +152,7 @@
     "instructor": "Dr. Hadi",
     "meeting_time": "MON/WED 10-11:45 AM",
     "total_no_of_seats": 30,
-    "students": ["S001", "S002"],
+    "students": [],
     "validated": false
   },
   {
@@ -164,7 +164,7 @@
     "instructor": "Dr. Sarah",
     "meeting_time": "TUE/THU 12-1:45 PM",
     "total_no_of_seats": 30,
-    "students": ["S001", "S002"],
+    "students": [],
     "validated": false
   },
   {
@@ -176,7 +176,7 @@
     "instructor": "Dr. Nabil",
     "meeting_time": "TUE/THU 5-6:45 PM",
     "total_no_of_seats": 30,
-    "students": ["S001", "S002"],
+    "students": ["S002"],
     "validated": false
   },
   {
@@ -188,7 +188,7 @@
     "instructor": "Dr. Layla",
     "meeting_time": "MON/WED 2-3:45 PM",
     "total_no_of_seats": 30,
-    "students": ["S001", "S002"],
+    "students": ["S004"],
     "validated": false
   },
   {
@@ -200,7 +200,7 @@
     "instructor": "Dr. Omar",
     "meeting_time": "TUE/THU 10-11:45 AM",
     "total_no_of_seats": 30,
-    "students": ["S001", "S002"],
+    "students": ["S006"],
     "validated": false
   },
   {
@@ -212,7 +212,7 @@
     "instructor": "Dr. Ayman",
     "meeting_time": "MON/WED 1-2:45 PM",
     "total_no_of_seats": 30,
-    "students": ["S001", "S002"],
+    "students": [],
     "validated": false
   },
   {
@@ -225,7 +225,7 @@
     "meeting_time": "TUE/THU 9-10:45 AM",
     "total_no_of_seats": 30,
     "students": [
-      "S001", "S002", "S003", "S004", "S005", "S006", "S007", "S008", "S009", "S010", 
+      "S002", "S003", "S004", "S005", "S006", "S007", "S008", "S009", "S010", 
       "S011", "S012", "S013", "S014", "S015", "S016", "S017", "S018", "S019", "S020", 
       "S021", "S022", "S023", "S024", "S025", "S026", "S027", "S028", "S029", "S030"
     ],

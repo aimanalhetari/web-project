@@ -99,7 +99,7 @@
     "course_code": "CMPE355",
     "title": "Computer Networks",
     "category": "Networking",
-    "prerequisite": ["CMPS303"],
+    "prerequisite": [],
     "description": "Introduction to network architectures, protocols, and security concepts in modern networking systems.",
     "institution": "QU-CENG",
     "start_date": "Jun 15, 2022",
