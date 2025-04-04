@@ -34,51 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Initialize by loading all courses
     fetchCourses();
 
-    // Fetch and load courses
-    function fetchCourses(){
-        // NEW CODE: Check if courses exist in localStorage
-        let storedCourses = localStorage.getItem('courses');
-        
-        if (storedCourses) {
-            // NEW CODE: Parse and use courses from localStorage
-            allCourses = JSON.parse(storedCourses);
-            displayCourses(allCourses);
-        } else {
-            console.log("No courses in local storage, fetching from JSON file");
-            
-            fetch("json_files/courses.json")
-                .then(response => response.json())
-                .then(courses => {
-                    // NEW CODE: Store fetched courses in the allCourses variable
-                    allCourses = courses;
-                    displayCourses(allCourses);
-                    localStorage.setItem('courses', JSON.stringify(allCourses));
-                })
-                .catch(error => console.error("Error fetching course data:", error));
-        }
-    }
-
-    // Initialize by loading all courses
-    fetchCourses();
-
-    function fetchCourses(){
-    let allCourses = localStorage.getItem('courses')? JSON.parse(localStorage.getItem('courses')):[];
-    
-        if (allCourses.length==0){
-            console.log("there is no courses in local storage");
-            
-            fetch("json_files/courses.json")
-                .then(response => response.json())
-                .then(courses => {
-                    allCourses = courses;
-                    displayCourses(allCourses);
-                    localStorage.setItem('courses',JSON.stringify(allCourses));
-                })
-                .catch(error => console.error("Error fetching course data:", error));
-            }
-            displayCourses(allCourses);
-    }
-    fetchCourses()
     function displayCourses(filteredCourses) {
         console.log("Rendering courses");
         
