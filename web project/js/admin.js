@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const currentCourseCodeInput = document.querySelector('#currentCourseCode');
     const instructorsList = document.querySelector('#instructorsList');
 
+
     // Data storage
     let courses = [];
     let classes = [];

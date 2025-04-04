@@ -34,6 +34,24 @@ document.addEventListener("DOMContentLoaded", () => {
     // Initialize by loading all courses
     fetchCourses();
 
+    function fetchCourses(){
+    let allCourses = localStorage.getItem('courses')? JSON.parse(localStorage.getItem('courses')):[];
+    
+        if (allCourses.length==0){
+            console.log("there is no courses in local storage");
+            
+            fetch("json_files/courses.json")
+                .then(response => response.json())
+                .then(courses => {
+                    allCourses = courses;
+                    displayCourses(allCourses);
+                    localStorage.setItem('courses',JSON.stringify(allCourses));
+                })
+                .catch(error => console.error("Error fetching course data:", error));
+            }
+            displayCourses(allCourses);
+    }
+    fetchCourses()
     function displayCourses(filteredCourses) {
         console.log("Rendering courses");
         
