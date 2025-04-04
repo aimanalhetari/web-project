@@ -1,4 +1,7 @@
- * {
+/* No changes needed to the existing CSS rules as they already use class selectors */
+/* We can just remove the progress bar related CSS since we're not using those elements anymore */
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,26 +38,23 @@ body {
     position: sticky;
     top: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+}
   
-  .logo {
+.logo {
     height: 32px;
-  }
+}
   
-  .nav_links {
+.nav_links {
     display: flex;
     gap: 16px;
-  }
+}
   
-  .nav_links a {
+.nav_links a {
     color: white;
     text-decoration: none;
     font-size: 14px;
-  }
-/* --------------------------------- */
+}
 
-
-/* ------------------------------------------------------------ */
 .personal_and_cr_info {
     grid-area: personal_and_cr_info;
     background-color: white;
@@ -82,8 +82,6 @@ body {
     margin-bottom: 20px;
 }
 
-
-
 .current_year {
     background-color: #f0f0f0;
     padding: 10px;
@@ -109,7 +107,6 @@ body {
     font-weight: bold;
     margin: 8px 0;
 }
-
 
 .credit_summary {
     background-color: #f9f9f9;
@@ -140,35 +137,8 @@ body {
     border-top: 1px dashed #ddd;
 }
 
+/* Removed progress bars related CSS */
 
-.progress_container {
-    margin-top: 15px;
-    width: 100%;
-}
-
-.progress_item {
-    margin-bottom: 12px;
-}
-
-.progress_label {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5px;
-}
-
-.progress_bar {
-    height: 8px;
-    background-color: #e0e0e0;
-    border-radius: 4px;
-    /* overflow: hidden; */
-}
-
-.progress_fill {
-    height: 100%;
-    background-color: #6b0f1a;
-}
-
-/* ------------------------------------- */
 .main {
     grid-area: main;
     background-color: white;
@@ -191,9 +161,8 @@ body {
     margin-bottom: 15px;
 }
 
-
 .search_input {
-    width: 100%;;
+    width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -219,7 +188,6 @@ body {
 .course_section {
     border: 1px solid #ddd;
     border-radius: 8px;
-    /* overflow: hidden; */
 }
 
 .section_header {
@@ -261,8 +229,6 @@ body {
     padding: 8px;
     border-bottom: 1px solid #eee;
 }
-
-
 
 .courses_table tr:hover {
     background-color: #f9f9f9;
@@ -360,12 +326,9 @@ body {
 
     .filter_container {
         flex-direction: column;
-
         justify-content: space-between;
         margin-bottom: 20px;
     }
-
-    
 
     .filter_dropdown {
         width: auto;

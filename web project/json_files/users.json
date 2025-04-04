@@ -6,9 +6,42 @@
       "userName": "student1@example.com",
       "password": "student123",
       "gpa": 3.7,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303", "CMPS350"],
-      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "A-" },
+        { "code": "ENGL202", "title": "English Language I", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "HIST121", "title": "History of Qatar", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS251", "title": "Object-Oriented Programming", "credit": 4, "semester": "Spring 2022", "grade": "A" },
+        { "code": "ENGL203", "title": "English Language II", "credit": 3, "semester": "Spring 2022", "grade": "B+" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2022", "grade": "B" },
+        { "code": "ARAB100", "title": "Arabic Language I", "credit": 3, "semester": "Spring 2022", "grade": "A-" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "ARAB200", "title": "Arabic Language II", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPE263", "CMPS303"] },
+        { "code": "CMPS380", "title": "Fundamentals of Cybersecurity", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPE355"] },
+        { "code": "GENG300", "title": "Numerical Methods", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["MATH102", "MATH231", "CMPS151"] }
+      ]
     },
     {
       "id": "S002",
@@ -16,9 +49,41 @@
       "userName": "student2@example.com",
       "password": "student456",
       "gpa": 3.9,
-      "completedCourses": ["CMPS251", "CMPS303", "Math201"],
-      "in_progress_courses": ["CMPS380", "CMPS310"],
-      "remaining_courses": ["CMPS351", "CMPS350", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "ENGL202", "title": "English Language I", "credit": 3, "semester": "Fall 2021", "grade": "A-" },
+        { "code": "CHEM101", "title": "General Chemistry I", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS251", "title": "Object-Oriented Programming", "credit": 4, "semester": "Spring 2022", "grade": "A" },
+        { "code": "ENGL203", "title": "English Language II", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Spring 2022", "grade": "A" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2022", "grade": "A-" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS380", "title": "Fundamentals of Cybersecurity", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS307", "title": "Intro to Project Management and Entrepreneurship", "credit": 2, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MAGT101", "title": "Principles of Management", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS351", "title": "Fundamentals of Database Systems", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communication and Computer Networks I", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "year": "Year 2 - Spring", "prerequisites": ["CMPS151", "CMPS303"] }
+      ]
     },
     {
       "id": "S003",
@@ -26,9 +91,41 @@
       "userName": "student3@example.com",
       "password": "student789",
       "gpa": 3.5,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "ENGL202", "title": "English Language I", "credit": 3, "semester": "Fall 2021", "grade": "A-" },
+        { "code": "HIST121", "title": "History of Qatar", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS251", "title": "Object-Oriented Programming", "credit": 4, "semester": "Spring 2022", "grade": "B" },
+        { "code": "PHYS191", "title": "General Physics for Engineering I", "credit": 3, "semester": "Spring 2022", "grade": "B+" },
+        { "code": "PHYS192", "title": "Experimental General Physics for Engineering I", "credit": 1, "semester": "Spring 2022", "grade": "A-" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2022", "grade": "B" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "PHYS193", "title": "General Physics for Engineering II", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "PHYS194", "title": "Experimental General Physics for Engineering II", "credit": 1, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS151", "CMPS303"] },
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
     },
     {
       "id": "S004",
@@ -36,9 +133,41 @@
       "userName": "student4@example.com",
       "password": "student101",
       "gpa": 3.8,
-      "completedCourses": ["CMPS251", "CMPS303", "Math201"],
-      "in_progress_courses": ["CMPS350"],
-      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Omar Hassan",
+        "advisor_office": "B06-244",
+        "advisor_email": "o.hassan@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "A-" },
+        { "code": "ENGL202", "title": "English Language I", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "CHEM101", "title": "General Chemistry I", "credit": 3, "semester": "Fall 2021", "grade": "A-" },
+        { "code": "CMPS251", "title": "Object-Oriented Programming", "credit": 4, "semester": "Spring 2022", "grade": "A" },
+        { "code": "ENGL203", "title": "English Language II", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Spring 2022", "grade": "A-" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS351", "title": "Fundamentals of Database Systems", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "GENG200", "title": "Probability & Statistics", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS307", "title": "Intro to Project Management and Entrepreneurship", "credit": 2, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "GENG300", "title": "Numerical Methods", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["MATH102", "MATH231", "CMPS151"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
     },
     {
       "id": "S005",
@@ -46,9 +175,40 @@
       "userName": "student5@example.com",
       "password": "student112",
       "gpa": 3.6,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Sara Mahmoud",
+        "advisor_office": "B06-230",
+        "advisor_email": "s.mahmoud@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A-" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "ENGL202", "title": "English Language I", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "HIST121", "title": "History of Qatar", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "ARAB100", "title": "Arabic Language I", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "PHYS191", "title": "General Physics for Engineering I", "credit": 3, "semester": "Spring 2022", "grade": "B+" },
+        { "code": "PHYS192", "title": "Experimental General Physics for Engineering I", "credit": 1, "semester": "Spring 2022", "grade": "A-" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object-Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "PHYS193", "title": "General Physics for Engineering II", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "PHYS194", "title": "Experimental General Physics for Engineering II", "credit": 1, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "ENGL203", "title": "English Language II", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS303", "CMPS205"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
     },
     {
       "id": "S006",
@@ -56,9 +216,39 @@
       "userName": "student6@example.com",
       "password": "student223",
       "gpa": 3.8,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS350"],
-      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "A-" },
+        { "code": "ENGL202", "title": "English Language I", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "HIST121", "title": "History of Qatar", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2022", "grade": "B+" },
+        { "code": "ENGL203", "title": "English Language II", "credit": 3, "semester": "Spring 2022", "grade": "A-" },
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Spring 2022", "grade": "B+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object-Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS307", "title": "Intro to Project Management and Entrepreneurship", "credit": 2, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "GENG200", "title": "Probability & Statistics", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "DAWA111", "title": "Islamic Culture", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS303", "CMPS205"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
     },
     {
       "id": "S007",
@@ -66,9 +256,41 @@
       "userName": "student7@example.com",
       "password": "student334",
       "gpa": 3.4,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Omar Hassan",
+        "advisor_office": "B06-244",
+        "advisor_email": "o.hassan@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "ENGL202", "title": "English Language I", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "HIST121", "title": "History of Qatar", "credit": 3, "semester": "Fall 2021", "grade": "A-" },
+        { "code": "CMPS251", "title": "Object-Oriented Programming", "credit": 4, "semester": "Spring 2022", "grade": "B+" },
+        { "code": "ENGL203", "title": "English Language II", "credit": 3, "semester": "Spring 2022", "grade": "B" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2022", "grade": "B" },
+        { "code": "ARAB100", "title": "Arabic Language I", "credit": 3, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS380", "title": "Fundamentals of Cybersecurity", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "ARAB200", "title": "Arabic Language II", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS151", "CMPS303"] },
+        { "code": "GENG300", "title": "Numerical Methods", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["MATH102", "MATH231", "CMPS151"] }
+      ]
     },
     {
       "id": "S008",
@@ -76,9 +298,41 @@
       "userName": "student8@example.com",
       "password": "student445",
       "gpa": 3.2,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B-" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "C+" },
+        { "code": "ENGL202", "title": "English Language I", "credit": 3, "semester": "Fall 2021", "grade": "B-" },
+        { "code": "CHEM101", "title": "General Chemistry I", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "CMPS251", "title": "Object-Oriented Programming", "credit": 4, "semester": "Spring 2022", "grade": "B" },
+        { "code": "ENGL203", "title": "English Language II", "credit": 3, "semester": "Spring 2022", "grade": "B" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2022", "grade": "C+" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A-" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS307", "title": "Intro to Project Management and Entrepreneurship", "credit": 2, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MAGT101", "title": "Principles of Management", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "GENG200", "title": "Probability & Statistics", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "DAWA111", "title": "Islamic Culture", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
     },
     {
       "id": "S009",
@@ -86,9 +340,40 @@
       "userName": "student9@example.com",
       "password": "student556",
       "gpa": 3.7,
-      "completedCourses": ["CMPS251", "CMPS303", "Math201"],
-      "in_progress_courses": ["CMPS350"],
-      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Sara Mahmoud",
+        "advisor_office": "B06-230",
+        "advisor_email": "s.mahmoud@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "A-" },
+        { "code": "ENGL202", "title": "English Language I", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "HIST121", "title": "History of Qatar", "credit": 3, "semester": "Fall 2021", "grade": "A-" },
+        { "code": "CMPS251", "title": "Object-Oriented Programming", "credit": 4, "semester": "Spring 2022", "grade": "A-" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Spring 2022", "grade": "B+" },
+        { "code": "ENGL203", "title": "English Language II", "credit": 3, "semester": "Spring 2022", "grade": "A-" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2022", "grade": "B+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS351", "title": "Fundamentals of Database Systems", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "DAWA111", "title": "Islamic Culture", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS151", "CMPS303"] },
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
     },
     {
       "id": "S010",
@@ -96,230 +381,53 @@
       "userName": "student10@example.com",
       "password": "student667",
       "gpa": 3.9,
-      "completedCourses": ["CMPS251", "CMPS303", "Math201"],
-      "in_progress_courses": ["CMPS350"],
-      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S011",
-      "name": "Yasir Faris",
-      "userName": "student11@example.com",
-      "password": "student778",
-      "gpa": 3.3,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S012",
-      "name": "Fatima Al Farsi",
-      "userName": "student12@example.com",
-      "password": "student889",
-      "gpa": 3.5,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS350"],
-      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S013",
-      "name": "Mariam Ali",
-      "userName": "student13@example.com",
-      "password": "student900",
-      "gpa": 3.6,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S014",
-      "name": "Omar Nasser",
-      "userName": "student14@example.com",
-      "password": "student1011",
-      "gpa": 3.8,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS350"],
-      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S015",
-      "name": "Huda Fathi",
-      "userName": "student15@example.com",
-      "password": "student1122",
-      "gpa": 3.4,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S016",
-      "name": "Samir Nabil",
-      "userName": "student16@example.com",
-      "password": "student1233",
-      "gpa": 3.7,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S017",
-      "name": "Ahmed Nabil",
-      "userName": "student17@example.com",
-      "password": "student1344",
-      "gpa": 3.3,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S018",
-      "name": "Layla Omar",
-      "userName": "student18@example.com",
-      "password": "student1455",
-      "gpa": 3.9,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S019",
-      "name": "Yara Khaled",
-      "userName": "student19@example.com",
-      "password": "student1566",
-      "gpa": 3.6,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S020",
-      "name": "Amina Hussein",
-      "userName": "student20@example.com",
-      "password": "student1677",
-      "gpa": 3.5,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S021",
-      "name": "Ahmed Zaki",
-      "userName": "student21@example.com",
-      "password": "student1788",
-      "gpa": 3.8,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS350"],
-      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S022",
-      "name": "Nadia Ibrahim",
-      "userName": "student22@example.com",
-      "password": "student1899",
-      "gpa": 3.9,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S023",
-      "name": "Hassan Waleed",
-      "userName": "student23@example.com",
-      "password": "student2000",
-      "gpa": 3.7,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S024",
-      "name": "Fayrouz Issam",
-      "userName": "student24@example.com",
-      "password": "student2111",
-      "gpa": 3.4,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS350"],
-      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S025",
-      "name": "Rania Mansour",
-      "userName": "student25@example.com",
-      "password": "student2222",
-      "gpa": 3.5,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS350"],
-      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S026",
-      "name": "Maha Fadi",
-      "userName": "student26@example.com",
-      "password": "student2333",
-      "gpa": 3.7,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S027",
-      "name": "Rami Fathi",
-      "userName": "student27@example.com",
-      "password": "student2444",
-      "gpa": 3.8,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S028",
-      "name": "Jamal Abdul",
-      "userName": "student28@example.com",
-      "password": "student2555",
-      "gpa": 3.6,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS350"],
-      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S029",
-      "name": "Lamis Zaid",
-      "userName": "student29@example.com",
-      "password": "student2666",
-      "gpa": 3.7,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS303"],
-      "remaining_courses": ["CMPS350", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
-    },
-    {
-      "id": "S030",
-      "name": "Tamer Fadi",
-      "userName": "student30@example.com",
-      "password": "student2777",
-      "gpa": 3.5,
-      "completedCourses": ["CMPS251", "Math201"],
-      "in_progress_courses": ["CMPS350"],
-      "remaining_courses": ["CMPS351", "CMPS380", "CMPS310", "CMPS405", "CMPE355", "CMPS312", "ENGR460", "CMPS323"]
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A+" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "ENGL202", "title": "English Language I", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "HIST121", "title": "History of Qatar", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Spring 2022", "grade": "A" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "ENGL203", "title": "English Language II", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2022", "grade": "A-" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object-Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPE355", "title": "Data Communication and Computer Networks I", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MAGT101", "title": "Principles of Management", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS351", "title": "Fundamentals of Database Systems", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS151", "CMPS303"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "GENG300", "title": "Numerical Methods", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["MATH102", "MATH231", "CMPS151"] }
+      ]
     }
   ],
-  "instructors": [
-    {"name": "Dr. Ali", "userName": "ali@example.com", "password": "password123", "sections": ["CMPS251_L01"]},
-    {"name": "Dr. Sara", "userName": "sara@example.com", "password": "password123", "sections": ["CMPS251_L02"]},
-    {"name": "Dr. Omar", "userName": "omar@example.com", "password": "password123", "sections": ["CMPS303_L01", "CMPS323_L02"]},
-    {"name": "Dr. Mona", "userName": "mona@example.com", "password": "password123", "sections": ["CMPS303_L02"]},
-    {"name": "Dr. Sarah", "userName": "sarah@example.com", "password": "password123", "sections": ["CMPE355_L01", "CMPS405_L02"]},
-    {"name": "Dr. Khalid", "userName": "khalid@example.com", "password": "password123", "sections": ["CMPE355_L02"]},
-    {"name": "Dr. Ahmed", "userName": "ahmed@example.com", "password": "password123", "sections": ["CMPS351_L01"]},
-    {"name": "Dr. Yasir", "userName": "yasir@example.com", "password": "password123", "sections": ["CMPS351_L02"]},
-    {"name": "Dr. Noor", "userName": "noor@example.com", "password": "password123", "sections": ["CMPS380_L01"]},
-    {"name": "Dr. Kareem", "userName": "kareem@example.com", "password": "password123", "sections": ["CMPS380_L02"]},
-    {"name": "Dr. Fatima", "userName": "fatima@example.com", "password": "password123", "sections": ["CMPS310_L01"]},
-    {"name": "Dr. Sami", "userName": "sami@example.com", "password": "password123", "sections": ["CMPS310_L02"]},
-    {"name": "Dr. Hadi", "userName": "hadi@example.com", "password": "password123", "sections": ["CMPS405_L01"]},
-    {"name": "Dr. Nabil", "userName": "nabil@example.com", "password": "password123", "sections": ["CMPS312_L01"]},
-    {"name": "Dr. Layla", "userName": "layla@example.com", "password": "password123", "sections": ["CMPS323_L01"]},
-    {"name": "Dr. Ayman", "userName": "ayman@example.com", "password": "password123", "sections": ["Math201_L01"]},
-    {"name": "Dr. Reem", "userName": "reem@example.com", "password": "password123", "sections": ["Math201_L02"]}
-  ],
+"instructors": [
+  { "id": "I001", "name": "Dr. Ali", "userName": "ali@example.com", "password": "password123", "sections": ["CMPS151_L01", "CMPS251_L01", "CMPS200_L01", "CMPE263_L01", "CMPS405_L01"] },
+  { "id": "I002", "name": "Dr. Sara", "userName": "sara@example.com", "password": "password123", "sections": ["CMPS151_L02", "CMPS251_L02", "CMPS205_L01", "CMPS323_L01", "GENG200_L01", "CMPS350_L02"] },
+  { "id": "I003", "name": "Dr. Omar", "userName": "omar@example.com", "password": "password123", "sections": ["MATH101_L02", "CMPS303_L01", "CMPS323_L02", "CMPS310_L01", "CMPS380_L01"] },
+  { "id": "I004", "name": "Dr. Mona", "userName": "mona@example.com", "password": "password123", "sections": ["MATH101_L01", "CMPS303_L02", "MATH231_L01", "CMPS310_L02", "CMPS380_L02", "CMPS350_L01"] },
+  { "id": "I005", "name": "Dr. Sarah", "userName": "sarah@example.com", "password": "password123", "sections": ["ENGL202_L01", "ENGL203_L01", "CMPE355_L01", "CMPS405_L02", "MAGT101_L01"] },
+  { "id": "I006", "name": "Dr. Khalid", "userName": "khalid@example.com", "password": "password123", "sections": ["CHEM103_L01", "PHYS191_L01", "PHYS193_L01", "CMPE355_L02", "CMPS307_L01"] },
+  { "id": "I007", "name": "Dr. Ahmed", "userName": "ahmed@example.com", "password": "password123", "sections": ["HIST121_L01", "PHYS192_L01", "ARAB100_L01", "CMPS351_L01", "ARAB200_L01", "DAWA111_L01"] },
+  { "id": "I008", "name": "Dr. Yasir", "userName": "yasir@example.com", "password": "password123", "sections": ["CHEM101_L01", "MATH102_L01", "PHYS194_L01", "CMPS351_L02", "GENG300_L01"] }
+],
   "admins": [
     {
       "userName": "admin1@example.com",

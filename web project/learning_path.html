@@ -12,28 +12,28 @@
         <header class="header">
             <img src="images/CustomNavigationLogo.png" alt="Qatar University Logo" class="logo">
             <nav class="nav_links">
-                <a href="#">Home</a>
+                <a href="./main.html">Home</a>
                 <a href="#">Profile</a>
-                <a href="#">Sign out</a>
+                <a href="#" class="sign-out">Sign out</a>
             </nav>
         </header>
 
         <!-- info about student and his credit hours -->
         <aside class="personal_and_cr_info">
             <div class="profile">
-                <div class="profile_img">Student</div>
-                <h3>Ahmed Al-Mansouri</h3>
-                <p>Computer Science</p>
-                <p>ID: 20210123</p>
+                <div class="profile_img profile-initial">S</div>
+                <h3 class="student-name">Loading...</h3>
+                <p class="student-major">Computer Science</p>
+                <p class="student-id">ID: Loading...</p>
             </div>
 
-            <div class="current_year">
-                Current Year: Second Year (Fall Semester)
+            <div class="current_year current-year">
+                Current Year: Loading...
             </div>
 
             <div class="gpa_container">
                 <h3>Cumulative GPA</h3>
-                <div class="gpa_value">3.75</div>
+                <div class="gpa_value gpa-value">0.00</div>
                 <p>Out of 4.0</p>
             </div>
 
@@ -45,80 +45,27 @@
                 </div>
                 <div class="credit_item">
                     <p>Completed:</p>
-                    <p>33 CR</p>
+                    <p class="completed-credits">0 CR</p>
                 </div>
                 <div class="credit_item">
                     <p>In Progress:</p>
-                    <p>16 CR</p>
+                    <p class="in-progress-credits">0 CR</p>
                 </div>
                 <div class="credit_item">
                     <p>Pending:</p>
-                    <p>17 CR</p>
+                    <p class="pending-credits">0 CR</p>
                 </div>
                 <div class="credit_item remaining_credit">
                     <p>Remaining:</p>
-                    <p>54 CR</p>
-                </div>
-            </div>
-
-            <h3>Degree Progress</h3>
-            <div class="progress_container">
-                <div class="progress_item">
-                    <div class="progress_label">
-                        <p>Core Curriculum</p>
-                        <p>60%</p>
-                    </div>
-                    <div class="progress_bar">
-                        <div class="progress_fill" style="width: 60%;"></div>
-                    </div>
-                </div>
-
-                <div class="progress_item">
-                    <div class="progress_label">
-                        <p>College Requirements</p>
-                        <p>48%</p>
-                    </div>
-                    <div class="progress_bar">
-                        <div class="progress_fill" style="width: 48%;"></div>
-                    </div>
-                </div>
-
-                <div class="progress_item">
-                    <div class="progress_label">
-                        <p>Major Requirements</p>
-                        <p>35%</p>
-                    </div>
-                    <div class="progress_bar">
-                        <div class="progress_fill" style="width: 35%;"></div>
-                    </div>
-                </div>
-
-                <div class="progress_item">
-                    <div class="progress_label">
-                        <p>Major Electives</p>
-                        <p>25%</p>
-                    </div>
-                    <div class="progress_bar">
-                        <div class="progress_fill" style="width: 25%;"></div>
-                    </div>
-                </div>
-
-                <div class="progress_item">
-                    <div class="progress_label">
-                        <p>Overall Progress</p>
-                        <p>41%</p>
-                    </div>
-                    <div class="progress_bar">
-                        <div class="progress_fill" style="width: 41%;"></div>
-                    </div>
+                    <p class="remaining-credits">0 CR</p>
                 </div>
             </div>
 
             <div class="advisor">
                 <h3>Academic Advisor</h3>
-                <p>Dr. Fatima Al-Thani</p>
-                <p>Office: B06-234</p>
-                <p>Email: f.althani@qu.edu.qa</p>
+                <p class="advisor-name">Loading...</p>
+                <p class="advisor-office">Office: Loading...</p>
+                <p class="advisor-email">Email: Loading...</p>
             </div>
         </aside>
 
@@ -128,373 +75,21 @@
             
             <div class="filter_container">
                 <form action="">
-                        <div class=""></div>
-                        <input type="text" class="search_input" placeholder="Search for courses...">
+                    <div class=""></div>
+                    <input type="text" class="search_input search-courses" placeholder="Search for courses...">
                     
-                    <select class="filter_dropdown">
+                    <select class="filter_dropdown filter-dropdown">
                         <option value="all">All Courses</option>
                         <option value="in-progress">In Progress</option>
                         <option value="pending">Pending</option>
+                        <option value="completed">Completed</option>
                         <option value="remaining">Remaining</option>
                     </select>
                 </form>
             </div>
             
-            <div class="course_sections">
-                <!-- In Progress Courses Section -->
-                <div class="course_section">
-                    <div class="section_header in_progress_header">
-                        <h2>In Progress Courses</h2>
-                    </div>
-                    <table class="courses_table">
-                        <thead>
-                            <tr>
-                                <th>Course Code</th>
-                                <th>Course Title</th>
-                                <th>Credits</th>
-                                <th>Semester</th>
-                                <th>Status</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="course_code">CMPS 200</td>
-                                <td>Computer Ethics</td>
-                                <td class="credits">1</td>
-                                <td class="semester_label">Fall 2022</td>
-                                <td>In Progress</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPS 205</td>
-                                <td>Discrete Structures for Computing</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Fall 2022</td>
-                                <td>In Progress</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPS 303</td>
-                                <td>Data Structures</td>
-                                <td class="credits">4</td>
-                                <td class="semester_label">Fall 2022</td>
-                                <td>In Progress</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">PHYS 193</td>
-                                <td>General Physics for Engineering II</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Fall 2022</td>
-                                <td>In Progress</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">PHYS 194</td>
-                                <td>Experimental General Physics for Engineering II</td>
-                                <td class="credits">1</td>
-                                <td class="semester_label">Fall 2022</td>
-                                <td>In Progress</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">ARAB 100</td>
-                                <td>Arabic Language I</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Fall 2022</td>
-                                <td>In Progress</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Pending Courses Section -->
-                <div class="course_section">
-                    <div class="section_header pending_header">
-                        <h2>Pending Courses (Registration Open)</h2>
-                    </div>
-                    <table class="courses_table">
-                        <thead>
-                            <tr>
-                                <th>Course Code</th>
-                                <th>Course Title</th>
-                                <th>Credits</th>
-                                <th>Semester</th>
-                                <th>Status</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="course_code">CMPS 323</td>
-                                <td>Design and Analysis of Algorithms</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Spring 2023</td>
-                                <td>Registration Confirmed</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPS 351</td>
-                                <td>Fundamentals of Database Systems</td>
-                                <td class="credits">4</td>
-                                <td class="semester_label">Spring 2023</td>
-                                <td>Registration Confirmed</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPE 263</td>
-                                <td>Computer Architecture and Organization I</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Spring 2023</td>
-                                <td>Registration Confirmed</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">GENG 200</td>
-                                <td>Probability and Statistics for Engineers</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Spring 2023</td>
-                                <td>Registration Confirmed</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">ARAB 200</td>
-                                <td>Arabic Language II</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Spring 2023</td>
-                                <td>Registration Confirmed</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Completed Courses Section -->
-                <div class="course_section">
-                    <div class="section_header completed_header">
-                        <h2>Completed Courses</h2>
-                    </div>
-                    <table class="courses_table">
-                        <thead>
-                            <tr>
-                                <th>Course Code</th>
-                                <th>Course Title</th>
-                                <th>Credits</th>
-                                <th>Semester</th>
-                                <th>Grade</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="course_code">CMPS 151</td>
-                                <td>Programming Concepts</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Fall 2021</td>
-                                <td class="grade grade_a">A</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CHEM 101</td>
-                                <td>General Chemistry I</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Fall 2021</td>
-                                <td class="grade grade_b">B+</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CHEM 103</td>
-                                <td>Experimental General Chemistry I</td>
-                                <td class="credits">1</td>
-                                <td class="semester_label">Fall 2021</td>
-                                <td class="grade grade_a">A</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">MATH 101</td>
-                                <td>Calculus I</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Fall 2021</td>
-                                <td class="grade grade_a">A</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">ENGL 202</td>
-                                <td>English Language I Post Foundation</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Fall 2021</td>
-                                <td class="grade grade_b">B</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">HIST 121</td>
-                                <td>History of Qatar</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Fall 2021</td>
-                                <td class="grade grade_a">A</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPS 251</td>
-                                <td>Object-Oriented Programming</td>
-                                <td class="credits">4</td>
-                                <td class="semester_label">Spring 2022</td>
-                                <td class="grade grade_a">A</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">PHYS 191</td>
-                                <td>General Physics for Engineering I</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Spring 2022</td>
-                                <td class="grade grade_b">B+</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">PHYS 192</td>
-                                <td>Experimental General Physics for Engineering I</td>
-                                <td class="credits">1</td>
-                                <td class="semester_label">Spring 2022</td>
-                                <td class="grade grade_a">A</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">MATH 231</td>
-                                <td>Linear Algebra</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Spring 2022</td>
-                                <td class="grade grade_b">B</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">MATH 102</td>
-                                <td>Calculus II</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Spring 2022</td>
-                                <td class="grade grade_a">A</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">ENGL 203</td>
-                                <td>English Language II Post Foundation</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Spring 2022</td>
-                                <td class="grade grade_b">B+</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- Remaining Courses Section -->
-                <div class="course_section">
-                    <div class="section_header remaining_header">
-                        <h2>Remaining Courses</h2>
-                    </div>
-                    <table class="courses_table">
-                        <thead>
-                            <tr>
-                                <th>Course Code</th>
-                                <th>Course Title</th>
-                                <th>Credits</th>
-                                <th>Year</th>
-                                <th>Prerequisites</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="course_code">CMPS 310</td>
-                                <td>Software Engineering</td>
-                                <td class="credits">4</td>
-                                <td class="semester_label">Year 3 - Fall</td>
-                                <td>CMPS 303</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPE 355</td>
-                                <td>Data Communication and Computer Networks I</td>
-                                <td class="credits">4</td>
-                                <td class="semester_label">Year 3 - Fall</td>
-                                <td>CMPE 263</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPS 385</td>
-                                <td>Computer Security</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Year 3 - Fall</td>
-                                <td>CMPS 303</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPS 350</td>
-                                <td>Web Development Fundamentals</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Year 3 - Spring</td>
-                                <td>CMPS 251</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPS 405</td>
-                                <td>Operating Systems</td>
-                                <td class="credits">4</td>
-                                <td class="semester_label">Year 3 - Spring</td>
-                                <td>CMPS 303, CMPE 263</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">GENG 300</td>
-                                <td>Numerical Methods</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Year 3 - Spring</td>
-                                <td>MATH 102</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">DAWA 111</td>
-                                <td>Islamic Culture</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Year 3 - Spring</td>
-                                <td>None</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="course_code">CMPS 493</td>
-                                <td>Senior Project I</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Year 4 - Fall</td>
-                                <td>CMPS 310, 75 CH</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPS 307</td>
-                                <td>Introduction to Project Management and Entrepreneurship</td>
-                                <td class="credits">2</td>
-                                <td class="semester_label">Year 4 - Fall</td>
-                                <td>CMPS 310</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPS 499</td>
-                                <td>Senior Project II</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Year 4 - Spring</td>
-                                <td>CMPS 493</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">MAGT 101</td>
-                                <td>Principles of Management</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Year 4 - Spring</td>
-                                <td>None</td>
-                            </tr>
-                            
-                            <tr>
-                                <td class="course_code">CMPS 312</td>
-                                <td>Mobile Application Development (Elective)</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Elective</td>
-                                <td>CMPS 251</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPS 356</td>
-                                <td>Web Applications Design and Development (Elective)</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Elective</td>
-                                <td>CMPS 350</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPS 360</td>
-                                <td>Data Science Fundamentals (Elective)</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Elective</td>
-                                <td>CMPS 303</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPS 403</td>
-                                <td>Artificial Intelligence (Elective)</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Elective</td>
-                                <td>CMPS 303</td>
-                            </tr>
-                            <tr>
-                                <td class="course_code">CMPS 460</td>
-                                <td>Machine Learning (Elective)</td>
-                                <td class="credits">3</td>
-                                <td class="semester_label">Elective</td>
-                                <td>CMPS 303, GENG 200</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+            <div class="course_sections course-sections">
+                <!-- Course sections will be dynamically generated here -->
             </div>
         </main>
 
@@ -508,5 +103,7 @@
             </div>
         </footer>
     </div>
+
+    <script src="js/learning_path.js"></script>
 </body>
 </html>
