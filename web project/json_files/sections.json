@@ -236,8 +236,7 @@
       "S001",
       "S003",
       "S005",
-      "S007",
-      "S009"
+      "S007"
     ],
     "validated": false
   },
@@ -439,7 +438,6 @@
     "meeting_time": "MON/WED 10-11:45 AM",
     "total_no_of_seats": 30,
     "students": [
-      "S001",
       "S003",
       "S005",
       "S007"

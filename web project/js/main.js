@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
     
     const container = document.querySelector("#courses-container");
     const searchField = document.querySelector("#search-textfield");
-    const searchButton = document.querySelector("#search-button");
 
     // NEW CODE: Define allCourses variable at a scope accessible to all functions
     let allCourses = [];
@@ -17,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
             allCourses = JSON.parse(storedCourses);
             displayCourses(allCourses);
         } else {
-            console.log("No courses in local storage, fetching from JSON file");
+            console.log("No courses in local storage fetching from JSON file");
             
             fetch("json_files/courses.json")
                 .then(response => response.json())
@@ -111,7 +110,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // NEW CODE: Add event listeners for search functionality
     searchField.addEventListener("input", searchCourses);
-    searchButton.addEventListener("click", searchCourses);
 
     // Handle sign out functionality
     const signOutLink = document.querySelector(".nav_links a[href='login.html']");

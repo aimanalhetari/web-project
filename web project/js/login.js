@@ -21,20 +21,37 @@ document.addEventListener("DOMContentLoaded", () => {
         const email = document.querySelector(emailSelector).value;
         const password = document.querySelector(passwordSelector).value;
 
-        fetch("json_files/users.json")
-            .then(response => response.json())
-            .then(users => {
-                const userList = users[userType];
-                const user = userList.find(user => user.userName === email && user.password === password);
+        //NEW: 10/04/2025
+        // Check if users data exists in local storage first
+        const usersFromStorage = localStorage.getItem("users");
+        if (usersFromStorage) {
+            const users = JSON.parse(usersFromStorage);
+            processLogin(users, userType, email, password, redirectPage);
+        } else {
+            // If not in local storage, fetch from users.json
+            fetch("json_files/users.json")
+                .then(response => response.json())
+                .then(users => {
+                    // Save users data to local storage
+                    localStorage.setItem("users", JSON.stringify(users));
+                    processLogin(users, userType, email, password, redirectPage);
+                })
+                .catch(error => console.error("Error loading users.json:", error));
+        }
+    }
 
-                if (user) {
-                    localStorage.setItem("loggedInUser", JSON.stringify(user)); // Save user info
-                    window.location.href = redirectPage; // Redirect based on user type
-                } else {
-                    alert("Invalid credentials. Please try again.");
-                }
-            })
-            .catch(error => console.error("Error loading users.json:", error));
+    //NEW: 10/04/2025
+    // Helper function to process login after getting users data
+    function processLogin(users, userType, email, password, redirectPage) {
+        const userList = users[userType];
+        const user = userList.find(user => user.userName === email && user.password === password);
+
+        if (user) {
+            localStorage.setItem("loggedInUser", JSON.stringify(user)); // Save user info
+            window.location.href = redirectPage; // Redirect based on user type
+        } else {
+            alert("Invalid credentials. Please try again.");
+        }
     }
 
     // Add event listeners for login buttons

@@ -151,7 +151,7 @@ function processCourseRegistration(courses, classes, loggedInUser, courseId, sec
 
     // Check if student is already registered for this section
     if (section.students.includes(loggedInUser.id)) {
-        alert("You are already registered for this section.");
+        alert("You are already taking this course this semester.");
         return;
     }
 
@@ -162,11 +162,11 @@ function processCourseRegistration(courses, classes, loggedInUser, courseId, sec
 
     // Check if student is already taking this course
     const isInProgress = loggedInUser.in_progress_courses.some(
-        course => (typeof course === 'object' ? course.code === courseId : course === courseId)
+        course => (course.code === courseId)
     );
     
     if (isInProgress) {
-        alert("You are already taking this course.");
+        alert("You are already taking this course this semester.");
         return;
     }
 
