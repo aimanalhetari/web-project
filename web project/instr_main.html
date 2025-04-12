@@ -20,6 +20,11 @@
         </div>
     </header>
     
+    <div class="section-tabs">
+        <button id="in-progress-tab" class="tab-btn active">Current Classes</button>
+        <button id="pending-tab" class="tab-btn">Upcoming Classes</button>
+        <button id="completed-tab" class="tab-btn">Completed Classes</button>
+    </div>
 
     <main class="table" id="customers_table">
         <section class="table__header">
@@ -35,14 +40,12 @@
                         <th> Section No <span class="icon-arrow">&UpArrow;</span></th>
                         <th> Instructor <span class="icon-arrow">&UpArrow;</span></th>
                         <th> Meeting Time <span class="icon-arrow">&UpArrow;</span></th>
-                        <!-- NEW CODE: Added validation status column -->
-                        <th> Validation <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Status <span class="icon-arrow">&UpArrow;</span></th>
                         <th> Action <span class="icon-arrow">&UpArrow;</span></th>
                     </tr>
                 </thead>
                 <tbody>
                     <!-- JS logic here -->
-                    
                 </tbody>
             </table>
         </section>

@@ -2,9 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initializePage();
 });
 
-// Check if section is selected and redirect if not
 function initializePage() {
-    // Retrieve the selected section from localStorage
     const selectedSection = JSON.parse(localStorage.getItem("selectedSection"));
 
     if (!selectedSection) {
@@ -17,22 +15,29 @@ function initializePage() {
     fetchStudentsData(selectedSection);
 }
 
-// Setup all event listeners
 function setupEventListeners(selectedSection) {
-    // Setup event listeners for sign out button
     const signOutLink = document.querySelector('nav ul li:nth-child(2) a');
     if (signOutLink) {
         signOutLink.addEventListener('click', handleSignOut);
     }
 
-    // Handle form submission
     document.querySelector("form").addEventListener("submit", (event) => {
         event.preventDefault();
+        
+        if (selectedSection.status === "pending") {
+            alert("This section has not started yet, you cannot submit grades.");
+            return;
+        }
+        
+        if (selectedSection.status === "completed") {
+            alert("This section is already completed. Grades cannot be submitted again.");
+            return;
+        }
+        
         submitGrades(selectedSection);
     });
 }
 
-// Fetch students data from JSON file
 function fetchStudentsData(selectedSection) {
     fetch("json_files/users.json")
         .then(response => response.json())
@@ -43,16 +48,14 @@ function fetchStudentsData(selectedSection) {
 
             populateGradesTable(students);
 
-            // Save updated users object in localStorage
             localStorage.setItem("users", JSON.stringify(users));
         })
         .catch(error => console.error("Error loading users.json:", error));
 }
 
-// Populate the grades table with student data
 function populateGradesTable(students) {
     const tableBody = document.querySelector("tbody");
-    tableBody.innerHTML = ""; // Clear existing rows
+    tableBody.innerHTML = ""; 
 
     if (students.length === 0) {
         tableBody.innerHTML = `<tr><td colspan="3">No students found for this section.</td></tr>`;
@@ -81,60 +84,60 @@ function populateGradesTable(students) {
     }
 }
 
-// Process and submit grades
+
+
 function submitGrades(selectedSection) {
-    // Retrieve users from local storage
     const users = JSON.parse(localStorage.getItem("users"));
     if (!users) {
         alert("Error: No users data found.");
         return;
     }
 
-    // Get selected grades
+    let sections = JSON.parse(localStorage.getItem("classes"));
+    if (!sections) {
+        alert("Error: No sections data found.");
+        return;
+    }
+
+    const processedStudentIds = [];
+
     document.querySelectorAll(".grade-select").forEach(select => {
         const studentId = select.dataset.studentId;
         const selectedGrade = select.value;
 
         updateStudentRecord(users, studentId, selectedGrade, selectedSection);
+        processedStudentIds.push(studentId);
     });
 
-    // Save updated users data back to local storage
+    
+    const sectionIndex = sections.findIndex(section => section.id === selectedSection.id);
+    if (sectionIndex !== -1) {
+        sections[sectionIndex].status = "completed";
+    }
+
     localStorage.setItem("users", JSON.stringify(users));
+    localStorage.setItem("classes", JSON.stringify(sections));
 
-    alert("Grades successfully submitted, and courses marked as completed.");
+    alert("Grades successfully submitted, and section marked as completed.");
 
-    // Redirect back to the instructor home page
     window.location.href = "instr_main.html";
 }
 
-// Update an individual student's record with their grade
 function updateStudentRecord(users, studentId, selectedGrade, selectedSection) {
-    // Find the student in the users data
     const student = users.students.find(s => s.id === studentId);
     if (student) {
-        console.log("Student found: ", student);
+        let courseFound = false;
         
-        // Find the course in in_progress_courses
-        const courseIndex = student.in_progress_courses.findIndex(
-            course => course.code === selectedSection.course_id
-        );
+        const inProgressIndex = student.in_progress_courses ? 
+            student.in_progress_courses.findIndex(course => course.code === selectedSection.course_id) : -1;
         
-        console.log("Selected course ID: ", selectedSection.course_id);
-        console.log("Course Index: ", courseIndex);
-        
-        if (courseIndex !== -1) {
-            console.log("Course found in in_progress_courses:", selectedSection.course_id);
+        if (inProgressIndex !== -1) {
+            const courseInfo = student.in_progress_courses[inProgressIndex];
             
-            // Get the course info before removing it
-            const courseInfo = student.in_progress_courses[courseIndex];
+            student.in_progress_courses.splice(inProgressIndex, 1);
             
-            // Remove from in_progress_courses
-            student.in_progress_courses.splice(courseIndex, 1);
-            
-            // Ensure completedCourses is an array
             student.completedCourses = student.completedCourses || [];
 
-            // Add course with grade to completedCourses
             student.completedCourses.push({
                 code: courseInfo.code,
                 title: courseInfo.title,
@@ -142,11 +145,16 @@ function updateStudentRecord(users, studentId, selectedGrade, selectedSection) {
                 semester: courseInfo.semester,
                 grade: selectedGrade
             });
+            
+            courseFound = true;
         }
+        
+        
     }
 }
 
-// Handle sign out functionality
+
+
 function handleSignOut(e) {
     e.preventDefault();
     localStorage.removeItem('loggedInUser');

@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -57,6 +56,51 @@ header img{
     font-weight: bold;
   }
 
+.section-tabs {
+    width: 90vw;
+    display: flex;
+    margin-top: 1rem;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    overflow: hidden;
+}
+
+tbody tr.completed-section {
+    border-left: 4px solid #3b82f6; 
+}
+
+.status-badge.completed {
+    background-color: #3b82f6;
+    color: #ffffff;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 0.8rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.tab-btn.active {
+    background-color: #043927;
+    color: white;
+}
+
+.tab-btn:hover:not(.active) {
+    background-color: #d0d0d0;
+}
+
+.tab-btn:first-child {
+    border-top-left-radius: 0.8rem;
+}
+
+.tab-btn:last-child {
+    border-top-right-radius: 0.8rem;
+}
 
 .grey{
   color: dimgray;
@@ -76,13 +120,12 @@ body {
 
 main.table {
     width: 90vw;
-    height: 78.2vh;
+    height: 70vh; 
     background-color: #fff5;
 
     backdrop-filter: blur(7px);
     box-shadow: 0 .4rem .8rem #0005;
-    border-radius: .8rem;
-    margin-top: 1rem;
+    border-radius: 0 0 .8rem .8rem; 
     margin-bottom: 1rem;
     overflow: hidden;
     grid-area: main;
@@ -152,11 +195,51 @@ tbody tr:nth-child(even) {
     background-color: #0000000b;
 }
 
-
-tbody tr:hover {
-    background-color: #c9e7cd ;
+tbody tr.pending-section {
+    border-left: 4px solid #FFC72C;
 }
 
+tbody tr.in-progress-section {
+    border-left: 4px solid #22c55e;
+}
+
+tbody tr:hover {
+    background-color: #c9e7cd;
+}
+
+.validation-status {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.validation-status.validated {
+    color: #22c55e;
+}
+
+.validation-status.not-validated {
+    color: #ef4444;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.status-badge.pending {
+    background-color: #FFC72C;
+    color: #7c5800;
+}
+
+.status-badge.in_progress {
+    background-color: #22c55e;
+    color: #024922;
+}
 
 .view-grades {
     padding: .4rem 0;
@@ -188,10 +271,6 @@ footer{
     color: white;
 }
 
-
-
-
-
 @media (max-width: 1000px) {
     td:not(:first-of-type) {
         min-width: 12.1rem;
@@ -217,10 +296,16 @@ thead th:hover {
       padding-right: 1rem;
     }
   
+    .section-tabs {
+        width: 90vw;
+        margin-left: 3rem;
+        margin-right: 2rem;
+        align-self: center;
+    }
 
     main.table {
         width: 90vw;
-        height: 82.5vh;
+        height: 76vh; 
         margin-left: 3rem;
         margin-right: 2rem;
         align-self: center;
@@ -232,9 +317,3 @@ thead th:hover {
         margin-bottom: 0.7rem;
     }
 }
-
-
-
-
-
-

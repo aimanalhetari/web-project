@@ -5,16 +5,13 @@
     "category": "Computer Science",
     "course_name": "Programming Concepts",
     "section_no": "L01",
+    "instructor_id": "I001",
     "instructor": "Dr. Ali",
     "meeting_time": "MON/WED 9-10:45 AM",
     "total_no_of_seats": 30,
-    "students": [
-      "S001",
-      "S003",
-      "S005",
-      "S007"
-    ],
-    "validated": false
+    "students": [],
+    "validated": true,
+    "status": "in_progress"
   },
   {
     "id": "CMPS151_L02",
@@ -22,113 +19,13 @@
     "category": "Computer Science",
     "course_name": "Programming Concepts",
     "section_no": "L02",
-    "instructor": "Dr. Sara",
+    "instructor_id": "I001",
+    "instructor": "Dr. Ali",
     "meeting_time": "TUE/THU 1-2:45 PM",
     "total_no_of_seats": 30,
-    "students": [
-      "S002",
-      "S004",
-      "S006",
-      "S008"
-    ],
-    "validated": false
-  },
-  {
-    "id": "ENGL202_L01",
-    "course_id": "ENGL202",
-    "category": "English",
-    "course_name": "English Language I",
-    "section_no": "L01",
-    "instructor": "Dr. Sarah",
-    "meeting_time": "MON/WED 11-12:45 PM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S001",
-      "S002",
-      "S005"
-    ],
-    "validated": false
-  },
-  {
-    "id": "HIST121_L01",
-    "course_id": "HIST121",
-    "category": "Arabic and Islamic",
-    "course_name": "History of Qatar",
-    "section_no": "L01",
-    "instructor": "Dr. Ahmed",
-    "meeting_time": "TUE/THU 9-10:45 AM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S003",
-      "S007",
-      "S009"
-    ],
-    "validated": false
-  },
-  {
-    "id": "CHEM101_L01",
-    "course_id": "CHEM101",
-    "category": "Science",
-    "course_name": "General Chemistry I",
-    "section_no": "L01",
-    "instructor": "Dr. Yasir",
-    "meeting_time": "MON/WED 2-3:45 PM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S002",
-      "S004",
-      "S010"
-    ],
-    "validated": false
-  },
-  {
-    "id": "CHEM103_L01",
-    "course_id": "CHEM103",
-    "category": "Science",
-    "course_name": "Experimental General Chemistry I",
-    "section_no": "L01",
-    "instructor": "Dr. Khalid",
-    "meeting_time": "TUE/THU 10-11:45 AM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S001",
-      "S005",
-      "S007"
-    ],
-    "validated": false
-  },
-  {
-    "id": "MATH101_L01",
-    "course_id": "MATH101",
-    "category": "Mathematics",
-    "course_name": "Calculus I",
-    "section_no": "L01",
-    "instructor": "Dr. Mona",
-    "meeting_time": "MON/WED 9-10:45 AM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S003",
-      "S006",
-      "S009"
-    ],
-    "validated": false
-  },
-  {
-    "id": "MATH101_L02",
-    "course_id": "MATH101",
-    "category": "Mathematics",
-    "course_name": "Calculus I",
-    "section_no": "L02",
-    "instructor": "Dr. Omar",
-    "meeting_time": "TUE/THU 1-2:45 PM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S002",
-      "S004",
-      "S008",
-      "S010"
-    ],
-    "validated": false
+    "students": [],
+    "validated": false,
+    "status": "pending"
   },
   {
     "id": "CMPS251_L01",
@@ -136,13 +33,16 @@
     "category": "Computer Science",
     "course_name": "Object Oriented Programming",
     "section_no": "L01",
+    "instructor_id": "I001",
     "instructor": "Dr. Ali",
     "meeting_time": "MON/WED 9-10:45 AM",
     "total_no_of_seats": 30,
     "students": [
-      "S005"
+      "S005", 
+      "S006"
     ],
-    "validated": false
+    "validated": true,
+    "status": "in_progress"
   },
   {
     "id": "CMPS251_L02",
@@ -150,95 +50,13 @@
     "category": "Computer Science",
     "course_name": "Object Oriented Programming",
     "section_no": "L02",
-    "instructor": "Dr. Sara",
+    "instructor_id": "I001",
+    "instructor": "Dr. Ali",
     "meeting_time": "TUE/THU 1-2:45 PM",
     "total_no_of_seats": 30,
-    "students": [
-      "S006",
-      "S010"
-    ],
-    "validated": false
-  },
-  {
-    "id": "ENGL203_L01",
-    "course_id": "ENGL203",
-    "category": "English",
-    "course_name": "English Language II",
-    "section_no": "L01",
-    "instructor": "Dr. Sarah",
-    "meeting_time": "MON/WED 2-3:45 PM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S001",
-      "S002",
-      "S007"
-    ],
-    "validated": false
-  },
-  {
-    "id": "PHYS191_L01",
-    "course_id": "PHYS191",
-    "category": "Science",
-    "course_name": "General Physics for Engineering I",
-    "section_no": "L01",
-    "instructor": "Dr. Khalid",
-    "meeting_time": "TUE/THU 10-11:45 AM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S003",
-      "S005",
-      "S009"
-    ],
-    "validated": false
-  },
-  {
-    "id": "PHYS192_L01",
-    "course_id": "PHYS192",
-    "category": "Science",
-    "course_name": "Experimental General Physics for Engineering I",
-    "section_no": "L01",
-    "instructor": "Dr. Ahmed",
-    "meeting_time": "MON/WED 3-4:45 PM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S003",
-      "S005"
-    ],
-    "validated": false
-  },
-  {
-    "id": "MATH102_L01",
-    "course_id": "MATH102",
-    "category": "Mathematics",
-    "course_name": "Calculus II",
-    "section_no": "L01",
-    "instructor": "Dr. Yasir",
-    "meeting_time": "TUE/THU 11-12:45 PM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S002",
-      "S004",
-      "S006",
-      "S008"
-    ],
-    "validated": false
-  },
-  {
-    "id": "ARAB100_L01",
-    "course_id": "ARAB100",
-    "category": "Arabic and Islamic",
-    "course_name": "Arabic Language I",
-    "section_no": "L01",
-    "instructor": "Dr. Ahmed",
-    "meeting_time": "MON/WED 12-1:45 PM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S001",
-      "S003",
-      "S005",
-      "S007"
-    ],
-    "validated": false
+    "students": [],
+    "validated": false,
+    "status": "pending"
   },
   {
     "id": "CMPS303_L01",
@@ -246,16 +64,21 @@
     "category": "Computer Science",
     "course_name": "Data Structures",
     "section_no": "L01",
-    "instructor": "Dr. Omar",
+    "instructor_id": "I002",
+    "instructor": "Dr. Sara",
     "meeting_time": "TUE/THU 11-12:45 PM",
     "total_no_of_seats": 30,
     "students": [
       "S001",
+      "S002",
       "S003",
+      "S004",
       "S007",
-      "S005"
+      "S008",
+      "S009"
     ],
-    "validated": false
+    "validated": true,
+    "status": "in_progress"
   },
   {
     "id": "CMPS303_L02",
@@ -263,30 +86,16 @@
     "category": "Computer Science",
     "course_name": "Data Structures",
     "section_no": "L02",
-    "instructor": "Dr. Mona",
+    "instructor_id": "I002",
+    "instructor": "Dr. Sara",
     "meeting_time": "MON/WED 3-4:45 PM",
     "total_no_of_seats": 30,
     "students": [
-      "S004",
-      "S008"
-    ],
-    "validated": false
-  },
-  {
-    "id": "CMPS205_L01",
-    "course_id": "CMPS205",
-    "category": "Mathematics",
-    "course_name": "Discrete Structures",
-    "section_no": "L01",
-    "instructor": "Dr. Sara",
-    "meeting_time": "TUE/THU 8-9:45 AM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S002",
       "S006",
       "S010"
     ],
-    "validated": false
+    "validated": false,
+    "status": "pending"
   },
   {
     "id": "CMPS200_L01",
@@ -294,61 +103,35 @@
     "category": "Computer Science",
     "course_name": "Computer Ethics",
     "section_no": "L01",
-    "instructor": "Dr. Ali",
+    "instructor_id": "I002",
+    "instructor": "Dr. Sara",
     "meeting_time": "MON 1-2:45 PM",
     "total_no_of_seats": 30,
     "students": [
-      "S001"
+      "S001",
+      "S010"
     ],
-    "validated": false
+    "validated": true,
+    "status": "in_progress"
   },
   {
-    "id": "PHYS193_L01",
-    "course_id": "PHYS193",
-    "category": "Science",
-    "course_name": "General Physics for Engineering II",
-    "section_no": "L01",
-    "instructor": "Dr. Khalid",
-    "meeting_time": "MON/WED 4-5:45 PM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S003",
-      "S005",
-      "S009"
-    ],
-    "validated": false
-  },
-  {
-    "id": "PHYS194_L01",
-    "course_id": "PHYS194",
-    "category": "Science",
-    "course_name": "Experimental General Physics for Engineering II",
-    "section_no": "L01",
-    "instructor": "Dr. Yasir",
-    "meeting_time": "TUE/THU 2-3:45 PM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S003",
-      "S005"
-    ],
-    "validated": false
-  },
-  {
-    "id": "MATH231_L01",
-    "course_id": "MATH231",
-    "category": "Mathematics",
-    "course_name": "Linear Algebra",
-    "section_no": "L01",
-    "instructor": "Dr. Mona",
-    "meeting_time": "MON/WED 1-2:45 PM",
+    "id": "CMPS200_L02",
+    "course_id": "CMPS200",
+    "category": "Computer Science",
+    "course_name": "Computer Ethics",
+    "section_no": "L02",
+    "instructor_id": "I002",
+    "instructor": "Dr. Sara",
+    "meeting_time": "WED 1-2:45 PM",
     "total_no_of_seats": 30,
     "students": [
       "S002",
+      "S003",
       "S004",
-      "S008",
-      "S010"
+      "S007"
     ],
-    "validated": false
+    "validated": false,
+    "status": "pending"
   },
   {
     "id": "CMPS323_L01",
@@ -356,15 +139,13 @@
     "category": "Computer Science",
     "course_name": "Design & Analysis of Algorithms",
     "section_no": "L01",
-    "instructor": "Dr. Sara",
+    "instructor_id": "I003",
+    "instructor": "Dr. Omar",
     "meeting_time": "MON/WED 2-3:45 PM",
     "total_no_of_seats": 30,
-    "students": [
-      "S001",
-      "S003",
-      "S007"
-    ],
-    "validated": false
+    "students": [],
+    "validated": true,
+    "status": "in_progress"
   },
   {
     "id": "CMPS323_L02",
@@ -372,15 +153,18 @@
     "category": "Computer Science",
     "course_name": "Design & Analysis of Algorithms",
     "section_no": "L02",
+    "instructor_id": "I003",
     "instructor": "Dr. Omar",
     "meeting_time": "TUE/THU 10-11:45 AM",
     "total_no_of_seats": 30,
     "students": [
       "S002",
-      "S004",
-      "S008"
+      "S007",
+      "S008",
+      "S009"
     ],
-    "validated": false
+    "validated": false,
+    "status": "pending"
   },
   {
     "id": "CMPS351_L01",
@@ -388,15 +172,15 @@
     "category": "Computer Science",
     "course_name": "Fundamentals of Database",
     "section_no": "L01",
-    "instructor": "Dr. Ahmed",
+    "instructor_id": "I003",
+    "instructor": "Dr. Omar",
     "meeting_time": "TUE/THU 9-10:45 AM",
     "total_no_of_seats": 30,
     "students": [
-      "S001",
-      "S003",
-      "S007"
+      "S001"
     ],
-    "validated": false
+    "validated": true,
+    "status": "in_progress"
   },
   {
     "id": "CMPS351_L02",
@@ -404,62 +188,16 @@
     "category": "Computer Science",
     "course_name": "Fundamentals of Database",
     "section_no": "L02",
-    "instructor": "Dr. Yasir",
+    "instructor_id": "I003",
+    "instructor": "Dr. Omar",
     "meeting_time": "MON/WED 12-1:45 PM",
     "total_no_of_seats": 30,
     "students": [
-      "S004"
-    ],
-    "validated": false
-  },
-  {
-    "id": "CMPE263_L01",
-    "course_id": "CMPE263",
-    "category": "Computer Engineering",
-    "course_name": "Computer Architecture & Organization I",
-    "section_no": "L01",
-    "instructor": "Dr. Ali",
-    "meeting_time": "TUE/THU 3-4:45 PM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S002",
-      "S006",
+      "S004",
       "S008"
     ],
-    "validated": false
-  },
-  {
-    "id": "ARAB200_L01",
-    "course_id": "ARAB200",
-    "category": "Arabic and Islamic",
-    "course_name": "Arabic Language II",
-    "section_no": "L01",
-    "instructor": "Dr. Ahmed",
-    "meeting_time": "MON/WED 10-11:45 AM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S003",
-      "S005",
-      "S007"
-    ],
-    "validated": false
-  },
-  {
-    "id": "GENG200_L01",
-    "course_id": "GENG200",
-    "category": "Mathematics",
-    "course_name": "Probability & Statistics",
-    "section_no": "L01",
-    "instructor": "Dr. Sara",
-    "meeting_time": "TUE/THU 9-10:45 AM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S002",
-      "S004",
-      "S006",
-      "S010"
-    ],
-    "validated": false
+    "validated": false,
+    "status": "pending"
   },
   {
     "id": "CMPS310_L01",
@@ -467,14 +205,17 @@
     "category": "Computer Science",
     "course_name": "Software Engineering",
     "section_no": "L01",
-    "instructor": "Dr. Omar",
+    "instructor_id": "I004",
+    "instructor": "Dr. Mona",
     "meeting_time": "MON/WED 11-12:45 PM",
     "total_no_of_seats": 30,
     "students": [
       "S002",
+      "S008",
       "S009"
     ],
-    "validated": false
+    "validated": true,
+    "status": "in_progress"
   },
   {
     "id": "CMPS310_L02",
@@ -482,61 +223,16 @@
     "category": "Computer Science",
     "course_name": "Software Engineering",
     "section_no": "L02",
+    "instructor_id": "I004",
     "instructor": "Dr. Mona",
     "meeting_time": "TUE/THU 3-4:45 PM",
     "total_no_of_seats": 30,
     "students": [
-      "S003",
       "S005",
-      "S007"
+      "S006"
     ],
-    "validated": false
-  },
-  {
-    "id": "CMPE355_L01",
-    "course_id": "CMPE355",
-    "category": "Computer Engineering",
-    "course_name": "Data Communications & Networks I",
-    "section_no": "L01",
-    "instructor": "Dr. Sarah",
-    "meeting_time": "MON/WED 2-3:45 PM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S001",
-      "S003",
-      "S005"
-    ],
-    "validated": false
-  },
-  {
-    "id": "CMPE355_L02",
-    "course_id": "CMPE355",
-    "category": "Computer Engineering",
-    "course_name": "Data Communications & Networks I",
-    "section_no": "L02",
-    "instructor": "Dr. Khalid",
-    "meeting_time": "TUE/THU 10-11:45 AM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S010"
-    ],
-    "validated": false
-  },
-  {
-    "id": "GENG300_L01",
-    "course_id": "GENG300",
-    "category": "Mathematics",
-    "course_name": "Numerical Methods",
-    "section_no": "L01",
-    "instructor": "Dr. Yasir",
-    "meeting_time": "MON/WED 8-9:45 AM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S002",
-      "S004",
-      "S008"
-    ],
-    "validated": false
+    "validated": false,
+    "status": "pending"
   },
   {
     "id": "CMPS405_L01",
@@ -544,14 +240,13 @@
     "category": "Computer Science",
     "course_name": "Operating Systems",
     "section_no": "L01",
-    "instructor": "Dr. Ali",
+    "instructor_id": "I004",
+    "instructor": "Dr. Mona",
     "meeting_time": "MON/WED 10-11:45 AM",
     "total_no_of_seats": 30,
-    "students": [
-      "S005",
-      "S007"
-    ],
-    "validated": false
+    "students": [],
+    "validated": true,
+    "status": "in_progress"
   },
   {
     "id": "CMPS405_L02",
@@ -559,15 +254,13 @@
     "category": "Computer Science",
     "course_name": "Operating Systems",
     "section_no": "L02",
-    "instructor": "Dr. Sarah",
+    "instructor_id": "I004",
+    "instructor": "Dr. Mona",
     "meeting_time": "TUE/THU 12-1:45 PM",
     "total_no_of_seats": 30,
-    "students": [
-      "S002",
-      "S004",
-      "S008"
-    ],
-    "validated": false
+    "students": [],
+    "validated": false,
+    "status": "pending"
   },
   {
     "id": "CMPS380_L01",
@@ -575,15 +268,17 @@
     "category": "Computer Science",
     "course_name": "Fundamentals of Cybersecurity",
     "section_no": "L01",
-    "instructor": "Dr. Omar",
+    "instructor_id": "I005",
+    "instructor": "Dr. Sarah",
     "meeting_time": "MON/WED 4-5:45 PM",
     "total_no_of_seats": 30,
     "students": [
-      "S001",
       "S003",
+      "S005",
       "S007"
     ],
-    "validated": false
+    "validated": true,
+    "status": "in_progress"
   },
   {
     "id": "CMPS380_L02",
@@ -591,13 +286,15 @@
     "category": "Computer Science",
     "course_name": "Fundamentals of Cybersecurity",
     "section_no": "L02",
-    "instructor": "Dr. Mona",
+    "instructor_id": "I005",
+    "instructor": "Dr. Sarah",
     "meeting_time": "TUE/THU 8-9:45 AM",
     "total_no_of_seats": 30,
     "students": [
-      "S002"
+      "S010"
     ],
-    "validated": false
+    "validated": false,
+    "status": "pending"
   },
   {
     "id": "CMPS350_L01",
@@ -605,16 +302,17 @@
     "category": "Computer Science",
     "course_name": "Web Development Fundamentals",
     "section_no": "L01",
-    "instructor": "Dr. Mona",
+    "instructor_id": "I005",
+    "instructor": "Dr. Sarah",
     "meeting_time": "MON/WED 9-10:45 AM",
     "total_no_of_seats": 30,
     "students": [
       "S004",
       "S006",
-      "S009",
       "S010"
     ],
-    "validated": false
+    "validated": true,
+    "status": "in_progress"
   },
   {
     "id": "CMPS350_L02",
@@ -622,68 +320,17 @@
     "category": "Computer Science",
     "course_name": "Web Development Fundamentals",
     "section_no": "L02",
-    "instructor": "Dr. Sara",
+    "instructor_id": "I005",
+    "instructor": "Dr. Sarah",
     "meeting_time": "TUE/THU 1-2:45 PM",
     "total_no_of_seats": 30,
     "students": [
       "S001",
       "S003",
-      "S005"
-    ],
-    "validated": false
-  },
-  {
-    "id": "DAWA111_L01",
-    "course_id": "DAWA111",
-    "category": "Arabic and Islamic",
-    "course_name": "Islamic Culture",
-    "section_no": "L01",
-    "instructor": "Dr. Ahmed",
-    "meeting_time": "MON/WED 3-4:45 PM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S001",
-      "S003",
       "S005",
-      "S007",
       "S009"
     ],
-    "validated": false
-  },
-  {
-    "id": "CMPS307_L01",
-    "course_id": "CMPS307",
-    "category": "Business",
-    "course_name": "Intro to Project Management and Entrepreneurship",
-    "section_no": "L01",
-    "instructor": "Dr. Khalid",
-    "meeting_time": "TUE/THU 11-12:45 PM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S002",
-      "S004",
-      "S006",
-      "S008"
-    ],
-    "validated": false
-  },
-  {
-    "id": "MAGT101_L01",
-    "course_id": "MAGT101",
-    "category": "Business",
-    "course_name": "Principles of Management",
-    "section_no": "L01",
-    "instructor": "Dr. Sarah",
-    "meeting_time": "MON/WED 1-2:45 PM",
-    "total_no_of_seats": 30,
-    "students": [
-      "S001",
-      "S002",
-      "S005",
-      "S006",
-      "S009",
-      "S010"
-    ],
-    "validated": false
+    "validated": false,
+    "status": "pending"
   }
 ]

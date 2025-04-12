@@ -3,16 +3,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const container = document.querySelector("#courses-container");
     const searchField = document.querySelector("#search-textfield");
 
-    // NEW CODE: Define allCourses variable at a scope accessible to all functions
     let allCourses = [];
 
-    // Fetch and load courses
     function fetchCourses(){
-        // NEW CODE: Check if courses exist in localStorage
         let storedCourses = localStorage.getItem('courses');
         
         if (storedCourses) {
-            // NEW CODE: Parse and use courses from localStorage
             allCourses = JSON.parse(storedCourses);
             displayCourses(allCourses);
         } else {
@@ -21,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
             fetch("json_files/courses.json")
                 .then(response => response.json())
                 .then(courses => {
-                    // NEW CODE: Store fetched courses in the allCourses variable
                     allCourses = courses;
                     displayCourses(allCourses);
                     localStorage.setItem('courses', JSON.stringify(allCourses));
@@ -30,7 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // Initialize by loading all courses
     fetchCourses();
 
     function displayCourses(filteredCourses) {
@@ -38,7 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
         
         container.innerHTML = "";
         
-        // NEW CODE: Check if any courses match the search criteria
         if (filteredCourses.length === 0) {
             container.innerHTML = `
                 <div class="no-results">
@@ -78,27 +71,23 @@ document.addEventListener("DOMContentLoaded", () => {
             container.appendChild(section);
         });
 
-        // Add event listeners to "Register Now" buttons
         document.querySelectorAll("#register-now").forEach(button => {
             button.addEventListener("click", function () {
                 const courseCode = this.getAttribute("data-course-code");
                 localStorage.setItem("selectedCourse", courseCode);
-                window.location.href = "new_register.html"; // Navigate to register page
+                window.location.href = "new_register.html"; 
             });
         });
     }
 
-    // NEW CODE: Improved searchCourses function
     function searchCourses() {
         const query = searchField.value.trim().toLowerCase();
         
-        // If the search query is empty, display all courses
         if (query === '') {
             displayCourses(allCourses);
             return;
         }
         
-        // Filter courses based on course code, title, or category
         const filteredCourses = allCourses.filter(course =>
             course.course_code.toLowerCase().includes(query) ||
             course.title.toLowerCase().includes(query) ||
@@ -108,17 +97,13 @@ document.addEventListener("DOMContentLoaded", () => {
         displayCourses(filteredCourses);
     }
 
-    // NEW CODE: Add event listeners for search functionality
     searchField.addEventListener("input", searchCourses);
 
-    // Handle sign out functionality
     const signOutLink = document.querySelector(".nav_links a[href='login.html']");
     if (signOutLink) {
         signOutLink.addEventListener("click", function(e) {
             e.preventDefault();
-            // Clear the logged-in user from localStorage
             localStorage.removeItem("loggedInUser");
-            // Redirect to the login page
             window.location.href = "login.html";
         });
     }
