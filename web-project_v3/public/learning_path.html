@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Path</title>
+    <link rel="stylesheet" href="css/learning_path.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Area -->
+        <header class="header">
+            <img src="images/CustomNavigationLogo.png" alt="Qatar University Logo" class="logo">
+            <nav class="nav_links">
+                <a href="./main.html">Home</a>
+                <a href="#">Profile</a>
+                <a href="#" class="sign-out">Sign out</a>
+            </nav>
+        </header>
+
+        <!-- info about student and his credit hours -->
+        <aside class="personal_and_cr_info">
+            <div class="profile">
+                <div class="profile_img profile-initial">S</div>
+                <h3 class="student-name">Loading...</h3>
+                <p class="student-major">Computer Science</p>
+                <p class="student-id">ID: Loading...</p>
+            </div>
+
+            <div class="current_year current-year">
+                Current Year: Loading...
+            </div>
+
+            <div class="gpa_container">
+                <h3>Cumulative GPA</h3>
+                <div class="gpa_value gpa-value">0.00</div>
+                <p>Out of 4.0</p>
+            </div>
+
+            <div class="credit_summary">
+                <h3>Credit Hours Summary</h3>
+                <div class="credit_item">
+                    <p>Program Total:</p>
+                    <p>120 CR</p>
+                </div>
+                <div class="credit_item">
+                    <p>Completed:</p>
+                    <p class="completed-credits">0 CR</p>
+                </div>
+                <div class="credit_item">
+                    <p>In Progress:</p>
+                    <p class="in-progress-credits">0 CR</p>
+                </div>
+                <div class="credit_item">
+                    <p>Pending:</p>
+                    <p class="pending-credits">0 CR</p>
+                </div>
+                <div class="credit_item remaining_credit">
+                    <p>Remaining:</p>
+                    <p class="remaining-credits">0 CR</p>
+                </div>
+            </div>
+
+            <div class="advisor">
+                <h3>Academic Advisor</h3>
+                <p class="advisor-name">Loading...</p>
+                <p class="advisor-office">Office: Loading...</p>
+                <p class="advisor-email">Email: Loading...</p>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main">
+            <h1 class="path_title">PROFILE</h1>
+            
+            <div class="filter_container">
+                <form action="">
+                    <div class=""></div>
+                    <input type="text" class="search_input search-courses" placeholder="Search for courses...">
+                    
+                    <select class="filter_dropdown filter-dropdown">
+                        <option value="all">All Courses</option>
+                        <option value="in-progress">In Progress</option>
+                        <option value="pending">Pending</option>
+                        <option value="completed">Completed</option>
+                        <option value="remaining">Remaining</option>
+                    </select>
+                </form>
+            </div>
+            
+            <div class="course_sections course-sections">
+                <!-- Course sections will be dynamically generated here -->
+            </div>
+        </main>
+
+        <!-- Footer Area -->
+        <footer class="footer">
+            <div>© 2025 Qatar University. All rights reserved.</div>
+            <div class="footer_links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/learning_path.js"></script>
+</body>
+</html>

@@ -1,0 +1,336 @@
+[
+  {
+    "id": "CMPS151_L01",
+    "course_id": "CMPS151",
+    "category": "Computer Science",
+    "course_name": "Programming Concepts",
+    "section_no": "L01",
+    "instructor_id": "I001",
+    "instructor": "Dr. Ali",
+    "meeting_time": "MON/WED 9-10:45 AM",
+    "total_no_of_seats": 30,
+    "students": [],
+    "validated": true,
+    "status": "in_progress"
+  },
+  {
+    "id": "CMPS151_L02",
+    "course_id": "CMPS151",
+    "category": "Computer Science",
+    "course_name": "Programming Concepts",
+    "section_no": "L02",
+    "instructor_id": "I001",
+    "instructor": "Dr. Ali",
+    "meeting_time": "TUE/THU 1-2:45 PM",
+    "total_no_of_seats": 30,
+    "students": [],
+    "validated": false,
+    "status": "pending"
+  },
+  {
+    "id": "CMPS251_L01",
+    "course_id": "CMPS251",
+    "category": "Computer Science",
+    "course_name": "Object Oriented Programming",
+    "section_no": "L01",
+    "instructor_id": "I001",
+    "instructor": "Dr. Ali",
+    "meeting_time": "MON/WED 9-10:45 AM",
+    "total_no_of_seats": 30,
+    "students": [
+      "S005", 
+      "S006"
+    ],
+    "validated": true,
+    "status": "in_progress"
+  },
+  {
+    "id": "CMPS251_L02",
+    "course_id": "CMPS251",
+    "category": "Computer Science",
+    "course_name": "Object Oriented Programming",
+    "section_no": "L02",
+    "instructor_id": "I001",
+    "instructor": "Dr. Ali",
+    "meeting_time": "TUE/THU 1-2:45 PM",
+    "total_no_of_seats": 30,
+    "students": [],
+    "validated": false,
+    "status": "pending"
+  },
+  {
+    "id": "CMPS303_L01",
+    "course_id": "CMPS303",
+    "category": "Computer Science",
+    "course_name": "Data Structures",
+    "section_no": "L01",
+    "instructor_id": "I002",
+    "instructor": "Dr. Sara",
+    "meeting_time": "TUE/THU 11-12:45 PM",
+    "total_no_of_seats": 30,
+    "students": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S007",
+      "S008",
+      "S009"
+    ],
+    "validated": true,
+    "status": "in_progress"
+  },
+  {
+    "id": "CMPS303_L02",
+    "course_id": "CMPS303",
+    "category": "Computer Science",
+    "course_name": "Data Structures",
+    "section_no": "L02",
+    "instructor_id": "I002",
+    "instructor": "Dr. Sara",
+    "meeting_time": "MON/WED 3-4:45 PM",
+    "total_no_of_seats": 30,
+    "students": [
+      "S006",
+      "S010"
+    ],
+    "validated": false,
+    "status": "pending"
+  },
+  {
+    "id": "CMPS200_L01",
+    "course_id": "CMPS200",
+    "category": "Computer Science",
+    "course_name": "Computer Ethics",
+    "section_no": "L01",
+    "instructor_id": "I002",
+    "instructor": "Dr. Sara",
+    "meeting_time": "MON 1-2:45 PM",
+    "total_no_of_seats": 30,
+    "students": [
+      "S001",
+      "S010"
+    ],
+    "validated": true,
+    "status": "in_progress"
+  },
+  {
+    "id": "CMPS200_L02",
+    "course_id": "CMPS200",
+    "category": "Computer Science",
+    "course_name": "Computer Ethics",
+    "section_no": "L02",
+    "instructor_id": "I002",
+    "instructor": "Dr. Sara",
+    "meeting_time": "WED 1-2:45 PM",
+    "total_no_of_seats": 30,
+    "students": [
+      "S002",
+      "S003",
+      "S004",
+      "S007"
+    ],
+    "validated": false,
+    "status": "pending"
+  },
+  {
+    "id": "CMPS323_L01",
+    "course_id": "CMPS323",
+    "category": "Computer Science",
+    "course_name": "Design & Analysis of Algorithms",
+    "section_no": "L01",
+    "instructor_id": "I003",
+    "instructor": "Dr. Omar",
+    "meeting_time": "MON/WED 2-3:45 PM",
+    "total_no_of_seats": 30,
+    "students": [],
+    "validated": true,
+    "status": "in_progress"
+  },
+  {
+    "id": "CMPS323_L02",
+    "course_id": "CMPS323",
+    "category": "Computer Science",
+    "course_name": "Design & Analysis of Algorithms",
+    "section_no": "L02",
+    "instructor_id": "I003",
+    "instructor": "Dr. Omar",
+    "meeting_time": "TUE/THU 10-11:45 AM",
+    "total_no_of_seats": 30,
+    "students": [
+      "S002",
+      "S007",
+      "S008",
+      "S009"
+    ],
+    "validated": false,
+    "status": "pending"
+  },
+  {
+    "id": "CMPS351_L01",
+    "course_id": "CMPS351",
+    "category": "Computer Science",
+    "course_name": "Fundamentals of Database",
+    "section_no": "L01",
+    "instructor_id": "I003",
+    "instructor": "Dr. Omar",
+    "meeting_time": "TUE/THU 9-10:45 AM",
+    "total_no_of_seats": 30,
+    "students": [
+      "S001"
+    ],
+    "validated": true,
+    "status": "in_progress"
+  },
+  {
+    "id": "CMPS351_L02",
+    "course_id": "CMPS351",
+    "category": "Computer Science",
+    "course_name": "Fundamentals of Database",
+    "section_no": "L02",
+    "instructor_id": "I003",
+    "instructor": "Dr. Omar",
+    "meeting_time": "MON/WED 12-1:45 PM",
+    "total_no_of_seats": 30,
+    "students": [
+      "S004",
+      "S008"
+    ],
+    "validated": false,
+    "status": "pending"
+  },
+  {
+    "id": "CMPS310_L01",
+    "course_id": "CMPS310",
+    "category": "Computer Science",
+    "course_name": "Software Engineering",
+    "section_no": "L01",
+    "instructor_id": "I004",
+    "instructor": "Dr. Mona",
+    "meeting_time": "MON/WED 11-12:45 PM",
+    "total_no_of_seats": 30,
+    "students": [
+      "S002",
+      "S008",
+      "S009"
+    ],
+    "validated": true,
+    "status": "in_progress"
+  },
+  {
+    "id": "CMPS310_L02",
+    "course_id": "CMPS310",
+    "category": "Computer Science",
+    "course_name": "Software Engineering",
+    "section_no": "L02",
+    "instructor_id": "I004",
+    "instructor": "Dr. Mona",
+    "meeting_time": "TUE/THU 3-4:45 PM",
+    "total_no_of_seats": 30,
+    "students": [
+      "S005",
+      "S006"
+    ],
+    "validated": false,
+    "status": "pending"
+  },
+  {
+    "id": "CMPS405_L01",
+    "course_id": "CMPS405",
+    "category": "Computer Science",
+    "course_name": "Operating Systems",
+    "section_no": "L01",
+    "instructor_id": "I004",
+    "instructor": "Dr. Mona",
+    "meeting_time": "MON/WED 10-11:45 AM",
+    "total_no_of_seats": 30,
+    "students": [],
+    "validated": true,
+    "status": "in_progress"
+  },
+  {
+    "id": "CMPS405_L02",
+    "course_id": "CMPS405",
+    "category": "Computer Science",
+    "course_name": "Operating Systems",
+    "section_no": "L02",
+    "instructor_id": "I004",
+    "instructor": "Dr. Mona",
+    "meeting_time": "TUE/THU 12-1:45 PM",
+    "total_no_of_seats": 30,
+    "students": [],
+    "validated": false,
+    "status": "pending"
+  },
+  {
+    "id": "CMPS380_L01",
+    "course_id": "CMPS380",
+    "category": "Computer Science",
+    "course_name": "Fundamentals of Cybersecurity",
+    "section_no": "L01",
+    "instructor_id": "I005",
+    "instructor": "Dr. Sarah",
+    "meeting_time": "MON/WED 4-5:45 PM",
+    "total_no_of_seats": 30,
+    "students": [
+      "S003",
+      "S005",
+      "S007"
+    ],
+    "validated": true,
+    "status": "in_progress"
+  },
+  {
+    "id": "CMPS380_L02",
+    "course_id": "CMPS380",
+    "category": "Computer Science",
+    "course_name": "Fundamentals of Cybersecurity",
+    "section_no": "L02",
+    "instructor_id": "I005",
+    "instructor": "Dr. Sarah",
+    "meeting_time": "TUE/THU 8-9:45 AM",
+    "total_no_of_seats": 30,
+    "students": [
+      "S010"
+    ],
+    "validated": false,
+    "status": "pending"
+  },
+  {
+    "id": "CMPS350_L01",
+    "course_id": "CMPS350",
+    "category": "Computer Science",
+    "course_name": "Web Development Fundamentals",
+    "section_no": "L01",
+    "instructor_id": "I005",
+    "instructor": "Dr. Sarah",
+    "meeting_time": "MON/WED 9-10:45 AM",
+    "total_no_of_seats": 30,
+    "students": [
+      "S004",
+      "S006",
+      "S010"
+    ],
+    "validated": true,
+    "status": "in_progress"
+  },
+  {
+    "id": "CMPS350_L02",
+    "course_id": "CMPS350",
+    "category": "Computer Science",
+    "course_name": "Web Development Fundamentals",
+    "section_no": "L02",
+    "instructor_id": "I005",
+    "instructor": "Dr. Sarah",
+    "meeting_time": "TUE/THU 1-2:45 PM",
+    "total_no_of_seats": 30,
+    "students": [
+      "S001",
+      "S003",
+      "S005",
+      "S009"
+    ],
+    "validated": false,
+    "status": "pending"
+  }
+]

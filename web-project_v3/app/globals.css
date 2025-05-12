@@ -1,0 +1,121 @@
+/* public/css/statistics.css */
+
+.stat-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.stat-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stat-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+/* Tab styles */
+.tab-container {
+  display: flex;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tab-button {
+  padding: 0.75rem 1rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  position: relative;
+}
+
+.tab-button.active {
+  font-weight: 600;
+  color: #3b82f6;
+  border-bottom: 2px solid #3b82f6;
+}
+
+/* Chart container */
+.chart-container {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.chart-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Animation for loading state */
+.loading-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Different colored stat cards */
+.stat-card-blue {
+  background-color: #e0f2fe;
+}
+
+.stat-card-green {
+  background-color: #dcfce7;
+}
+
+.stat-card-yellow {
+  background-color: #fef9c3;
+}
+
+.stat-card-red {
+  background-color: #fee2e2;
+}
+
+.stat-card-purple {
+  background-color: #f3e8ff;
+}
+
+.stat-card-indigo {
+  background-color: #e0e7ff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .stat-list {
+    grid-template-columns: 1fr;
+  }
+  
+  .tab-button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+  }
+}

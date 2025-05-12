@@ -1,0 +1,1848 @@
+{
+  "students": [
+    {
+      "id": "S001",
+      "name": "Ali Hassan",
+      "userName": "student1@example.com",
+      "password": "student123",
+      "gpa": 3.7,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2022", "grade": "B+" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS303", "CMPS205"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPE355"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
+    },
+    {
+      "id": "S002",
+      "name": "Sara Ahmed",
+      "userName": "student2@example.com",
+      "password": "student456",
+      "gpa": 3.9,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2022", "grade": "C" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2022", "grade": "F" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPE355"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
+    },
+    {
+      "id": "S003",
+      "name": "Ahmed Ali",
+      "userName": "student3@example.com",
+      "password": "student789",
+      "gpa": 3.5,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2022", "grade": "B" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2022", "grade": "C+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS303", "CMPS205"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
+    },
+    {
+      "id": "S004",
+      "name": "Mona Khaled",
+      "userName": "student4@example.com",
+      "password": "student101",
+      "gpa": 3.8,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Omar Hassan",
+        "advisor_office": "B06-244",
+        "advisor_email": "o.hassan@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2022", "grade": "A-" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS303", "CMPS205"] },
+        { "code": "CMPS385", "title": "Fundamentals of Cybersecurity", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS303"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
+    },
+    {
+      "id": "S005",
+      "name": "Mohammed Salah",
+      "userName": "student5@example.com",
+      "password": "student112",
+      "gpa": 3.6,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Sara Mahmoud",
+        "advisor_office": "B06-230",
+        "advisor_email": "s.mahmoud@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2022", "grade": "F" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS303", "CMPS205"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
+    },
+    {
+      "id": "S006",
+      "name": "Lina Zaid",
+      "userName": "student6@example.com",
+      "password": "student223",
+      "gpa": 3.8,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS303", "CMPS205"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
+    },
+    {
+      "id": "S007",
+      "name": "Rana Yusuf",
+      "userName": "student7@example.com",
+      "password": "student334",
+      "gpa": 3.4,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Omar Hassan",
+        "advisor_office": "B06-244",
+        "advisor_email": "o.hassan@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2022", "grade": "B+" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2022", "grade": "B" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
+    },
+    {
+      "id": "S008",
+      "name": "Tariq Fathi",
+      "userName": "student8@example.com",
+      "password": "student445",
+      "gpa": 3.2,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "B+" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "B-" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "C+" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2022", "grade": "F" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2022", "grade": "B+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "year": "Year 3 - Fall", "prerequisites": [] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPE355"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
+    },
+    {
+      "id": "S009",
+      "name": "Khaled Hassan",
+      "userName": "student9@example.com",
+      "password": "student556",
+      "gpa": 3.7,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Sara Mahmoud",
+        "advisor_office": "B06-230",
+        "advisor_email": "s.mahmoud@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2022", "grade": "B+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "year": "Year 3 - Fall", "prerequisites": [] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPE355"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
+    },
+    {
+      "id": "S010",
+      "name": "Zainab Omar",
+      "userName": "student10@example.com",
+      "password": "student667",
+      "gpa": 3.9,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS303", "CMPS205"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
+    },
+     {
+      "id": "S011",
+      "name": "Faisal Ibrahim",
+      "userName": "student11@example.com",
+      "password": "student778",
+      "gpa": 3.3,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "B+" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "B" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "C+" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS151", "CMPS303"] },
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
+    },
+    {
+      "id": "S012",
+      "name": "Noura Abdullah",
+      "userName": "student12@example.com",
+      "password": "student889",
+      "gpa": 3.6,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Omar Hassan",
+        "advisor_office": "B06-244",
+        "advisor_email": "o.hassan@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "A-" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "B+" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2022", "grade": "A-" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] }
+      ]
+    },
+    {
+      "id": "S013",
+      "name": "Hamad Al-Kuwari",
+      "userName": "student13@example.com",
+      "password": "student990",
+      "gpa": 3.4,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "B" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "B+" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "C+" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2020", "grade": "B-" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2021", "grade": "C+" },
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Fall 2021", "grade": "B" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "GENG300", "title": "Numerical Methods", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS303", "CMPS205"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS151", "CMPS303"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
+    },
+    {
+      "id": "S014",
+      "name": "Yousef Nasser",
+      "userName": "student14@example.com",
+      "password": "student113",
+      "gpa": 3.1,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Sara Mahmoud",
+        "advisor_office": "B06-230",
+        "advisor_email": "s.mahmoud@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "F" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "C+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "PHYS191", "title": "General Physics for Engineering I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 2 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "year": "Year 2 - Fall", "prerequisites": [] },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
+    },
+    {
+      "id": "S015",
+      "name": "Aisha Mahmood",
+      "userName": "student15@example.com",
+      "password": "student224",
+      "gpa": 3.9,
+      "major": "Computer Science",
+      "current_year": "Fourth Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2019", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2020", "grade": "B+" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2020", "grade": "C" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2020", "grade": "B" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2021", "grade": "F" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2021", "grade": "A-" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2021", "grade": "D+" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2022", "grade": "B+" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2022", "grade": "F" },
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "semester": "Spring 2022", "grade": "A-" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "GENG300", "title": "Numerical Methods", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS307", "title": "Intro to Project Management and Entrepreneurship", "credit": 2, "year": "Year 4 - Spring", "prerequisites": [] }
+      ]
+    },
+    {
+      "id": "S016",
+      "name": "Omar Jasim",
+      "userName": "student16@example.com",
+      "password": "student335",
+      "gpa": 3.5,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "B+" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "B" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "B" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "F" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2022", "grade": "B+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] }
+      ]
+    },
+    {
+      "id": "S017",
+      "name": "Fatima Al-Mansouri",
+      "userName": "student17@example.com",
+      "password": "student446",
+      "gpa": 3.7,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Omar Hassan",
+        "advisor_office": "B06-244",
+        "advisor_email": "o.hassan@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "A-" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2022", "grade": "A-" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2020", "grade": "A-" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2021", "grade": "B+" },
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Fall 2021", "grade": "A-" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "GENG300", "title": "Numerical Methods", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "year": "Year 4 - Fall", "prerequisites": ["CMPS151", "CMPS303"] },
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Spring", "prerequisites": ["CMPE263", "CMPS303"] }
+      ]
+    },
+    {
+      "id": "S018",
+      "name": "Jamal Qasim",
+      "userName": "student18@example.com",
+      "password": "student557",
+      "gpa": 3.2,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Sara Mahmoud",
+        "advisor_office": "B06-230",
+        "advisor_email": "s.mahmoud@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "C+" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A-" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
+    },
+    {
+      "id": "S019",
+      "name": "Hamad Al-Sulaiti",
+      "userName": "student19@example.com",
+      "password": "student668",
+      "gpa": 3.4,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "B+" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "B" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "B-" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2022", "grade": "C+" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] }
+      ]
+    },
+    {
+      "id": "S020",
+      "name": "Reem Al-Naimi",
+      "userName": "student20@example.com",
+      "password": "student779",
+      "gpa": 3.9,
+      "major": "Computer Science",
+      "current_year": "Fourth Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2019", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2020", "grade": "B" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2020", "grade": "C" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2020", "grade": "D" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2021", "grade": "F" },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2022", "grade": "C+" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "semester": "Spring 2022", "grade": "B+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "GENG300", "title": "Numerical Methods", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS307", "title": "Intro to Project Management and Entrepreneurship", "credit": 2, "year": "Year 4 - Spring", "prerequisites": [] }
+      ]
+    },
+     {
+      "id": "S021",
+      "name": "Ibrahim Al-Kubaisi",
+      "userName": "student21@example.com",
+      "password": "student881",
+      "gpa": 3.3,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Sara Mahmoud",
+        "advisor_office": "B06-230",
+        "advisor_email": "s.mahmoud@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "C+" },
+        { "code": "ENGL202", "title": "English Language I", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "HIST121", "title": "History of Qatar", "credit": 3, "semester": "Spring 2022", "grade": "B" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "ENGL203", "title": "English Language II", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "year": "Year 3 - Fall", "prerequisites": [] },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
+    },
+    {
+      "id": "S022",
+      "name": "Mariam Al-Ali",
+      "userName": "student22@example.com",
+      "password": "student992",
+      "gpa": 3.8,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] }
+      ]
+    },
+    {
+      "id": "S023",
+      "name": "Khalid Al-Attiyah",
+      "userName": "student23@example.com",
+      "password": "student114",
+      "gpa": 3.1,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Omar Hassan",
+        "advisor_office": "B06-244",
+        "advisor_email": "o.hassan@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "C" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "B+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "PHYS191", "title": "General Physics for Engineering I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
+    },
+    {
+      "id": "S024",
+      "name": "Hassan Al-Emadi",
+      "userName": "student24@example.com",
+      "password": "student225",
+      "gpa": 3.5,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "B+" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "B+" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "B" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2022", "grade": "B" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] }
+      ]
+    },
+    {
+      "id": "S025",
+      "name": "Amna Al-Khater",
+      "userName": "student25@example.com",
+      "password": "student336",
+      "gpa": 3.7,
+      "major": "Computer Science",
+      "current_year": "Fourth Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Sara Mahmoud",
+        "advisor_office": "B06-230",
+        "advisor_email": "s.mahmoud@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2019", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2020", "grade": "B+" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2020", "grade": "C" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2021", "grade": "B+" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2021", "grade": "F" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2021", "grade": "D+" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2022", "grade": "B+" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2022", "grade": "F" },
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS307", "title": "Intro to Project Management and Entrepreneurship", "credit": 2, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "GENG300", "title": "Numerical Methods", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["MATH102", "MATH231", "CMPS151"] }
+      ]
+    },
+    {
+      "id": "S026",
+      "name": "Youssef Al-Marri",
+      "userName": "student26@example.com",
+      "password": "student447",
+      "gpa": 3.2,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "C+" },
+        { "code": "ARAB100", "title": "Arabic Language I", "credit": 3, "semester": "Spring 2022", "grade": "B+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "ARAB200", "title": "Arabic Language II", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "year": "Year 3 - Fall", "prerequisites": [] },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
+    },
+    {
+      "id": "S027",
+      "name": "Moza Al-Thani",
+      "userName": "student27@example.com",
+      "password": "student558",
+      "gpa": 3.9,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] }
+      ]
+    },
+    {
+      "id": "S028",
+      "name": "Abdulaziz Al-Mohannadi",
+      "userName": "student28@example.com",
+      "password": "student669",
+      "gpa": 3.4,
+      "major": "Computer Science",
+      "current_year": "Fourth Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Omar Hassan",
+        "advisor_office": "B06-244",
+        "advisor_email": "o.hassan@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2019", "grade": "B+" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2020", "grade": "B" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2020", "grade": "B+" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2021", "grade": "B+" },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2022", "grade": "B" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2019", "grade": "B" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2020", "grade": "B+" },
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Fall 2020", "grade": "B" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "GENG300", "title": "Numerical Methods", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS307", "title": "Intro to Project Management and Entrepreneurship", "credit": 2, "year": "Year 4 - Spring", "prerequisites": [] },
+        { "code": "DAWA111", "title": "Islamic Culture", "credit": 3, "year": "Year 4 - Spring", "prerequisites": [] }
+      ]
+    },
+    {
+      "id": "S029",
+      "name": "Salma Al-Hajri",
+      "userName": "student29@example.com",
+      "password": "student780",
+      "gpa": 3.6,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Sara Mahmoud",
+        "advisor_office": "B06-230",
+        "advisor_email": "s.mahmoud@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "B+" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] }
+      ]
+    },
+    {
+      "id": "S030",
+      "name": "Abdullah Al-Mulla",
+      "userName": "student30@example.com",
+      "password": "student891",
+      "gpa": 3.3,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "C+" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "B+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "PHYS191", "title": "General Physics for Engineering I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
+    },
+     {
+      "id": "S031",
+      "name": "Rashed Al-Kuwari",
+      "userName": "student31@example.com",
+      "password": "student993",
+      "gpa": 3.5,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "B+" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2022", "grade": "B+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] }
+      ]
+    },
+    {
+      "id": "S032",
+      "name": "Nasser Al-Kaabi",
+      "userName": "student32@example.com",
+      "password": "student115",
+      "gpa": 3.2,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Omar Hassan",
+        "advisor_office": "B06-244",
+        "advisor_email": "o.hassan@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "C+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
+    },
+    {
+      "id": "S033",
+      "name": "Leila Al-Jaber",
+      "userName": "student33@example.com",
+      "password": "student226",
+      "gpa": 3.8,
+      "major": "Computer Science",
+      "current_year": "Fourth Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Sara Mahmoud",
+        "advisor_office": "B06-230",
+        "advisor_email": "s.mahmoud@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2019", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2020", "grade": "A" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS307", "title": "Intro to Project Management and Entrepreneurship", "credit": 2, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "DAWA111", "title": "Islamic Culture", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "MAGT101", "title": "Principles of Management", "credit": 3, "year": "Year 4 - Spring", "prerequisites": [] }
+      ]
+    },
+    {
+      "id": "S034",
+      "name": "Jassim Al-Thani",
+      "userName": "student34@example.com",
+      "password": "student337",
+      "gpa": 3.1,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "B" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "C+" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "C" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2022", "grade": "B" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] }
+      ]
+    },
+    {
+      "id": "S035",
+      "name": "Mohammed Al-Kaabi",
+      "userName": "student35@example.com",
+      "password": "student448",
+      "gpa": 3.4,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "ENGL202", "title": "English Language I", "credit": 3, "semester": "Fall 2021", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
+    },
+    {
+      "id": "S036",
+      "name": "Noura Al-Ansari",
+      "userName": "student36@example.com",
+      "password": "student559",
+      "gpa": 3.7,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Omar Hassan",
+        "advisor_office": "B06-244",
+        "advisor_email": "o.hassan@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] }
+      ]
+    },
+    {
+      "id": "S037",
+      "name": "Saeed Al-Khater",
+      "userName": "student37@example.com",
+      "password": "student670",
+      "gpa": 3.5,
+      "major": "Computer Science",
+      "current_year": "Fourth Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Sara Mahmoud",
+        "advisor_office": "B06-230",
+        "advisor_email": "s.mahmoud@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2019", "grade": "B+" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2020", "grade": "A" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2020", "grade": "B+" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2021", "grade": "B+" },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2022", "grade": "B+" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "semester": "Spring 2022", "grade": "B+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS307", "title": "Intro to Project Management and Entrepreneurship", "credit": 2, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "MAGT101", "title": "Principles of Management", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "DAWA111", "title": "Islamic Culture", "credit": 3, "year": "Year 4 - Spring", "prerequisites": [] }
+      ]
+    },
+    {
+      "id": "S038",
+      "name": "Hessa Al-Marri",
+      "userName": "student38@example.com",
+      "password": "student781",
+      "gpa": 3.9,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2022", "grade": "A" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2020", "grade": "A" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2021", "grade": "A" },
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Fall 2021", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "GENG300", "title": "Numerical Methods", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] }
+      ]
+    },
+    {
+      "id": "S039",
+      "name": "Ali Al-Sulaiti",
+      "userName": "student39@example.com",
+      "password": "student892",
+      "gpa": 3.2,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "C+" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "B+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
+    },
+     {
+      "id": "S041",
+      "name": "Salem Al-Mohannadi",
+      "userName": "student41@example.com",
+      "password": "student116",
+      "gpa": 3.1,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Sara Mahmoud",
+        "advisor_office": "B06-230",
+        "advisor_email": "s.mahmoud@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "C" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "B" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "PHYS191", "title": "General Physics for Engineering I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
+    },
+    {
+      "id": "S042",
+      "name": "Jameela Al-Naimi",
+      "userName": "student42@example.com",
+      "password": "student227",
+      "gpa": 3.6,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "B+" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] }
+      ]
+    },
+    {
+      "id": "S043",
+      "name": "Khalid Al-Hajri",
+      "userName": "student43@example.com",
+      "password": "student338",
+      "gpa": 3.3,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS151", "CMPS303"] }
+      ]
+    },
+    {
+      "id": "S044",
+      "name": "Mona Al-Khater",
+      "userName": "student44@example.com",
+      "password": "student449",
+      "gpa": 3.8,
+      "major": "Computer Science",
+      "current_year": "Fourth Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Omar Hassan",
+        "advisor_office": "B06-244",
+        "advisor_email": "o.hassan@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2019", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2020", "grade": "A" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS307", "title": "Intro to Project Management and Entrepreneurship", "credit": 2, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "MAGT101", "title": "Principles of Management", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "DAWA111", "title": "Islamic Culture", "credit": 3, "year": "Year 4 - Spring", "prerequisites": [] }
+      ]
+    },
+    {
+      "id": "S045",
+      "name": "Rashid Al-Ali",
+      "userName": "student45@example.com",
+      "password": "student560",
+      "gpa": 3.0,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Sara Mahmoud",
+        "advisor_office": "B06-230",
+        "advisor_email": "s.mahmoud@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "C+" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "C" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "F" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
+    },
+    {
+      "id": "S046",
+      "name": "Dalal Al-Mansouri",
+      "userName": "student46@example.com",
+      "password": "student671",
+      "gpa": 3.4,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "B+" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "B" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2022", "grade": "B+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] }
+      ]
+    },
+    {
+      "id": "S047",
+      "name": "Abdulrahman Al-Emadi",
+      "userName": "student47@example.com",
+      "password": "student782",
+      "gpa": 3.2,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Ahmed Khalid",
+        "advisor_office": "B06-240",
+        "advisor_email": "a.khalid@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "B" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "C+" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "B+" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "PHYS191", "title": "General Physics for Engineering I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
+    },
+    {
+      "id": "S048",
+      "name": "Layla Al-Mulla",
+      "userName": "student48@example.com",
+      "password": "student893",
+      "gpa": 3.9,
+      "major": "Computer Science",
+      "current_year": "Fourth Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Omar Hassan",
+        "advisor_office": "B06-244",
+        "advisor_email": "o.hassan@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2019", "grade": "A" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2020", "grade": "A" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2020", "grade": "A" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2021", "grade": "A" },
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Fall 2021", "grade": "A" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS307", "title": "Intro to Project Management and Entrepreneurship", "credit": 2, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "DAWA111", "title": "Islamic Culture", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "MAGT101", "title": "Principles of Management", "credit": 3, "year": "Year 4 - Spring", "prerequisites": [] }
+      ]
+    },
+    {
+      "id": "S049",
+      "name": "Omar Al-Kubaisi",
+      "userName": "student49@example.com",
+      "password": "student995",
+      "gpa": 3.3,
+      "major": "Computer Science",
+      "current_year": "Third Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Sara Mahmoud",
+        "advisor_office": "B06-230",
+        "advisor_email": "s.mahmoud@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2020", "grade": "B" },
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Spring 2021", "grade": "B+" },
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "semester": "Fall 2021", "grade": "B" },
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "semester": "Spring 2022", "grade": "B" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS323", "title": "Design & Analysis of Algorithms", "credit": 3, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "CMPE263", "title": "Computer Architecture & Organization I", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPE355", "title": "Data Communications & Networks I", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPS303", "CMPE263"] },
+        { "code": "CMPS405", "title": "Operating Systems", "credit": 4, "year": "Year 4 - Fall", "prerequisites": ["CMPE263", "CMPS303"] },
+        { "code": "CMPS385", "title": "Computer Security", "credit": 3, "year": "Year 4 - Spring", "prerequisites": ["CMPE355"] }
+      ]
+    },
+    {
+      "id": "S050",
+      "name": "Sarah Al-Kaabi",
+      "userName": "student50@example.com",
+      "password": "student117",
+      "gpa": 3.6,
+      "major": "Computer Science",
+      "current_year": "Second Year",
+      "current_semester": "Fall",
+      "advisor": {
+        "advisor_name": "Dr. Fatima Al-Thani",
+        "advisor_office": "B06-234",
+        "advisor_email": "f.althani@qu.edu.qa"
+      },
+      "completedCourses": [
+        { "code": "CMPS151", "title": "Programming Concepts", "credit": 3, "semester": "Fall 2021", "grade": "A" },
+        { "code": "MATH101", "title": "Calculus I", "credit": 3, "semester": "Fall 2021", "grade": "B+" },
+        { "code": "CMPS200", "title": "Computer Ethics", "credit": 1, "semester": "Spring 2022", "grade": "A" },
+        { "code": "HIST121", "title": "History of Qatar", "credit": 3, "semester": "Spring 2022", "grade": "A" }
+      ],
+      "in_progress_courses": [
+        { "code": "CMPS251", "title": "Object Oriented Programming", "credit": 4, "semester": "Fall 2022", "status": "In Progress" },
+        { "code": "MATH102", "title": "Calculus II", "credit": 3, "semester": "Fall 2022", "status": "In Progress" }
+      ],
+      "pendingCourses": [
+        { "code": "CMPS205", "title": "Discrete Structures", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" },
+        { "code": "MATH231", "title": "Linear Algebra", "credit": 3, "semester": "Spring 2023", "status": "Registration Confirmed" }
+      ],
+      "remaining_courses": [
+        { "code": "CMPS303", "title": "Data Structures", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS310", "title": "Software Engineering", "credit": 4, "year": "Year 3 - Fall", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS350", "title": "Web Development Fundamentals", "credit": 3, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] },
+        { "code": "CMPS351", "title": "Fundamentals of Database", "credit": 4, "year": "Year 3 - Spring", "prerequisites": ["CMPS251"] }
+      ]
+    }
+
+  ],
+  
+  "instructors": [
+   
+    {
+      "id": "I001",
+      "name": "Dr. Ali Hassan",
+      "userName": "ali@example.com",
+      "password": "password123",
+      "in_progress_sections": ["CMPS151_L01", "CMPS251_L01", "ENGL202_L01"],
+      "pending_sections": ["CMPS151_L02", "CMPS251_L02", "ENGL202_L02"]
+    },
+    {
+      "id": "I002",
+      "name": "Dr. Sara Ahmed",
+      "userName": "sara@example.com",
+      "password": "password123",
+      "in_progress_sections": ["CMPS303_L01", "CMPS200_L01", "ENGL203_L01"],
+      "pending_sections": ["CMPS303_L02", "CMPS200_L02", "ENGL203_L02"]
+    },
+    {
+      "id": "I003",
+      "name": "Dr. Omar Khalid",
+      "userName": "omar@example.com",
+      "password": "password123",
+      "in_progress_sections": ["CMPS323_L01", "CMPS351_L01", "MAGT101_L01"],
+      "pending_sections": ["CMPS323_L02", "CMPS351_L02", "MAGT101_L02"]
+    },
+    {
+      "id": "I004",
+      "name": "Dr. Mona Al-Thani",
+      "userName": "mona@example.com",
+      "password": "password123",
+      "in_progress_sections": ["CMPS310_L01", "CMPS405_L01"],
+      "pending_sections": ["CMPS310_L02", "CMPS405_L02"]
+    },
+    {
+      "id": "I005",
+      "name": "Dr. Sarah Mahmoud",
+      "userName": "sarah@example.com",
+      "password": "password123",
+      "in_progress_sections": ["CMPS385_L01", "CMPS350_L01"],
+      "pending_sections": ["CMPS385_L02", "CMPS350_L02"]
+    },
+    {
+      "id": "I006",
+      "name": "Dr. Nasser Al-Kaabi",
+      "userName": "nasser@example.com",
+      "password": "password123",
+      "in_progress_sections": ["CMPS205_L01", "CMPS307_L01"],
+      "pending_sections": ["CMPS205_L02", "CMPS307_L02"]
+    },
+    {
+      "id": "I007",
+      "name": "Dr. Fatima Al-Mannai",
+      "userName": "fatima@example.com",
+      "password": "password123",
+      "in_progress_sections": ["CMPE263_L01", "CMPE355_L01", "HIST121_L01"],
+      "pending_sections": ["CMPE263_L02", "CMPE355_L02", "HIST121_L02"]
+    },
+    {
+      "id": "I008",
+      "name": "Dr. Khalid Al-Jaber",
+      "userName": "khalid@example.com",
+      "password": "password123",
+      "in_progress_sections": ["MATH101_L01", "MATH102_L01", "PHYS192_L01"],
+      "pending_sections": ["MATH101_L02", "MATH102_L02", "PHYS192_L02"]
+    },
+    {
+      "id": "I009",
+      "name": "Dr. Aisha Al-Naimi",
+      "userName": "aisha@example.com",
+      "password": "password123",
+      "in_progress_sections": ["MATH231_L01", "GENG300_L01"],
+      "pending_sections": ["MATH231_L02", "GENG300_L02"]
+    },
+    {
+      "id": "I010",
+      "name": "Dr. Mohammed Al-Sulaiti",
+      "userName": "mohammed@example.com",
+      "password": "password123",
+      "in_progress_sections": ["PHYS191_L01", "DAWA111_L01"],
+      "pending_sections": ["PHYS191_L02", "DAWA111_L02"]
+    }
+  ],
+  "admins": [
+    {
+      "userName": "admin1@example.com",
+      "password": "admin123"
+    }
+  ]
+
+}

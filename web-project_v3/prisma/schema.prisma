@@ -1,0 +1,178 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Course {
+  id          String  @id // Using course code as ID (e.g., "CMPS151")
+  title       String
+  category    String
+  credit      Int
+  description String
+  institution String
+  duration    String
+  image       String
+  validated   Boolean @default(false)
+
+  // Simple prerequisite implementation
+  prerequisiteCodes String? // Comma-separated list of prerequisite course codes
+
+  // Relationships
+  sections     Section[]
+  completedBy  CompletedCourse[]
+  inProgressBy InProgressCourse[]
+  pendingBy    PendingCourse[]
+  remainingBy  RemainingCourse[]
+}
+
+model Section {
+  id                String  @id // Using section ID like "CMPS151_L01"
+  section_no        String
+  meeting_time      String
+  total_no_of_seats Int
+  validated         Boolean @default(false)
+  status            String // "in_progress" or "pending"
+
+  // Relationships
+  course   Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  courseId String
+
+  // Instructor relationship - one instructor per section
+  instructor   Instructor @relation(fields: [instructorId], references: [id])
+  instructorId String
+
+  // Student enrollments (many-to-many with explicit junction table)
+  studentEnrollments StudentSection[]
+}
+
+model StudentSection {
+  // Junction table for student-section many-to-many relationship
+  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  studentId String
+  section   Section @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  sectionId String
+
+  // Composite primary key
+  @@id([studentId, sectionId])
+}
+
+model Student {
+  id               String @id // Using student ID like "S001"
+  name             String
+  userName         String @unique
+  password         String
+  gpa              Float
+  major            String
+  current_year     String
+  current_semester String
+  advisorName      String
+  advisorOffice    String
+  advisorEmail     String
+
+  // Course status relationships
+  completedCourses  CompletedCourse[]
+  inProgressCourses InProgressCourse[]
+  pendingCourses    PendingCourse[]
+  remainingCourses  RemainingCourse[]
+
+  // Section enrollments
+  enrolledSections StudentSection[]
+}
+
+model Instructor {
+  id       String @id // Using instructor ID like "I001"
+  name     String
+  userName String @unique
+  password String
+
+  // Sections taught by this instructor
+  sections Section[]
+}
+
+model Admin {
+  id       Int    @id @default(autoincrement())
+  userName String @unique
+  password String
+}
+
+// Course status models with proper references to Course
+
+model CompletedCourse {
+  id        Int     @id @default(autoincrement())
+  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  studentId String
+  course    Course  @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  courseId  String
+  semester  String
+  grade     String
+
+  @@unique([studentId, courseId], name: "studentId_courseId")
+}
+
+model InProgressCourse {
+  id Int @id @default(autoincrement())
+
+  // Student relationship
+  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  studentId String
+
+  // Course relationship
+  course   Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  courseId String
+
+  // Additional fields
+  semester String
+  status   String @default("In Progress")
+
+  // Ensure a student doesn't have duplicate in-progress course entries
+  @@unique([studentId, courseId], name: "studentId_courseId")
+
+}
+
+model PendingCourse {
+  id Int @id @default(autoincrement())
+
+  // Student relationship
+  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  studentId String
+
+  // Course relationship
+  course   Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  courseId String
+
+  // Additional fields
+  semester String
+  status   String @default("Registration Confirmed")
+
+  // Ensure a student doesn't have duplicate pending course entries
+  @@unique([studentId, courseId], name: "studentId_courseId")
+
+}
+
+model RemainingCourse {
+  id Int @id @default(autoincrement())
+
+  // Student relationship
+  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  studentId String
+
+  // Course relationship
+  course   Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  courseId String
+
+  // Additional fields
+  year String
+
+  // Ensure a student doesn't have duplicate remaining course entries
+  @@unique([studentId, courseId], name: "studentId_courseId")
+
+}
+
+

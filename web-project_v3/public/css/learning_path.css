@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "personal_and_cr_info"
+        "main"
+        "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    padding: 10px;
+    gap: 15px;
+}
+
+.header {
+    grid-area: header;
+    background-color: #6b0f1a;
+    color: white;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.logo {
+    height: 32px;
+}
+  
+.nav_links {
+    display: flex;
+    gap: 16px;
+}
+  
+.nav_links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.personal_and_cr_info {
+    grid-area: personal_and_cr_info;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile_img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.current_year {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #6b0f1a;
+    border: 1px solid #ddd;
+}
+
+.gpa_container {
+    background-color: #6b0f1a;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.gpa_value {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.credit_summary {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.credit_summary h3 {
+    color: #6b0f1a;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.credit_item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.remaining_credit {
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #ddd;
+}
+
+
+.main {
+    grid-area: main;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.path_title {
+    margin-bottom: 15px;
+    color: #6b0f1a;
+    border-bottom: 2px solid #6b0f1a;
+    padding-bottom: 8px;
+}
+
+.filter_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.search_input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.filter_dropdown {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 14px;
+    width: 100%;
+}
+
+.course_sections {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.course_section {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.section_header {
+    color: white;
+    padding: 10px;
+}
+
+.completed_header {
+    background-color: #2e7d32; 
+}
+
+.in_progress_header {
+    background-color: #1976d2; 
+}
+
+.pending_header {
+    background-color: #ff9800; 
+}
+
+.remaining_header {
+    background-color: #757575; 
+}
+
+.courses_table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+.courses_table th {
+    background-color: #f5f5f5;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.courses_table td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.courses_table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.course_code {
+    font-weight: bold;
+    color: #6b0f1a;
+}
+
+.grade {
+    font-weight: bold;
+}
+
+.grade_a {
+    color: #2e7d32;
+}
+
+.grade_b {
+    color: #1976d2;
+}
+
+.grade_c {
+    color: #ff9800;
+}
+
+.grade_d {
+    color: #e65100;
+}
+
+.credits {
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 0.9em;
+}
+
+.semester_label {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_links a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        grid-template-areas:
+            "header header"
+            "personal_and_cr_info main"
+            "footer footer";
+        grid-template-columns: 280px 1fr;
+        grid-template-rows: auto 1fr auto;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .personal_and_cr_info {
+        padding: 20px;
+    }
+
+    .profile_img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .filter_container {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .filter_dropdown {
+        width: auto;
+        width: 300px;
+    }
+
+    .courses_table {
+        font-size: 1em;
+    }
+
+    .courses_table th, 
+    .courses_table td {
+        padding: 12px;
+    }
+
+    .credit_summary,
+    .gpa_container {
+        padding: 15px;
+    }
+
+    .gpa_value {
+        font-size: 32px;
+    }
+
+    .section_header {
+        padding: 12px 15px;
+    }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        text-align: left;
+    }
+
+    .footer_links {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .course_sections {
+        gap: 30px;
+    }
+
+    .path_title {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+}

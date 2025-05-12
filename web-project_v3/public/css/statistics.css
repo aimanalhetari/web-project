@@ -1,0 +1,374 @@
+/* public/css/statistics.css */
+
+/* Base styling */
+body {
+  background-color: #f5f5f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.back-button {
+  background-color: #444;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.back-button:hover {
+  background-color: #222;
+}
+
+
+.statistics-container {
+  padding: 30px 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Enhanced Header */
+.statistics-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.icon-container {
+  margin-right: 15px;
+}
+
+.dashboard-icon {
+  font-size: 38px;
+  background: linear-gradient(135deg, #6b0f1a 0%, #a71d31 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+/* Heading */
+h1 {
+  color: #6b0f1a;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+h1::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent 0%, #6b0f1a 30%, #6b0f1a 70%, transparent 100%);
+  margin-top: 15px;
+}
+
+/* Card Grid */
+.stat-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  margin: 0 auto;
+}
+
+/* Individual Stat Cards */
+.stat-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px 25px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid #2e86de;
+  min-height: 110px; /* Ensure consistent height for cards */
+}
+
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+  z-index: 1;
+}
+
+.stat-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Improved Card Content Layout */
+.stat-icon {
+  font-size: 26px;
+  margin-right: 15px;
+  opacity: 0.9;
+  flex-shrink: 0;
+}
+
+.stat-content {
+  flex: 1;
+}
+
+/* Title and Value */
+.stat-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #34495e;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.stat-value {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2e86de;
+  word-break: break-word;
+  line-height: 1.4;
+}
+
+/* List Styling */
+.stat-value-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stat-value-list li {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2e86de;
+  padding: 4px 0;
+  position: relative;
+  padding-left: 20px;
+  line-height: 1.4;
+}
+
+.stat-value-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #2e86de;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Remove row spanning for all cards to ensure uniform size */
+.stat-card {
+  grid-row: span 1;
+}
+
+/* Only for cards with known longer lists */
+.stat-card.top-card,
+.stat-card.course-card {
+  grid-row: auto;
+}
+
+/* Category-specific card styling */
+.student-card {
+  border-color: #3498db;
+}
+.student-card .stat-value,
+.student-card .stat-value-list li {
+  color: #3498db;
+}
+.student-card .stat-value-list li::before {
+  color: #3498db;
+}
+
+.course-card {
+  border-color: #2ecc71;
+}
+.course-card .stat-value,
+.course-card .stat-value-list li {
+  color: #2ecc71;
+}
+.course-card .stat-value-list li::before {
+  color: #2ecc71;
+}
+
+.instructor-card {
+  border-color: #9b59b6;
+}
+.instructor-card .stat-value,
+.instructor-card .stat-value-list li {
+  color: #9b59b6;
+}
+.instructor-card .stat-value-list li::before {
+  color: #9b59b6;
+}
+
+.gpa-card {
+  border-color: #f1c40f;
+}
+.gpa-card .stat-value,
+.gpa-card .stat-value-list li {
+  color: #f1c40f;
+}
+.gpa-card .stat-value-list li::before {
+  color: #f1c40f;
+}
+
+.rate-card {
+  border-color: #e74c3c;
+}
+.rate-card .stat-value,
+.rate-card .stat-value-list li {
+  color: #e74c3c;
+}
+.rate-card .stat-value-list li::before {
+  color: #e74c3c;
+}
+
+.progress-card {
+  border-color: #1abc9c;
+}
+.progress-card .stat-value,
+.progress-card .stat-value-list li {
+  color: #1abc9c;
+}
+.progress-card .stat-value-list li::before {
+  color: #1abc9c;
+}
+
+.validated-card {
+  border-color: #27ae60;
+}
+.validated-card .stat-value,
+.validated-card .stat-value-list li {
+  color: #27ae60;
+}
+.validated-card .stat-value-list li::before {
+  color: #27ae60;
+}
+
+.non-validated-card {
+  border-color: #d35400;
+}
+.non-validated-card .stat-value,
+.non-validated-card .stat-value-list li {
+  color: #d35400;
+}
+.non-validated-card .stat-value-list li::before {
+  color: #d35400;
+}
+
+.average-card {
+  border-color: #16a085;
+}
+.average-card .stat-value,
+.average-card .stat-value-list li {
+  color: #16a085;
+}
+.average-card .stat-value-list li::before {
+  color: #16a085;
+}
+
+.top-card {
+  border-color: #f39c12;
+}
+.top-card .stat-value,
+.top-card .stat-value-list li {
+  color: #f39c12;
+}
+.top-card .stat-value-list li::before {
+  color: #f39c12;
+}
+
+.graduation-card {
+  border-color: #8e44ad;
+}
+.graduation-card .stat-value,
+.graduation-card .stat-value-list li {
+  color: #8e44ad;
+}
+.graduation-card .stat-value-list li::before {
+  color: #8e44ad;
+}
+
+/* Optional subtle card label */
+.stat-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 0 0 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  pointer-events: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .statistics-container {
+    padding: 20px 15px;
+  }
+  
+  .stat-list {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+  
+  .dashboard-icon {
+    font-size: 30px;
+  }
+
+  .stat-card {
+    padding: 18px 20px;
+  }
+  
+  .stat-icon {
+    font-size: 22px;
+    margin-right: 12px;
+  }
+  
+  .stat-title {
+    font-size: 14px;
+  }
+  
+  .stat-value {
+    font-size: 20px;
+  }
+  
+  .stat-value-list li {
+    font-size: 14px;
+    padding: 3px 0;
+    padding-left: 16px;
+  }
+  
+  .stat-value-list li::before {
+    font-size: 16px;
+  }
+}
+
+/* For even smaller screens */
+@media (max-width: 480px) {
+  .stat-list {
+    grid-template-columns: 1fr;
+  }
+  
+  .statistics-header {
+    flex-direction: column;
+  }
+  
+  .icon-container {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+}

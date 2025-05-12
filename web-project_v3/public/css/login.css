@@ -1,0 +1,285 @@
+*,
+*::before,
+*::after {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Inter", sans-serif;
+  font-size: var(0.85rem);
+  line-height: 1.8;
+}
+
+
+body {
+    background-color: rgb(40, 40, 40);
+    min-height: 100vh;
+    display: grid;
+
+    grid-template-rows: auto 1fr auto;
+
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+
+}
+
+header img{
+    width: 17rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    flex: 1;    
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    grid-area: main;
+}
+
+/* section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+} */
+
+#form{
+    /* border: 1px red solid; */
+    width: fit-content;
+    border-bottom: 1px white solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-bottom: 3rem;
+    gap: 0.5rem;
+}
+
+.login-button {
+    border: 4px #282828 solid;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;  
+    border-radius: 0.2rem;
+    padding: 0.6rem;
+    background-color: grey;
+    width: 20rem;
+    font-size: medium;
+    color: white;
+    text-align: left;  
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.email-pass-input{
+    padding: 0.3rem;
+    width: 19.6rem;
+    margin-left: 0.2rem;
+}
+
+.sign-in-input{
+    background-color: #452c63;
+    color: white;
+    padding: 0.3rem;
+    width: 5rem;
+    margin-left: 0.2rem;
+    cursor: pointer;
+}
+
+#keep-me-signed-in{
+    padding: 0.3rem;
+}
+
+div input{
+    border: none;
+}
+
+.email-password-section {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    display: none;  
+}
+
+
+.login-button:hover{
+    background-color: #202020;
+    text-decoration: underline;
+}
+
+
+
+#download{
+    /* border: 1px red solid; */
+    width: 15rem;
+    /* height: 1rem; */
+    background-color: #E6E6FA;
+    border-radius: 1rem;
+    padding: 0;
+    margin: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+i{
+    background-color: #C3B1E1;
+    border-radius: 1rem;
+    width: 2rem;
+    padding-left: 0.4rem;
+}
+
+
+#google-app{
+    width: 8.5rem;
+    height: 3.5rem;
+}
+
+#apple-app{
+    border-right: 1px white solid;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    width: 9rem;
+    height: 3.5rem;
+}
+
+
+aside{
+    display: none;
+    grid-area: aside;
+}
+
+footer{
+    /* border: 1px blue solid; */
+    display: flex;
+    justify-content: center;
+    grid-area: footer;
+    font-size: x-small;
+    color: rgb(159, 158, 158);
+    padding: 0.1rem;
+}
+
+
+
+@media screen and (min-width: 700px) {
+    body {   
+        display: grid;
+    
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 1fr 1fr;
+    
+        grid-template-areas: 
+        "aside header"
+        "aside main"
+        "aside footer";
+    
+    }  
+
+    main{
+        width: 1fr;
+    }
+    footer{
+        width: 1fr;
+    }
+    
+
+    aside{
+        display: block;
+    }
+    aside img{
+        width: 100%;
+        height: 47rem;
+        /* height: 100%; */
+        object-fit: cover;
+    }
+}
+
+
+
+
+/* .container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section{
+    width: 60%;
+}
+
+.left-section img {
+    width: 100%;
+    height: 100%;
+}
+
+.right-section {
+    background-color: maroon; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+    color: white;
+}
+
+
+.logo img {
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: -50px;
+    border-radius: 10px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+form input {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input:hover{
+    scale: 1.1;
+    transition: ease-in-out 0.5s;
+}
+
+form button{
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+
+form button:hover{
+    scale: 1.1;
+    transition: ease-in-out 0.5s;
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+ */

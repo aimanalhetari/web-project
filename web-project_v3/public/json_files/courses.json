@@ -1,0 +1,122 @@
+[
+  {
+    "course_code": "CMPS151",
+    "title": "Programming Concepts",
+    "category": "Computer Science",
+    "credit": 3,
+    "prerequisite": [],
+    "description": "Introduces fundamental programming concepts using a high-level programming language.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/statistics.jpg",
+    "validated": false
+  },
+  {
+    "course_code": "CMPS251",
+    "title": "Object Oriented Programming",
+    "category": "Computer Science",
+    "credit": 4,
+    "prerequisite": ["CMPS151"],
+    "description": "Teaches object-oriented programming concepts such as classes, inheritance, and polymorphism.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/oop.jpg",
+    "validated": false
+  },
+  {
+    "course_code": "CMPS303",
+    "title": "Data Structures",
+    "category": "Computer Science",
+    "credit": 4,
+    "prerequisite": ["CMPS251"],
+    "description": "Covers fundamental data structures like arrays, stacks, queues, linked lists, and trees.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/DataStructure.jpg",
+    "validated": false
+  },
+  {
+    "course_code": "CMPS200",
+    "title": "Computer Ethics",
+    "category": "Computer Science",
+    "credit": 1,
+    "prerequisite": [],
+    "description": "Examines ethical issues and responsibilities in the computing profession.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/ethics.jpg",
+    "validated": false
+  },
+  {
+    "course_code": "CMPS323",
+    "title": "Design & Analysis of Algorithms",
+    "category": "Computer Science",
+    "credit": 3,
+    "prerequisite": ["CMPS303"],
+    "description": "Studies algorithm design techniques and analyzes algorithm efficiency.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/algorithms.jpg",
+    "validated": false
+  },
+  {
+    "course_code": "CMPS351",
+    "title": "Fundamentals of Database",
+    "category": "Computer Science",
+    "credit": 4,
+    "prerequisite": ["CMPS251"],
+    "description": "Covers database concepts including modeling, SQL, and relational databases.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/DataBase.jpg",
+    "validated": false
+  },
+  {
+    "course_code": "CMPS310",
+    "title": "Software Engineering",
+    "category": "Computer Science",
+    "credit": 4,
+    "prerequisite": ["CMPS251"],
+    "description": "Introduces software development processes, design principles, and project management.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/software.jpg",
+    "validated": false
+  },
+  {
+    "course_code": "CMPS405",
+    "title": "Operating Systems",
+    "category": "Computer Science",
+    "credit": 4,
+    "prerequisite": ["CMPS303"],
+    "description": "Studies operating system concepts including processes, memory management, and file systems.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/os.jpg",
+    "validated": false
+  },
+  {
+    "course_code": "CMPS380",
+    "title": "Fundamentals of Cybersecurity",
+    "category": "Computer Science",
+    "credit": 3,
+    "prerequisite": ["CMPS151"],
+    "description": "Explores principles of information security, threats, and protection techniques.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/DataStructure.jpg",
+    "validated": false
+  },
+  {
+    "course_code": "CMPS350",
+    "title": "Web Development Fundamentals",
+    "category": "Computer Science",
+    "credit": 3,
+    "prerequisite": ["CMPS251"],
+    "description": "Covers basic front-end and back-end web development technologies.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/web.jpg",
+    "validated": false
+  }
+]

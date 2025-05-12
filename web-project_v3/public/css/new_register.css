@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: header;
+  
+}
+header div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.logo{
+  border: 1px solid #0002;
+  width: 3.5rem;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0.5rem;
+  grid-area: logo;
+
+}
+header nav{
+  grid-area: nav;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+nav a{
+  text-decoration: none;  
+  font-weight: 500;
+  font-size: small;
+  /* transition: ease-in 0.3s; */
+}
+
+nav a:hover{
+  color: #8f86e4;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.grey{
+  color: dimgray;
+}
+
+#photo-div{
+  display: none;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color:  hwb(231 93% 4% / 0.436);
+    background: url("/images/Homepage-showarea.jpg") center / cover no-repeat;
+}
+
+main.table {
+    width: 90vw;
+    height: 81vh;
+    background-color: #fff5;
+
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+
+    overflow: hidden;
+    grid-area: main;
+}
+
+
+.table__header {
+    width: 100%;
+    height: 10%;
+    background-color: #fff4;
+    padding: .8rem 1rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.table__body {
+    width: 95%;
+    max-height: calc(89% - 1.6rem);
+    background-color: #fffb;
+
+    margin: .8rem auto;
+    border-radius: .6rem;
+
+    overflow: auto;
+    overflow: overlay;
+}
+
+
+.table__body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.table__body::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+
+.table__body:hover::-webkit-scrollbar-thumb{ 
+    visibility: visible;
+}
+
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #0000000b;
+}
+
+
+tbody tr:hover {
+    background-color: #fff6 ;
+}
+
+
+.register {
+    padding: .4rem 0;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: #86e49d;
+    color: #006b21;
+    cursor: pointer;
+}
+
+.register:hover{
+  background-color: #a886e4;
+  color: #59006b;
+}
+
+footer{
+    width: 100%;
+    grid-area: footer;
+}
+#copyright{
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-top: 1px solid #0002;
+}
+
+
+
+@media (max-width: 1000px) {
+    td:not(:first-of-type) {
+        min-width: 12.1rem;
+    }
+}
+
+thead th:hover {
+    color: #6c00bd;
+}
+
+@media screen and (min-width: 500px) {
+
+    .logo-nav{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-right: 1rem;
+    }
+  
+  
+    #photo-div{
+      display: flex;
+      width: 100%;
+    }
+  
+    #main-photo{
+      width: 100%;
+    }
+
+    body {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 3fr 1fr;
+  
+        grid-template-areas:
+            "header header"
+            "main main"
+            "footer footer";
+    }
+
+    #copyright{
+      padding-top: 0.5rem;
+      font-size: x-small;
+      margin-bottom: 0rem;
+  }
+
+    main.table {
+      width: 95vw;
+      height: 83.5vh;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-top: 1rem;
+      align-self: center;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+  main.table {
+    width: 97vw;
+    height: 83.5vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    align-self: center;
+  }
+
+}
+
+
+
