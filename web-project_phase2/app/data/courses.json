@@ -1,0 +1,479 @@
+[
+  {
+    "id": "CMPS151",
+    "title": "Programming Concepts",
+    "category": "Computer Science",
+    "credit": 3,
+    "description": "Introduces fundamental programming concepts using a high-level programming language.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/programming_concept.jpg",
+    "validated": false,
+    "prerequisiteCodes": "",
+    "prerequisite": []
+  },
+  {
+    "id": "CMPS251",
+    "title": "Object Oriented Programming",
+    "category": "Computer Science",
+    "credit": 4,
+    "description": "Teaches object-oriented programming concepts such as classes, inheritance, and polymorphism.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/oop.jpg",
+    "validated": false,
+    "prerequisiteCodes": "CMPS151",
+    "prerequisite": [
+      "CMPS151"
+    ]
+  },
+  {
+    "id": "CMPS303",
+    "title": "Data Structures",
+    "category": "Computer Science",
+    "credit": 4,
+    "description": "Covers fundamental data structures like arrays, stacks, queues, linked lists, and trees.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/DataStructure.jpg",
+    "validated": false,
+    "prerequisiteCodes": "CMPS251",
+    "prerequisite": [
+      "CMPS251"
+    ]
+  },
+  {
+    "id": "CMPS200",
+    "title": "Computer Ethics",
+    "category": "Computer Science",
+    "credit": 1,
+    "description": "Examines ethical issues and responsibilities in the computing profession.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/ethics.jpg",
+    "validated": true,
+    "prerequisiteCodes": "",
+    "prerequisite": []
+  },
+  {
+    "id": "CMPS323",
+    "title": "Design & Analysis of Algorithms",
+    "category": "Computer Science",
+    "credit": 3,
+    "description": "Studies algorithm design techniques and analyzes algorithm efficiency.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/algorithms.jpg",
+    "validated": false,
+    "prerequisiteCodes": "CMPS303,CMPS205",
+    "prerequisite": [
+      "CMPS303",
+      "CMPS205"
+    ]
+  },
+  {
+    "id": "CMPS351",
+    "title": "Fundamentals of Database",
+    "category": "Computer Science",
+    "credit": 4,
+    "description": "Covers database concepts including modeling, SQL, and relational databases.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/DataBase.jpg",
+    "validated": false,
+    "prerequisiteCodes": "CMPS251",
+    "prerequisite": [
+      "CMPS251"
+    ]
+  },
+  {
+    "id": "CMPS310",
+    "title": "Software Engineering",
+    "category": "Computer Science",
+    "credit": 4,
+    "description": "Introduces software development processes, design principles, and project management.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/software.jpg",
+    "validated": false,
+    "prerequisiteCodes": "CMPS251",
+    "prerequisite": [
+      "CMPS251"
+    ]
+  },
+  {
+    "id": "CMPS405",
+    "title": "Operating Systems",
+    "category": "Computer Science",
+    "credit": 4,
+    "description": "Studies operating system concepts including processes, memory management, and file systems.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/OS.jpg",
+    "validated": true,
+    "prerequisiteCodes": "CMPE263,CMPS303",
+    "prerequisite": [
+      "CMPE263",
+      "CMPS303"
+    ]
+  },
+  {
+    "id": "CMPS380",
+    "title": "Fundamentals of Cybersecurity",
+    "category": "Computer Science",
+    "credit": 3,
+    "description": "Explores principles of information security, threats, and protection techniques.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/images/cybersecurity.jpg.jpg",
+    "validated": false,
+    "prerequisiteCodes": "CMPS151",
+    "prerequisite": [
+      "CMPS151"
+    ]
+  },
+  {
+    "id": "CMPS350",
+    "title": "Web Development Fundamentals",
+    "category": "Computer Science",
+    "credit": 3,
+    "description": "Covers basic front-end and back-end web development technologies.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/web.jpg",
+    "validated": false,
+    "prerequisiteCodes": "CMPS251",
+    "prerequisite": [
+      "CMPS251"
+    ]
+  },
+  {
+    "id": "ENGL202",
+    "title": "English Language I",
+    "category": "English",
+    "credit": 3,
+    "description": "Focuses on developing academic reading and writing skills in English.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "",
+    "prerequisite": []
+  },
+  {
+    "id": "HIST121",
+    "title": "History of Qatar",
+    "category": "Arabic and Islamic",
+    "credit": 3,
+    "description": "Explores the historical development of Qatar from past to present.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "",
+    "prerequisite": []
+  },
+  {
+    "id": "CHEM101",
+    "title": "General Chemistry I",
+    "category": "Science",
+    "credit": 3,
+    "description": "Covers basic principles of chemistry including atomic structure and chemical reactions.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "",
+    "prerequisite": []
+  },
+  {
+    "id": "CHEM103",
+    "title": "Experimental General Chemistry I",
+    "category": "Science",
+    "credit": 1,
+    "description": "Introduces laboratory techniques and experiments in general chemistry.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": true,
+    "prerequisiteCodes": "",
+    "prerequisite": []
+  },
+  {
+    "id": "MATH101",
+    "title": "Calculus I",
+    "category": "Mathematics",
+    "credit": 3,
+    "description": "Covers limits, derivatives, and applications of differential calculus.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "",
+    "prerequisite": []
+  },
+  {
+    "id": "ENGL203",
+    "title": "English Language II",
+    "category": "English",
+    "credit": 3,
+    "description": "Continues academic English instruction with a focus on advanced writing and research skills.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "ENGL202",
+    "prerequisite": [
+      "ENGL202"
+    ]
+  },
+  {
+    "id": "PHYS191",
+    "title": "General Physics for Engineering I",
+    "category": "Science",
+    "credit": 3,
+    "description": "Introduces classical mechanics concepts relevant to engineering.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": true,
+    "prerequisiteCodes": "MATH101",
+    "prerequisite": [
+      "MATH101"
+    ]
+  },
+  {
+    "id": "PHYS192",
+    "title": "Experimental General Physics for Engineering I",
+    "category": "Science",
+    "credit": 1,
+    "description": "Provides practical laboratory experience in basic physics experiments.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "PHYS191",
+    "prerequisite": [
+      "PHYS191"
+    ]
+  },
+  {
+    "id": "MATH102",
+    "title": "Calculus II",
+    "category": "Mathematics",
+    "credit": 3,
+    "description": "Extends calculus to integration, techniques of integration, and applications.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "MATH101",
+    "prerequisite": [
+      "MATH101"
+    ]
+  },
+  {
+    "id": "ARAB100",
+    "title": "Arabic Language I",
+    "category": "Arabic and Islamic",
+    "credit": 3,
+    "description": "Develops basic skills in Arabic language communication and comprehension.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": true,
+    "prerequisiteCodes": "",
+    "prerequisite": []
+  },
+  {
+    "id": "CMPS205",
+    "title": "Discrete Structures",
+    "category": "Mathematics",
+    "credit": 3,
+    "description": "Introduces logic, sets, relations, functions, and other discrete math topics used in computer science.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "",
+    "prerequisite": []
+  },
+  {
+    "id": "PHYS193",
+    "title": "General Physics for Engineering II",
+    "category": "Science",
+    "credit": 3,
+    "description": "Focuses on electricity, magnetism, and other advanced topics in physics.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "PHYS191",
+    "prerequisite": [
+      "PHYS191"
+    ]
+  },
+  {
+    "id": "PHYS194",
+    "title": "Experimental General Physics for Engineering II",
+    "category": "Science",
+    "credit": 1,
+    "description": "Provides hands-on lab experiments in electromagnetism and related topics.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "PHYS193",
+    "prerequisite": [
+      "PHYS193"
+    ]
+  },
+  {
+    "id": "MATH231",
+    "title": "Linear Algebra",
+    "category": "Mathematics",
+    "credit": 3,
+    "description": "Introduces matrices, vectors, linear transformations, and systems of linear equations.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "MATH101",
+    "prerequisite": [
+      "MATH101"
+    ]
+  },
+  {
+    "id": "CMPE263",
+    "title": "Computer Architecture & Organization I",
+    "category": "Computer Engineering",
+    "credit": 3,
+    "description": "Explains computer hardware structure and the organization of digital systems.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": true,
+    "prerequisiteCodes": "CMPS151,CMPS303",
+    "prerequisite": [
+      "CMPS151",
+      "CMPS303"
+    ]
+  },
+  {
+    "id": "ARAB200",
+    "title": "Arabic Language II",
+    "category": "Arabic and Islamic",
+    "credit": 3,
+    "description": "Builds on Arabic I with more advanced grammar, vocabulary, and writing.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "ARAB100",
+    "prerequisite": [
+      "ARAB100"
+    ]
+  },
+  {
+    "id": "GENG200",
+    "title": "Probability & Statistics",
+    "category": "Mathematics",
+    "credit": 3,
+    "description": "Covers basic probability theory, distributions, and statistical analysis.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/statistics.jpg",
+    "validated": false,
+    "prerequisiteCodes": "MATH102",
+    "prerequisite": [
+      "MATH102"
+    ]
+  },
+  {
+    "id": "CMPE355",
+    "title": "Data Communications & Networks I",
+    "category": "Computer Engineering",
+    "credit": 4,
+    "description": "Covers principles of data communication, networking models, and protocols.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/network.jpg",
+    "validated": false,
+    "prerequisiteCodes": "CMPS303,CMPE263",
+    "prerequisite": [
+      "CMPS303",
+      "CMPE263"
+    ]
+  },
+  {
+    "id": "GENG300",
+    "title": "Numerical Methods",
+    "category": "Mathematics",
+    "credit": 3,
+    "description": "Applies numerical techniques to solve mathematical and engineering problems.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "MATH102,MATH231,CMPS151",
+    "prerequisite": [
+      "MATH102",
+      "MATH231",
+      "CMPS151"
+    ]
+  },
+  {
+    "id": "CMPS385",
+    "title": "Computer Security",
+    "category": "Computer Science",
+    "credit": 3,
+    "description": "Explores principles of information security, threats, and protection techniques.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/cybersecurity.jpg",
+    "validated": false,
+    "prerequisiteCodes": "CMPE355",
+    "prerequisite": [
+      "CMPE355"
+    ]
+  },
+  {
+    "id": "DAWA111",
+    "title": "Islamic Culture",
+    "category": "Arabic and Islamic",
+    "credit": 3,
+    "description": "Introduces students to Islamic beliefs, culture, and history.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "",
+    "prerequisite": []
+  },
+  {
+    "id": "CMPS307",
+    "title": "Intro to Project Management and Entrepreneurship",
+    "category": "Business",
+    "credit": 2,
+    "description": "Covers fundamentals of project planning, team management, and entrepreneurial thinking.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": true,
+    "prerequisiteCodes": "",
+    "prerequisite": []
+  },
+  {
+    "id": "MAGT101",
+    "title": "Principles of Management",
+    "category": "Business",
+    "credit": 3,
+    "description": "Introduces basic management functions, leadership, and organizational structure.",
+    "institution": "QU-CENG",
+    "duration": "14 weeks",
+    "image": "images/mobile.jpg",
+    "validated": false,
+    "prerequisiteCodes": "",
+    "prerequisite": []
+  }
+]
